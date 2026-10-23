@@ -3,6 +3,10 @@
  * Auto-generated from chess_positions_fen_32e5add1.txt
  */
 import { Puzzle, PuzzleSolution } from "../types/puzzle";
+import step3ExtraJson from "../../step3extra_1_18.json";
+import { parseStep3Extra } from "../utils/step3Extra";
+
+const STEP3_EXTRA_IMPORT = parseStep3Extra(step3ExtraJson);
 
 export const PUZZLES_DATA: Puzzle[] = [
   {
@@ -4624,10 +4628,12 @@ export const PUZZLES_DATA: Puzzle[] = [
     "fen": "r1b1qrk1/3b1nbp/p2p1pp1/QppNp3/4P2B/3P1N2/PPP2PPP/1K1R3R b - - 0 1",
     "sideToMove": "b",
     "difficulty": "Step 4 (Mastery)"
-  }
+  },
+  ...STEP3_EXTRA_IMPORT.puzzles
 ];
 
 export const INITIAL_SOLUTIONS: Record<string, PuzzleSolution> = {
+  ...STEP3_EXTRA_IMPORT.solutions,
   "p3_d1": {
     "puzzleId": "p3_d1",
     "moves": [

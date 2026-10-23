@@ -1,0 +1,1868 @@
+{
+  "series": "Step3Extra",
+  "diagrams": [
+    {
+      "diagram_number": 1,
+      "page_title": "Mate: Double check: A",
+      "fen": "2q1r1k1/1p2b1p1/r6p/1pp1p3/1PPN4/1P1B4/P4PK1/3RR3 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Nf5+", "1... Kh8", "2. Rh1+"],
+      "hint": "Discover a check by moving your Knight away to open the d-file line.",
+      "explanation": "1. Nf5+ delivers a double check or discovered check forcing Black's King to move, uncoordinating Black's defense."
+    },
+    {
+      "diagram_number": 2,
+      "page_title": "Mate: Double check: A",
+      "fen": "r1bq1rk1/pp2bp1p/2pn1p1Q/7P/3P4/2PB1N2/PP3PP1/2KR3R w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Bxh7+", "1... Kh8", "2. Bg6+", "2... Kg8", "3. Qh7#"],
+      "hint": "Sacrifice or check with your Bishop on h7 to set up double-check battery checks along the b1-h7 diagonal.",
+      "explanation": "1. Bxh7+ Kh8 2. Bg6+ is a classic double check with the Queen and Bishop forcing 2...Kg8, leading directly to 3. Qh7#."
+    },
+    {
+      "diagram_number": 3,
+      "page_title": "Mate: Double check: A",
+      "fen": "6kb/1p3p1p/p1p4r/P1P1p3/1P1P3P/3K2BP/7R/8 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Bxe5+", "1... Bg7", "2. Rg2"],
+      "hint": "Discovered check on Black's King by capturing on e5 with the Bishop.",
+      "explanation": "1. Bxe5+ uncovers an attack on Black's King while attacking Black's defensive pieces."
+    },
+    {
+      "diagram_number": 4,
+      "page_title": "Mate: Double check: A",
+      "fen": "1k5r/p1p4b/2p5/1PPP4/3P3R/1N1n4/P4PK1/4B3 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... Nxe1+", "2. Kf1", "2... Bd3+"],
+      "hint": "Black to move. Take the e1 Bishop with check, then follow up with a discovered check from your Bishop on d3.",
+      "explanation": "1...Nxe1+ checks White's King, and 2...Bd3+ delivers a powerful discovered/double check to win material."
+    },
+    {
+      "diagram_number": 5,
+      "page_title": "Mate: Double check: A",
+      "fen": "2b1r1bk/1pq2p1p/p3p1p1/2PnN1P1/1P1P4/1PQ3bP/P1R1NR1K/8 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... Bxe5+", "2. dxe5", "2... Nxc3"],
+      "hint": "Black to move. Capture on e5 with check to dismantle White's central Knights.",
+      "explanation": "1...Bxe5+ checks White's King and simplifies into a winning material position for Black."
+    },
+    {
+      "diagram_number": 6,
+      "page_title": "Mate: Double check: A",
+      "fen": "r1b1rbk1/1pp2ppp/2q1RR2/4N3/1PQ1n3/PP4PP/4R1K1/8 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. double check"],
+      "hint": "Move the Knight or Rook to deliver a double check against Black's King.",
+      "explanation": "Double check forces Black's King to move since neither checking piece can be blocked or captured simultaneously."
+    },
+    {
+      "diagram_number": 7,
+      "page_title": "Mate: Double check: A",
+      "fen": "4r3/ppq1N1kp/2n1qpn1/7p/3B4/P3P3/1P3PP1/3RK3 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Nf5+", "1... Kg8", "2. Nh6#"],
+      "hint": "Jump the Knight to f5 with a discovered check.",
+      "explanation": "1. Nf5+ delivers a double/discovered check forcing the Black King to g8, setting up 2. Nh6#."
+    },
+    {
+      "diagram_number": 8,
+      "page_title": "Mate: Double check: A",
+      "fen": "4k3/8/8/1pR1pPp1/P2bN3/4P3/1Pr1b2K/7R b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... Bf3+", "2. Kg3", "2... Bxh1"],
+      "hint": "Black to move. Move the Bishop to f3 to give a double check with the Rook on c2.",
+      "explanation": "1...Bf3+ is a lethal double check from the Bishop and Rook, forcing White's King to move and allowing Black to capture on h1."
+    },
+    {
+      "diagram_number": 9,
+      "page_title": "Mate: Double check: A",
+      "fen": "1r5k/2p4p/2p5/3bP3/P1B2P2/P1P1q1RP/R4R1K/8 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... Qxf2+", "2. Rxf2", "2... Rb1"],
+      "hint": "Black to move. Sacrifice the Queen on f2 with check to force White's Rook into a back-rank trap.",
+      "explanation": "1...Qxf2+ forces 2. Rxf2, allowing Black to invade the back rank and force mate."
+    },
+    {
+      "diagram_number": 10,
+      "page_title": "Mate: Double check: A",
+      "fen": "r2q1bnr/ppp1k1p1/2np1N1p/4p2Q/3PP3/8/PPP2PPP/R1B1K2R w KQ - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Nd5+", "1... Kd7", "2. Qf5+", "2... Ke8", "3. Qe6#"],
+      "hint": "Check with the Knight on d5 to force Black's King into the open center.",
+      "explanation": "1. Nd5+ Ke6 2. Qf5# (or 1...Kd7 2. Qf5+ Ke8 3. Qe6#) uses double-check and Knight forcing moves to mate Black's uncastled King."
+    },
+    {
+      "diagram_number": 11,
+      "page_title": "Mate: Double check: A",
+      "fen": "r2q1rk1/1bp2p1p/p1q3p1/4B3/4n3/2P2P2/P1P3PP/1R1R2K1 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... Qxd1+", "2. Rxd1", "2... Nc5"],
+      "hint": "Black to move. Trade Queens on d1 to liquidate into a winning material advantage.",
+      "explanation": "1...Qxd1+ forces 2. Rxd1, removing White's back-rank control and securing a winning position for Black."
+    },
+    {
+      "diagram_number": 12,
+      "page_title": "Mate: Double check: A",
+      "fen": "5r2/5rk1/2b1p3/2p1b3/P1B1P3/P4QP1/8/5R1K w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Qg4+", "1... Kh8", "2. Rxf7"],
+      "hint": "Check on g4 with your Queen to force Black's King into the corner.",
+      "explanation": "1. Qg4+ drives Black's King to h8 or h7, allowing White to exchange rooks on f7 with a crushing win."
+    },
+    {
+      "diagram_number": 13,
+      "page_title": "The pin: Attacking a pinned piece: A",
+      "fen": "1R2r1k1/P5p1/4p2p/r1pp4/1pP5/1R3P1K/8/8 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. a8=Q", "1... Rxa8", "2. Rxe8+"],
+      "hint": "Promote your advanced a7-pawn to deflect or break Black's rook control on e8.",
+      "explanation": "1. a8=Q forces Black's rook on a5 to capture 1...Rxa8, leaving the pinned rook on e8 unprotected for White to take with 2. Rxe8+."
+    },
+    {
+      "diagram_number": 14,
+      "page_title": "The pin: Attacking a pinned piece: A",
+      "fen": "r1b1r1k1/p4p1p/2pq1p2/N2pb3/1p2P3/P3P1P1/R1B1QQ1K/3R2K1 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. exd5", "1... cxd5", "2. Nc6"],
+      "hint": "Exploit the pin on Black's e5-bishop against the king by advancing in the center.",
+      "explanation": "1. exd5 attacks the pinned e5-bishop and opens the e-file and d-file to pile pressure on Black's position."
+    },
+    {
+      "diagram_number": 15,
+      "page_title": "The pin: Attacking a pinned piece: A",
+      "fen": "4Q1k1/5rbp/1pp1p1p1/1PPPpp2/q3nP2/4B2P/1P2N1P1/1R5K w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. fxe5", "1... Bxe5", "2. Qxe6"],
+      "hint": "Attack the pinned e4-knight or f7-rook using White's central pawns.",
+      "explanation": "1. fxe5 attacks the pinned piece while White's active queen on e8 locks down Black's king and rooks along the 8th rank."
+    },
+    {
+      "diagram_number": 16,
+      "page_title": "The pin: Attacking a pinned piece: A",
+      "fen": "2rrn1k1/ppq1bppp/3p1nb1/2pPp1B1/1PP1P1P1/P1N1QB1P/1K2NB2/R6R w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. b5", "1... a6", "2. b6"],
+      "hint": "Attack the pinned e7-bishop or c5-pawn by advancing on the queenside.",
+      "explanation": "1. b5 locks down the queenside and restricts Black's movement while White's bishops maintain pins across the board."
+    },
+    {
+      "diagram_number": 17,
+      "page_title": "The pin: Attacking a pinned piece: A",
+      "fen": "b1r1rqk1/pp3p2/5P1p/3p1Q2/P1N5/K1P5/2P5/3R4 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... dxc4+", "2. Kb2", "2... Kh8"],
+      "hint": "Black to move. Capture on c4 with check to attack White's king and free your position.",
+      "explanation": "1...dxc4+ gives a discovered check against White's king on a3, forcing White to defend and releasing the pressure on Black's pinned pieces."
+    },
+    {
+      "diagram_number": 18,
+      "page_title": "The pin: Attacking a pinned piece: A",
+      "fen": "r1b2rk1/ppp1qpbp/3p2p1/4p1B1/3P4/1PP1NNPP/P3PP2/R2QK2R b KQ - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... f6", "2. Bh4", "2... g5"],
+      "hint": "Black to move. Attack White's bishop on g5 using your f- and g-pawns to trap it.",
+      "explanation": "1...f6 attacks the bishop; after 2. Bh4 g5, Black traps and wins White's dark-squared bishop."
+    },
+    {
+      "diagram_number": 19,
+      "page_title": "The pin: Attacking a pinned piece: A",
+      "fen": "2r1r1k1/ppq1bp1p/3p1np1/3P2B1/1PB1Q3/P1P2P2/1K3P2/3R3R w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Qh4", "1... Nh5", "2. Bxe7"],
+      "hint": "Pile up attackers on Black's pinned knight on f6 using your queen and bishop.",
+      "explanation": "1. Qh4 threatens the pinned f6-knight with both Queen and Bishop, forcing 1...Nh5 and allowing White to capture on e7."
+    },
+    {
+      "diagram_number": 20,
+      "page_title": "The pin: Attacking a pinned piece: A",
+      "fen": "8/p4ppp/1p4k1/2r1qP2/1PQ1P3/P2R4/8/1R5K b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... Kf6", "2. bxc5", "2... Qxc5"],
+      "hint": "Black to move. Move the king out of pawn check to safety.",
+      "explanation": "1...Kf6 steps out of the pawn check on f5, allowing Black to consolidate their defense against White's rooks."
+    },
+    {
+      "diagram_number": 21,
+      "page_title": "The pin: Attacking a pinned piece: A",
+      "fen": "r1b1r1k1/ppq2p1p/2pp1bp1/4p3/1PP1P1N1/P1N3P1/P1Q2P1P/R2R2K1 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Nxf6+", "1... Kf8", "2. Nxe8"],
+      "hint": "Jump the knight to f6 with check to exploit Black's pinned e7-square.",
+      "explanation": "1. Nxf6+ forks Black's king and e8-rook while taking advantage of the pinned dark-squared bishop on f6."
+    },
+    {
+      "diagram_number": 22,
+      "page_title": "The pin: Attacking a pinned piece: B",
+      "fen": "r1br2k1/1p1qppbp/p1n3p1/1B1p4/Q2P4/4B3/PP2NPPP/2R2RK1 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Bxc6", "1... bxc6", "2. Qxc6"],
+      "hint": "Exploit the pin on Black's c6-knight against the a8-rook by capturing on c6.",
+      "explanation": "White captures 1. Bxc6, taking advantage of the pinned c6-knight. Black's pawn recapture 1...bxc6 ruins Black's queenside pawn structure and leaves White with a material/positional upper hand."
+    },
+    {
+      "diagram_number": 23,
+      "page_title": "The pin: Attacking a pinned piece: B",
+      "fen": "r3r1k1/ppq1bp1p/2np1np1/4p3/3PP1b1/3BBN1P/1PQN1PP1/R3R1K1 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. d5", "1... Bd7", "2. dxc6"],
+      "hint": "Advance your d4-pawn to d5 to attack Black's pinned c6-knight.",
+      "explanation": "1. d5 attacks the c6-knight, which cannot move away without leaving the queen on c7 exposed along the c-file."
+    },
+    {
+      "diagram_number": 24,
+      "page_title": "The pin: Attacking a pinned piece: B",
+      "fen": "r1bq1rk1/1p2bppp/2n1pn2/np1p4/3P4/2PB1N2/PP1B1PPP/RN1QR1K1 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Bxb5"],
+      "hint": "Use your dark-squared bishop to capture the undefended pawn on b5.",
+      "explanation": "1. Bxb5 takes the pawn while exploiting the pin along the b-file/c-file line."
+    },
+    {
+      "diagram_number": 25,
+      "page_title": "The pin: Attacking a pinned piece: B",
+      "fen": "r1bq1r1k/pp2pp1p/2np1np1/1B2p3/4P3/2N1PN1P/PPP1Q1P1/R4RK1 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... a6", "2. Bxc6", "2... bxc6"],
+      "hint": "Black to move. Attack White's bishop on b5 with a6 to kick it off the diagonal.",
+      "explanation": "1...a6 forces White's b5-bishop to trade or retreat, relieving the pin on the c6-knight."
+    },
+    {
+      "diagram_number": 26,
+      "page_title": "The pin: Attacking a pinned piece: B",
+      "fen": "rn2kb1r/pp1bpppp/5n2/3P4/2B5/1Q3P2/PP1P2PP/RNB1K1NR b KQkq - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... b5", "2. Bxb5", "2... Bxb5", "3. Qxb5+"],
+      "hint": "Black to move. Push b5 to challenge White's active bishop on c4.",
+      "explanation": "1...b5 forces White to deal with the threat on c4, breaking up White's queenside alignment."
+    },
+    {
+      "diagram_number": 27,
+      "page_title": "The pin: Attacking a pinned piece: B",
+      "fen": "rn1q1rk1/pp1b1p1p/3p1np1/3P4/1P2P3/3P1Q2/PP1B2PP/RN2K2R b KQ - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... Bg4", "2. Qf2", "2... Nxd5"],
+      "hint": "Black to move. Attack White's queen on f3 with Bg4 to dislodge White's battery on the f-file.",
+      "explanation": "1...Bg4 attacks the queen on f3, forcing it away from defending key central squares like d5."
+    },
+    {
+      "diagram_number": 28,
+      "page_title": "The pin: Attacking a pinned piece: B",
+      "fen": "r1b1r1k1/1p3p1p/pq1b1bp1/1BpP4/Q3P3/2P5/PP3PPP/RB2K2R b KQ - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... Qxb2", "2. Qxe8+", "2... Kg7"],
+      "hint": "Black to move. Infiltrate with the queen on b2 to attack White's undefended a1-rook and b1-bishop.",
+      "explanation": "1...Qxb2 attacks both the a1-rook and b1-bishop simultaneously, winning decisive material."
+    },
+    {
+      "diagram_number": 29,
+      "page_title": "The pin: Attacking a pinned piece: B",
+      "fen": "r1bq1rk1/pp1p1p1p/2n1pb1p/1B2N3/3PP1n1/2N1P3/PP1Q2PP/R3K2R w KQ - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Nxg4"],
+      "hint": "Capture Black's undefended knight on g4 with your e5-knight.",
+      "explanation": "1. Nxg4 captures the knight on g4 directly, eliminating Black's counterplay on the kingside."
+    },
+    {
+      "diagram_number": 30,
+      "page_title": "The pin: Attacking a pinned piece: B",
+      "fen": "r1bq1rk1/pp2pp1p/2pp1np1/8/2P1P1b1/2N1Q3/PPP2PPP/R3K1NR w KQ - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. f3", "1... Be6", "2. b3"],
+      "hint": "Kick Black's g4-bishop with f3 to gain space on the kingside.",
+      "explanation": "1. f3 forces Black's bishop off g4 and consolidates White's central pawn structure."
+    },
+    {
+      "diagram_number": 31,
+      "page_title": "The pin: Attacking a pinned piece: B",
+      "fen": "r1b1k2r/pp1p1p1p/2p3p1/4N3/3PP2q/2N2P2/PPPQ2P1/R3KB1R b KQkq - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... Qxh1"],
+      "hint": "Black to move. Take White's undefended rook on h1 with check.",
+      "explanation": "1...Qxh1 wins a full rook on the back rank, giving Black a clear winning material advantage."
+    },
+    {
+      "diagram_number": 32,
+      "page_title": "The pin: Attacking a pinned piece: B",
+      "fen": "r1bqk2r/pp1p1p1p/2p3p1/3NN5/1P1PP1n1/2P5/P3Q1PP/R3KB1R w KQkq - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Qxg4", "1... cxd5", "2. exd5"],
+      "hint": "Capture Black's knight on g4 with your queen.",
+      "explanation": "1. Qxg4 captures the knight, winning material while keeping White's active e5-knight central."
+    },
+    {
+      "diagram_number": 33,
+      "page_title": "The pin: Attacking a pinned piece: B",
+      "fen": "r1b2rk1/pp1q1p1p/2p1b1p1/3pB3/1b1PPQ2/2P2N2/PP3PPP/R3K2R w KQ - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Qf6", "1... dxe4", "2. Qg7#"],
+      "hint": "Infiltrate with your queen to f6 to threaten unstoppable mate on g7.",
+      "explanation": "1. Qf6 threatens 2. Qg7# supported by the bishop on e5. Black has no defense against checkmate."
+    },
+    {
+      "diagram_number": 34,
+      "page_title": "Mate: Mating pattern (Rook + Bishop): A",
+      "fen": "4r1k1/p4p2/2r1p1p1/3q1q2/1Q5B/P4P1R/1P3P1P/6K1 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Bf6", "1... Qh5", "2. Rxh5", "2... gxh5", "3. Qg4+"],
+      "hint": "Look for a way to use the Bishop and Rook along the long diagonal and h-file.",
+      "explanation": "White plays 1. Bf6 threatening mate on h8 with the Rook. Black must give up material to delay mate."
+    },
+    {
+      "diagram_number": 35,
+      "page_title": "Mate: Mating pattern (Rook + Bishop): A",
+      "fen": "4rrk1/p4p2/1p1p2q1/3p1P2/3B1P1p/3P3P/3q4/6rK w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Bxg1", "1... Qg2+", "2. Kxg2"],
+      "hint": "Clear out Black's attacking pieces on g1 and set up a batteries with your light-squared Bishop.",
+      "explanation": "White captures Black's checking Rook on g1 to defuse Black's counterplay and deliver/maintain control."
+    },
+    {
+      "diagram_number": 36,
+      "page_title": "Mate: Mating pattern (Rook + Bishop): A",
+      "fen": "r4r1k/p6p/1p2n1p1/4N1p1/1P2P3/6RB/6PK/6R1 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Bxe6"],
+      "hint": "Win Black's knight with a battery threat on the King.",
+      "explanation": "White removes Black's defender on e6 while keeping threats active against the black king side."
+    },
+    {
+      "diagram_number": 37,
+      "page_title": "Mate: Mating pattern (Rook + Bishop): A",
+      "fen": "5r2/4p3/1b1k1p2/3p4/5N1Q/P1q1P1P1/3R1P1P/3R2K1 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... Qxd2", "2. Rxd2", "2... Bxe3+"],
+      "hint": "Black to move. Exploit White's unprotected and pinned pieces around the d-file.",
+      "explanation": "Black uses tactical strikes on d2 and e3 to shatter White's rook control."
+    },
+    {
+      "diagram_number": 38,
+      "page_title": "Mate: Mating pattern (Rook + Bishop): A",
+      "fen": "1k6/p1r1r3/1p6/6q1/1N6/P4P1P/3R4/6BK w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Rd8+", "1... Rc8", "2. Na6#"],
+      "hint": "Drive the Black King into a corner where your Rook and Knight construct a mating net.",
+      "explanation": "1. Rd8+ forces 1...Rc8, allowing White to finish with the Knight leap 2. Na6#."
+    },
+    {
+      "diagram_number": 39,
+      "page_title": "Mate: Mating pattern (Rook + Bishop): A",
+      "fen": "7k/p4q1p/1p2p1b1/3p1p1r/1P2b2R/P1P1P2R/1B1P2PK/8 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... Rxh4", "2. Rxh4", "2... Qg6"],
+      "hint": "Black to move. Trade off White's h4 rook to activate Black's bishop/queen battery along the long diagonal.",
+      "explanation": "Black trades the rooks on h4 to release tension and align a decisive battery on White's king."
+    },
+    {
+      "diagram_number": 40,
+      "page_title": "Mate: Mating pattern (Rook + Bishop): A",
+      "fen": "r8/p4p1k/1p1n2p1/3N4/3PP3/1r3P2/6K1/8 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Nf6+", "1... Kg7", "2. Rh7#"],
+      "hint": "Check with the Knight first to lock down key escape squares before delivering mate with the Rook.",
+      "explanation": "1. Nf6+ forces the King to g7, where 2. Rh7# delivers checkmate using the classic Rook and Bishop/Knight coordination."
+    },
+    {
+      "diagram_number": 41,
+      "page_title": "Mate: Mating pattern (Rook + Bishop): A",
+      "fen": "4r1k1/1p3p1p/3p1q1p/2bB4/1p3P1r/1P2P3/P1P2P1P/3R2K1 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... Qg6+", "2. Bg2", "2... Rg4"],
+      "hint": "Black to move. Infiltrate with the Queen and pin White's Bishop against their King.",
+      "explanation": "1...Qg6+ forces White's Bishop back to g2, which Black then pins and overpowers with 2...Rg4."
+    },
+    {
+      "diagram_number": 42,
+      "page_title": "Mate: Mating pattern (Rook + Bishop): A",
+      "fen": "r3r1k1/4b2p/4p3/1q6/P1B2Q1P/Kb3P1P/1P1N4/5R2 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Bxb3+"],
+      "hint": "Discovered check with the Bishop.",
+      "explanation": "White takes on b3 with check, gaining crucial tempos against Black's open King."
+    },
+    {
+      "diagram_number": 43,
+      "page_title": "Mate: Mating pattern (Rook + Bishop): A",
+      "fen": "3n1nk1/pp3p1b/3q4/1p2r1p1/P7/1B1P1P1P/1P1P2P1/4R1K1 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Rxe5", "1... Qxe5", "2. Bxf7+"],
+      "hint": "Eliminate Black's central Rook to disrupt their coordination.",
+      "explanation": "1. Rxe5 removes Black's active rook, dismantling Black's defense."
+    },
+    {
+      "diagram_number": 44,
+      "page_title": "Mate: Mating pattern (Rook + Bishop): A",
+      "fen": "4r1k1/pp3p1b/q1p5/4r1p1/P7/1q1P1P1P/1P1P2P1/3R2K1 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. d4"],
+      "hint": "Advance in the center to attack Black's rook and create breathing room.",
+      "explanation": "1. d4 opens lines for White while forcing Black's central pieces to retreat."
+    },
+    {
+      "diagram_number": 45,
+      "page_title": "Mate: Mating pattern (Rook + Bishop): A",
+      "fen": "r1r3k1/4p2p/3p2p1/p2N4/1p3P1P/1P1B1P2/1P1K2P1/4R3 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Nb6", "1... Re8", "2. Nxa8"],
+      "hint": "Fork the two Black Rooks with your Knight.",
+      "explanation": "1. Nb6 forks the rooks on a8 and c8, winning the exchange for White."
+    },
+    {
+      "diagram_number": 46,
+      "page_title": "Mate: Mating pattern (Rook + Knight): B",
+      "fen": "7k/1R5b/4pN1R/3pP3/2r5/1q6/P7/K7 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Rxh7#"],
+      "hint": "Deliver checkmate on the h-file using the coordination of your Rook and Knight.",
+      "explanation": "1. Rxh7# is an immediate checkmate as the Rook on h7 is protected by the Knight on e6, leaving the Black King with no legal moves."
+    },
+    {
+      "diagram_number": 47,
+      "page_title": "Mate: Mating pattern (Rook + Knight): B",
+      "fen": "1r2kb1r/qpnppppp/1N6/2q3b1/3B4/PPP2PP1/3KRBNR w k - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Qxd7#"],
+      "hint": "Infiltrate Black's position along the d-file targeting the uncastled King.",
+      "explanation": "1. Qxd7# delivers checkmate supported by the Rook/Knight control along the central files."
+    },
+    {
+      "diagram_number": 48,
+      "page_title": "Mate: Mating pattern (Rook + Knight): B",
+      "fen": "3r2k1/ppq2ppp/3p4/P7/1Q1P1r2/2P1NB1P/1P1n1PPP/R4R1K b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... Rh4", "2. Nd5", "2... Rxh3+"],
+      "hint": "Black to move. Sacrifice or swing the Rook over to the h-file to break White's kingside cover.",
+      "explanation": "Black coordinates the Rook and Knight against White's h3 pawn to open up mating threats near the White King."
+    },
+    {
+      "diagram_number": 49,
+      "page_title": "Mate: Mating pattern (Rook + Knight): B",
+      "fen": "4rr1k/p5p1/R7/1P2p3/2n5/1N3P1P/1P3bP1/3R3K b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... Ne3", "2. Rd7", "2... Rd8"],
+      "hint": "Black to move. Coordinate your Knight and active Rooks along the d-file.",
+      "explanation": "Black activates 1...Ne3 threatening double-attacks and controlling crucial escape/infiltration squares on the back ranks."
+    },
+    {
+      "diagram_number": 50,
+      "page_title": "Mate: Mating pattern (Rook + Knight): B",
+      "fen": "4rr1k/pp1qNppp/3p4/8/R7/3PR3/1P1Q1PPP/6K1 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Rxh7+", "1... Kxh7", "2. Rh3#"],
+      "hint": "Sacrifice a Rook on h7 to force the Black King onto the open file.",
+      "explanation": "1. Rxh7+ forces 1...Kxh7, allowing 2. Rh3# (or 2. Rh3+ Qxh3 3. gxh3) to deliver Anastasia's/Rook-Knight mating pattern."
+    },
+    {
+      "diagram_number": 51,
+      "page_title": "Mate: Mating pattern (Rook + Knight): B",
+      "fen": "rq3rk1/1p2p1b1/4N1p1/p2p2Np/1p2p2P/2P1Q3/PPP1B1P1/1K1R4 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Bxh5", "1... gxh5", "2. Qe2"],
+      "hint": "Clear the e-file and h-file lines to allow your Queen and Knights to coordinate against g6/h7.",
+      "explanation": "1. Bxh5 shatters Black's kingside pawn structure, creating forcing mating nets involving the active g5 and e6 Knights."
+    },
+    {
+      "diagram_number": 52,
+      "page_title": "Mate: Mating pattern (Rook + Knight): B",
+      "fen": "2rNbkb1/pp2p3/3rQPpp/1q1r4/8/P1P5/1P2R3/3R2K1 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Qxe7#"],
+      "hint": "Target the d7/e7 squares with your Queen and advanced Knight.",
+      "explanation": "1. Qxe7# delivers immediate checkmate on the e7 square protected by the Knight on d8."
+    },
+    {
+      "diagram_number": 53,
+      "page_title": "Mate: Mating pattern (Rook + Knight): B",
+      "fen": "2rr1b1r/pppb1k2/4n3/1P1N4/1P3p1q/2P2R2/5R2/4K3 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Rxf4+", "1... Nxf4", "2. Nxf4"],
+      "hint": "Exploit Black's pinned and unprotected pieces using forcing check tactics on the f-file.",
+      "explanation": "1. Rxf4+ opens lines by sacrificing the exchange to dislodge Black's defending Knight."
+    },
+    {
+      "diagram_number": 54,
+      "page_title": "Mate: Mating pattern (Rook + Knight): B",
+      "fen": "7R/1p6/1pb3pk/2R5/8/6PN/rr3P1P/6K1 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Rh5+", "1... gxh5", "2. Rxh5#"],
+      "hint": "Use your Rooks on the h-file with Knight coverage on g5/f4 to force checkmate.",
+      "explanation": "1. Rh5+ forces 1...gxh5, followed by 2. Rxh5# delivering mate using the Rook and Knight coordination along the edge of the board."
+    },
+    {
+      "diagram_number": 55,
+      "page_title": "Mate: Mating pattern (Rook + Knight): B",
+      "fen": "4k3/1R6/2p1n3/8/P1P1pr1k/1P3rNK/6PP/3r4 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... Ng5#"],
+      "hint": "Black to move. Deliver checkmate using your Knight to trap the White King against its own pawns.",
+      "explanation": "1...Ng5# is an immediate checkmate; the White King on h3 is surrounded and unable to move due to Black's active Rooks on f3/f4 and the Knight check."
+    },
+    {
+      "diagram_number": 56,
+      "page_title": "Mate: Mating pattern (Queen + Knight): C",
+      "fen": "5k2/pp3p1p/3q4/3n4/3B4/1PP1qP1P/P1P2Q2/3R3K b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... Qf4", "2. Bc5+", "2... Ke8"],
+      "hint": "Black to move. Reposition Black's Queen to coordinate with the central Knight and threaten White's king position.",
+      "explanation": "Black activates 1...Qf4, setting up strong tactical mating threats using the Queen and Knight coordination."
+    },
+    {
+      "diagram_number": 57,
+      "page_title": "Mate: Mating pattern (Queen + Knight): C",
+      "fen": "8/p4pk1/1p1b1R1n/8/8/rP1r1P1q/PP2R1P1/3Q1K2 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... Qh1+", "2. Kf2", "2... Bc5+"],
+      "hint": "Black to move. Check White's King along the 1st rank to drive it into a diagonal skewer or mating net.",
+      "explanation": "1...Qh1+ forces 2. Kf2, allowing Black to bring the Bishop into the attack with 2...Bc5+ to win material and force mate."
+    },
+    {
+      "diagram_number": 58,
+      "page_title": "Mate: Mating pattern (Queen + Knight): C",
+      "fen": "r1b1r1k1/pp3p1p/P3q1pp/1P1R4/2P1N1Pn/1Q2P1P1/R5N1/8 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... Nf3+", "2. Kf1", "2... Qxe4"],
+      "hint": "Black to move. Fork or check with the Knight on f3 to win White's undefended e4 Knight.",
+      "explanation": "1...Nf3+ forces White's King to safety, allowing Black's Queen to capture on e4 with a crushing advantage."
+    },
+    {
+      "diagram_number": 59,
+      "page_title": "Mate: Mating pattern (Queen + Knight): C",
+      "fen": "1Q6/1p2kp2/2p3p1/2P4N/1P4pq/5P1n/6P1/6K1 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Qe5+", "1... Kd8", "2. Qb8+", "2... Ke7", "3. Qd6#"],
+      "hint": "Use your Queen to check Black's King until the Knight on h5 covers the remaining escape squares for mate.",
+      "explanation": "White gives a series of checks on e5 and b8 to drive Black's King to e7, where 3. Qd6# delivers checkmate."
+    },
+    {
+      "diagram_number": 60,
+      "page_title": "Mate: Mating pattern (Queen + Knight): C",
+      "fen": "r4rk1/p1pN1p1p/3b1np1/4P1Q1/2pP3P/2P2R2/PP3PPK/4q3 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Nxf6+", "1... Kg7", "2. Nh5+", "2... Kg8", "3. Qf6"],
+      "hint": "Use your Knight to check on f6 and h5, driving Black's King to g8 before infiltrating with Qf6.",
+      "explanation": "1. Nxf6+ Kh8 2. Nh5+ Kg8 sets up 3. Qf6, threatening unstoppable checkmate on g7 supported by the Knight."
+    },
+    {
+      "diagram_number": 61,
+      "page_title": "Mate: Mating pattern (Queen + Knight): C",
+      "fen": "8/1p3pkp/1b3p2/1P2bB1n/1P2P3/1Q1B2Pq/1P3R1P/1r1b2K1 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... Nxg3", "2. hxg3", "2... Qxg3+"],
+      "hint": "Black to move. Sacrifice the Knight on g3 to open White's king cover.",
+      "explanation": "1...Nxg3 threatens mate on h1/f1 and breaks open White's pawn shield."
+    },
+    {
+      "diagram_number": 62,
+      "page_title": "Mate: Mating pattern (Queen + Knight): C",
+      "fen": "r1b1k2r/pp1n1Npp/2p1q1n1/p7/P1N5/1P2q2P/R1P2PP1/4KB1R w Kkq - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Nd6+", "1... Kf8", "2. Qe8#"],
+      "hint": "Check with your Knight to cover the e8/f7 squares before bringing the Queen in for mate.",
+      "explanation": "1. Nd6+ forces 1...Kf8, allowing 2. Qe8# delivering checkmate along the back rank."
+    },
+    {
+      "diagram_number": 63,
+      "page_title": "Mate: Mating pattern (Queen + Knight): C",
+      "fen": "P1Q5/1p2p1kp/2p3p1/1b1p4/2PR1N1P/1Pn3q1/1P3P1P/4R1K1 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... Qf3", "2. Re3", "2... Qd1+"],
+      "hint": "Black to move. Infiltrate White's position using your Queen and Knight along the d-file.",
+      "explanation": "Black moves 1...Qf3 and redirects the attack toward d1 to exploit White's back rank weakness."
+    },
+    {
+      "diagram_number": 64,
+      "page_title": "Mate: Mating pattern (Queen + Knight): C",
+      "fen": "r2q1rk1/1bpp1p1p/p2p1p1Q/1p2R3/1n6/8/PPPP1PPP/R1B3K1 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Rh5", "1... Re8", "2. Qxh7+", "3. Kf1"],
+      "hint": "Swing your Rook to h5 to create an unstoppable mating threat on h7/h8 with the Queen.",
+      "explanation": "1. Rh5 threatens 2. Qxh7#. Black must give up material to prevent mate on the h-file."
+    },
+    {
+      "diagram_number": 65,
+      "page_title": "Mate: Mating pattern (Queen + Knight): C",
+      "fen": "k1pp1q2/1p6/1P1p1P1b/4p2P/2Pn4/1PQ3PB/P1P5/1K1R4 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... Qa7", "2. bxa7", "2... Kb8"],
+      "hint": "Black to move. Realign Black's Queen to control key diagonals against White's King.",
+      "explanation": "Black reposition their pieces to break White's kingside pawns and open lines toward the White King."
+    },
+    {
+      "diagram_number": 66,
+      "page_title": "Mate: Mating pattern (Queen + Knight): C",
+      "fen": "r1b1q1nk/1p3N1p/2p3p1/3pP3/1q6/3p2P1/P3P2P/1R3RK1 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Nh6+", "1... Kg7", "2. Rf7#"],
+      "hint": "Discovered check with the Knight, then bring the Rook to f7 for mate.",
+      "explanation": "1. Nh6+ forces 1...Kg7, allowing 2. Rf7# supported by the Knight on h6."
+    },
+    {
+      "diagram_number": 67,
+      "page_title": "Mate: Mating pattern (Queen + Knight): C",
+      "fen": "r1r3k1/1q1n1p1p/2p1p1p1/3n4/1p1P4/1P6/P1P1B1PP/2KR1R2 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Rxf7", "1... Kxf7", "2. Qxh7+", "3. Rf1+"],
+      "hint": "Sacrifice the Rook on f7 to dismantle Black's pawn defense around the King.",
+      "explanation": "1. Rxf7 Kxf7 2. Qxh7+ opens up Black's King, allowing White's remaining pieces to construct a winning attack."
+    },
+    {
+      "diagram_number": 68,
+      "page_title": "Mate: Mating pattern (Queen + Bishop): D",
+      "fen": "2b1rr1k/p1qn1p1p/1p6/2bBN3/5PQ1/1P4P1/PP5P/2KR3R w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Nxf7+", "1... Rxf7", "2. Bxf7", "2... Nf6", "3. Qg5"],
+      "hint": "Check with your knight on f7 to dislodge Black's rook and activate the queen/bishop diagonal.",
+      "explanation": "1. Nxf7+ forces 1...Rxf7, allowing White to capture on f7 and maintain strong pressure along the diagonals against Black's king."
+    },
+    {
+      "diagram_number": 69,
+      "page_title": "Mate: Mating pattern (Queen + Bishop): D",
+      "fen": "4r1k1/p3q1p1/1b5p/8/1P3B2/P3P1P1/4q2P/1RR3K1 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... Bxe3", "2. Bxe3", "2... Q2xe3+"],
+      "hint": "Black to move. Sacrifice the bishop on e3 to strip away White's pawn cover.",
+      "explanation": "1...Bxe3 forces 2. Bxe3, allowing Black's active queens on e2 and e7 to infiltrate and collapse White's position."
+    },
+    {
+      "diagram_number": 70,
+      "page_title": "Mate: Mating pattern (Queen + Bishop): D",
+      "fen": "5rbk/1p2qr1p/2p3p1/p5q1/8/5P1P/1P3PK1/8 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Bg7+", "1... Rxg7", "2. Qxg7#"],
+      "hint": "Deflect Black's rook by checking with the bishop on g7.",
+      "explanation": "1. Bg7+ forces 1...Rxg7, which allows 2. Qxg7# delivering mate with the queen supported by the bishop."
+    },
+    {
+      "diagram_number": 71,
+      "page_title": "Mate: Mating pattern (Queen + Bishop): D",
+      "fen": "qqrr2k1/1p2bp1p/p1b2np1/1P2p3/P3P3/1B3P2/2P3PP/1R1RQ1K1 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. bxc6", "1... bxc6", "2. Rxd8+", "2... Rxd8"],
+      "hint": "Trade pawns on c6 to open the diagonal for the light-squared bishop.",
+      "explanation": "1. bxc6 clears lines and simplifies White's central control while keeping Black's king restricted."
+    },
+    {
+      "diagram_number": 72,
+      "page_title": "Mate: Mating pattern (Queen + Bishop): D",
+      "fen": "4r1k1/3q1pp1/b2p2pn/b1pP4/P3P2P/5P2/1P1Q1bN1/R1B1R2K b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... Qh3+", "2. Kg1", "2... Qh2#"],
+      "hint": "Black to move. Infiltrate with the queen on h3 and deliver mate on h2 supported by the light-squared bishop.",
+      "explanation": "1...Qh3+ forces 2. Kg1, setting up 2...Qh2# supported by the dark/light-squared bishop diagonals."
+    },
+    {
+      "diagram_number": 73,
+      "page_title": "Mate: Mating pattern (Queen + Bishop): D",
+      "fen": "q5bk/N1p3p1/1p3p1p/1P2p1P1/8/1q1B3P/q3B1KP/8 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... Bd5+", "2. Kf1", "2... Qg2#"],
+      "hint": "Black to move. Check with the bishop on d5 to drive White's king into the corner.",
+      "explanation": "1...Bd5+ forces the White king to f1, enabling 2...Qg2# supported by the bishop diagonal."
+    },
+    {
+      "diagram_number": 74,
+      "page_title": "Mate: Mating pattern (Queen + Bishop): D",
+      "fen": "8/p6p/1p1k2P1/1B1bP1q1/P7/2P3P1/P1P2P2/3R2K1 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... Ke6", "2. gxh7", "2... Qh5"],
+      "hint": "Black to move. Step the king to safety and align the queen along the h-file.",
+      "explanation": "1...Ke6 escapes the pawn check and prepares 2...Qh5, threatening mate on h1."
+    },
+    {
+      "diagram_number": 75,
+      "page_title": "Mate: Mating pattern (Queen + Bishop): D",
+      "fen": "3nr1k1/1pr2rp1/p4p1q/1P2N3/P1P5/1B3R1R/1P3PPP/6K1 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Rxh6", "1... gxh6", "2. Ng4"],
+      "hint": "Remove Black's queen on h6 and use your knight to jump into g4.",
+      "explanation": "1. Rxh6 captures the queen, destroying Black's kingside pawn structure."
+    },
+    {
+      "diagram_number": 76,
+      "page_title": "Mate: Mating pattern (Queen + Bishop): D",
+      "fen": "r1k2r2/ppp1np1p/4b3/3N4/4Q2q/1P6/PPP3PP/4RK2 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Nxe7+", "1... Qxe7", "2. Qxe7"],
+      "hint": "Eliminate the defender on e7 with check before capturing Black's queen.",
+      "explanation": "1. Nxe7+ removes Black's defender, forcing 1...Qxe7, after which White wins the queen with 2. Qxe7."
+    },
+    {
+      "diagram_number": 77,
+      "page_title": "Mate: Mating pattern (Queen + Bishop): D",
+      "fen": "4b2p/5B1p/8/3Qq1k1/P7/8/4K1P1/3q4 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Kxd1", "1... Qxd5+", "2. Bxd5"],
+      "hint": "Eliminate Black's checking queen on d1.",
+      "explanation": "1. Kxd1 takes Black's checking queen, neutralizing the check and maintaining a winning endgame advantage."
+    },
+    {
+      "diagram_number": 78,
+      "page_title": "Mate: Mating pattern (Queen + Bishop): D",
+      "fen": "3r2k1/p1r2p1p/b1p1pnq1/4P1P1/3P1B1P/P1P5/1P3P1K/R2Q2R1 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. exf6", "1... Rcd7", "2. Bxc7"],
+      "hint": "Advance the e-pawn to fork Black's knight on f6 and rook on c7.",
+      "explanation": "1. exf6 opens lines and attacks Black's knight on f6 while uncovering an attack on c7."
+    },
+    {
+      "diagram_number": 79,
+      "page_title": "Mate: Mating pattern (Queen + Bishop): D",
+      "fen": "r2q1rk1/pp1nb1p1/8/4N3/2Qp4/P7/1PP3PP/R1B2RK1 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Rxf8+", "1... Kxf8", "2. Qf7#"],
+      "hint": "Sacrifice the rook on f8 with check to draw the Black king, then checkmate with the queen on f7.",
+      "explanation": "1. Rxf8+ forces 1...Kxf8 (or 1...Bxf8), allowing 2. Qf7# delivering checkmate supported by the bishop on c1."
+    },
+    {
+      "diagram_number": 80,
+      "page_title": "Mate: Mating pattern (Queen + Rook): E",
+      "fen": "3r2k1/1p1Ppppp/2Q5/p1N5/2R1PP2/1P6/6PP/4q1K1 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... Qe3+", "2. Kf1", "2... Qxf4+"],
+      "hint": "Black to move. Use check with the queen on e3 to begin dismantling White's kingside positions.",
+      "explanation": "1...Qe3+ forces White's king to f1, enabling Black to pick up pawns with check and maintain a winning attack."
+    },
+    {
+      "diagram_number": 81,
+      "page_title": "Mate: Mating pattern (Queen + Rook): E",
+      "fen": "1r2bk1r/3qpppp/p2pn3/8/5Q2/1PB1NPPP/Kb1RR2P/8 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... Bxc3", "2. Rd3", "2... Qb5"],
+      "hint": "Black to move. Capture the bishop on c3 to break open White's queenside defenders.",
+      "explanation": "1...Bxc3 captures the bishop, winning material and opening up White's king to queen and rook infiltrations."
+    },
+    {
+      "diagram_number": 82,
+      "page_title": "Mate: Mating pattern (Queen + Rook): E",
+      "fen": "7k/pr4p1/1q2p1p1/3pP1P1/3P3R/PR6/K1q5/8 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... Kg8", "2. Rxb6", "2... Rxb6"],
+      "hint": "Black to move. Step out of check to g8 and allow the queen exchange on b6.",
+      "explanation": "1...Kg8 safely steps away from the rook check on h4, leaving Black's active rook on b7 ready to retake on b6."
+    },
+    {
+      "diagram_number": 83,
+      "page_title": "Mate: Mating pattern (Queen + Rook): E",
+      "fen": "3r4/pp3k1p/2p1b2p/1q2p3/7R/1P6/PBBB3P/4K1R1 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... Rxd2", "2. Kxd2", "2... Qd5+"],
+      "hint": "Black to move. Sacrifice the rook on d2 to strip away White's dark-squared defender.",
+      "explanation": "1...Rxd2 2. Kxd2 removes White's defensive bishop, allowing Black's queen to enter with check on d5."
+    },
+    {
+      "diagram_number": 84,
+      "page_title": "Mate: Mating pattern (Queen + Rook): E",
+      "fen": "2k4r/1p2p3/1p1bb3/1q1p2pr/Q1pP1Pr1/2P1P3/RR3NK1/8 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Qxb5", "1... Bd7", "2. Qxd5"],
+      "hint": "Win Black's queen on b5 while keeping your own pieces coordinated.",
+      "explanation": "1. Qxb5 captures Black's queen on b5, gaining a decisive material advantage."
+    },
+    {
+      "diagram_number": 85,
+      "page_title": "Mate: Mating pattern (Queen + Rook): E",
+      "fen": "r7/k5rp/pR3p2/P1B1q1p1/2Q5/8/6P1/4R2K w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Qxa6#"],
+      "hint": "Deliver immediate checkmate on a6 supported by the rook on b6.",
+      "explanation": "1. Qxa6# is checkmate; the queen on a6 is defended by the rook on b6, and Black's king on a7 has no escape squares."
+    },
+    {
+      "diagram_number": 86,
+      "page_title": "Mate: Mating pattern (Queen + Rook): E",
+      "fen": "3r2k1/p3q1pp/1p3p2/3Pr3/1n1q4/1B3PP1/PP2RK1P/3R4 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. d6+", "1... Qf7", "2. Bxf7+", "2... Kxf7", "3. Rxe5"],
+      "hint": "Advance the d-pawn with a discovered check from the bishop on b3.",
+      "explanation": "1. d6+ uncovers a check from the bishop on b3 against Black's king, winning the queen on e7."
+    },
+    {
+      "diagram_number": 87,
+      "page_title": "Mate: Mating pattern (Queen + Rook): E",
+      "fen": "r1b1k2r/pp1p1pp1/3p2pp/3N1p1B/b3P3/PP1Q1qPP/P3RP1K/5R2 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... Qxd3", "2. Re3", "2... Qxf1"],
+      "hint": "Black to move. Take White's undefended queen on d3.",
+      "explanation": "1...Qxd3 wins White's queen directly, setting up follow-up captures on f1."
+    },
+    {
+      "diagram_number": 88,
+      "page_title": "Mate: Mating pattern (Queen + Rook): E",
+      "fen": "r1br1b1r/1p1kq1pp/p3p1qp/3p4/8/P1B1P2P/1P3PP1/3R1RK1 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Bb4+", "1... Ke8", "2. Bxe7"],
+      "hint": "Check with the bishop on b4 to force the king and win Black's queen.",
+      "explanation": "1. Bb4+ gives a discovered/direct check forcing Black's king back, allowing White to capture the queen on e7."
+    },
+    {
+      "diagram_number": 89,
+      "page_title": "Mate: Mating pattern (Queen + Rook): E",
+      "fen": "r6r/pp1br3/1qnNp1p1/5p2/8/P1Q5/1P2P1PP/K1R2B1R w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Nb5+", "1... Qxb5", "2. e4+"],
+      "hint": "Sacrifice the knight on b5 to open a discovered check with the bishop on f1.",
+      "explanation": "1. Nb5+ forces 1...Qxb5, allowing 2. e4+ to uncover a check and win Black's queen on b5."
+    },
+    {
+      "diagram_number": 90,
+      "page_title": "Mate: Mating pattern (Queen + Rook): E",
+      "fen": "1q3b2/p5pp/1nq5/2p5/P2r4/1P3rR1/P3R1KP/1K6 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Rxf3", "1... Qxf3+", "2. Kxf3"],
+      "hint": "Eliminate Black's active rook on f3.",
+      "explanation": "1. Rxf3 captures the rook on f3, neutralizing Black's primary mating threats."
+    },
+    {
+      "diagram_number": 91,
+      "page_title": "Mate: Mating pattern (Queen + Rook): E",
+      "fen": "1q5k/p5pp/4N3/4P3/1b1B4/P1p3r1/P1P1r2P/K5RR b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... Rxg1+", "2. Rxg1", "2... Bxa3"],
+      "hint": "Black to move. Trade rooks on g1 and bring the bishop to a3 to threaten mate.",
+      "explanation": "1...Rxg1+ removes White's rook, enabling 2...Bxa3 which sets up lethal threats on b2 alongside the queen."
+    },
+    {
+      "diagram_number": 92,
+      "page_title": "Mate: Mating pattern (Bishop + Knight): F",
+      "fen": "q3r1k1/r4R1p/2bp2p1/p3N3/1p2P3/2BP3P/7K/8 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Ng4", "1... bxc3", "2. Nh6#"],
+      "hint": "Jump the Knight to g4 to threaten a lethal check on h6 coordinated with the Bishop on c3.",
+      "explanation": "1. Ng4 threatens 2. Nh6#. Even if Black captures the Bishop with 1...bxc3, White delivers checkmate with 2. Nh6#."
+    },
+    {
+      "diagram_number": 93,
+      "page_title": "Mate: Mating pattern (Bishop + Knight): F",
+      "fen": "6q1/6pp/p5bk/1p1q1p2/2n1pP2/2P1N1P1/P1B1B2P/1KR1R3 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... Na3+", "2. Ka1", "2... Qxa2#"],
+      "hint": "Black to move. Check with the Knight on a3 to drive White's King into the corner before infiltrating with the Queen.",
+      "explanation": "1...Na3+ forces White's King to a1, allowing 2...Qxa2# supported by the Knight."
+    },
+    {
+      "diagram_number": 94,
+      "page_title": "Mate: Mating pattern (Bishop + Knight): F",
+      "fen": "2rqr1bk/ppp1bppp/3p1n2/3P1N2/2B1P3/PPQ1R3/1B3PPP/R5K1 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Nxg7", "1... Kxg7", "2. Rg3+"],
+      "hint": "Sacrifice the Knight on g7 to rip open Black's King protection on the g-file.",
+      "explanation": "1. Nxg7 forces 1...Kxg7, allowing White to swing the Rook to g3 with a winning attack along the g-file and h1-a8 diagonal."
+    },
+    {
+      "diagram_number": 95,
+      "page_title": "Mate: Mating pattern (Bishop + Knight): F",
+      "fen": "2k5/pp5p/p1b3n1/1P2p1p1/1P1qP2N/P4K1P/1R3B2/8 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... Qxe4+", "2. Kg3", "2... Qf4#"],
+      "hint": "Black to move. Infiltrate with the Queen on e4 and deliver mate on f4 supported by the light-squared Bishop.",
+      "explanation": "1...Qxe4+ forces 2. Kg3, allowing 2...Qf4# supported by the Bishop and Knight control."
+    },
+    {
+      "diagram_number": 96,
+      "page_title": "Mate: Mating pattern (Bishop + Knight): F",
+      "fen": "r5rk/1p4p1/6Pp/q7/2n1P3/2b1B2Q/P1N5/1KNR3R b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... Qb5+", "2. Nb3", "2... Na3+", "3. Kc1", "3... Bb2#"],
+      "hint": "Black to move. Drive White's King into a mating net using Queen checks on b5 and Knight checks on a3.",
+      "explanation": "1...Qb5+ 2. Nb3 Na3+ 3. Kc1 Bb2# traps the White King using the harmony of the Queen, Knight, and Bishops."
+    },
+    {
+      "diagram_number": 97,
+      "page_title": "Mate: Mating pattern (Bishop + Knight): F",
+      "fen": "r3r1k1/1p2p2p/1p1p2p1/1P1b4/1PBq2Pn/P1R1B2K/q1b2R1N/8 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... Qxc3", "2. Rxc3", "2... Bxc4"],
+      "hint": "Black to move. Capture the Rook on c3 to break White's central coordination.",
+      "explanation": "1...Qxc3 simplifies the position and wins material, destroying White's defensive setup."
+    },
+    {
+      "diagram_number": 98,
+      "page_title": "Mate: Mating pattern (Bishop + Knight): F",
+      "fen": "2k2p1p/1p1P1b2/2p1P1q1/1PP1pn1P/1P1N1P1K/q1B1B1P1/8 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... Qg3#"],
+      "hint": "Black to move. Deliver immediate checkmate on g3 supported by the Knight on f5.",
+      "explanation": "1...Qg3# is an immediate checkmate as the Queen is defended by the Knight on f5 and White's King on h3 has no escape squares."
+    },
+    {
+      "diagram_number": 99,
+      "page_title": "Mate: Mating pattern (Bishop + Knight): F",
+      "fen": "r2q1rk1/1pR1b1pp/1p6/3P1B2/1P1n1P2/1b2P2N/P2P1KP1/q7 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... Bh4+", "2. g3", "2... Qxd5"],
+      "hint": "Black to move. Check with the Bishop on h4 to disrupt White's king position.",
+      "explanation": "1...Bh4+ 2. g3 allows Black's Queen to take control on d5 with overwhelming mating threats."
+    },
+    {
+      "diagram_number": 100,
+      "page_title": "Mate: Mating pattern (Bishop + Knight): F",
+      "fen": "2r1rb1k/r1nb1q1N/1qPp2p1/1p2p3/2b5/P4PPP/1P2P3/R1B2RK1 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Ng5", "1... Qg8", "2. cxb7"],
+      "hint": "Retreat the Knight to g5 to attack Black's Queen on f7.",
+      "explanation": "1. Ng5 forces Black's Queen away and allows White to advance the c-pawn, creating strong passed-pawn tactics."
+    },
+    {
+      "diagram_number": 101,
+      "page_title": "Mate: Mating pattern (Bishop + Knight): F",
+      "fen": "2r1r1k1/pp2pp1b/3p1qp1/2nP1p2/1Q6/1B1R3P/P1P1B1P1/1K1R4 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... Nxd3", "2. Bxd3", "2... f4"],
+      "hint": "Black to move. Exchange the Knight for White's active Rook on d3.",
+      "explanation": "1...Nxd3 removes White's defensive Rook, leaving Black with a winning exchange advantage."
+    },
+    {
+      "diagram_number": 102,
+      "page_title": "Mate: Mating pattern (Bishop + Knight): F",
+      "fen": "4r1k1/5pp1/p1b5/1p2p1Q1/3p1Bn1/1B5P/PP2Q1P1/2R1R1K1 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... exf4", "2. Qxe8+", "2... Bxe8"],
+      "hint": "Black to move. Capture the Bishop on f4 and meet White's back-rank Queen check with a Bishop trade.",
+      "explanation": "1...exf4 opens lines and wins material, safely neutralizing White's counter-attraction on e8."
+    },
+    {
+      "diagram_number": 103,
+      "page_title": "Mate: Mating pattern (Rook + Rook): G",
+      "fen": "2q2rrk/7p/p3pP2/1p6/1ppb1R2/7P/P3P2K/5R2 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. f7", "1... Rxf7", "2. Rxf7"],
+      "hint": "Advance the f-pawn to fork Black's rooks and clear the 7th rank.",
+      "explanation": "1. f7 attacks the g8 rook and threatens promotion, forcing Black to give up material on f7."
+    },
+    {
+      "diagram_number": 104,
+      "page_title": "Mate: Mating pattern (Rook + Rook): G",
+      "fen": "4r1k1/p3r3/1b1q2p1/4P3/8/7P/8/7K b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... Rxe5", "2. Qxe5", "2... Rxe5"],
+      "hint": "Black to move. Take White's e5 pawn with the rook to open the e-file.",
+      "explanation": "1...Rxe5 exploits the overload on White's queen, clearing lines along the e-file for a decisive rook battery."
+    },
+    {
+      "diagram_number": 105,
+      "page_title": "Mate: Mating pattern (Rook + Rook): G",
+      "fen": "6rr/p7/4p2r/4p3/3bB3/1P1R2B1/P1R4K/8 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... Rxh3+", "2. Kxh3", "2... Rh8#"],
+      "hint": "Black to move. Sacrifice the rook on h3 to break White's bishop defense.",
+      "explanation": "1...Rxh3+ forces 2. Kxh3, allowing 2...Rh8# to deliver checkmate supported by the dark-squared bishop."
+    },
+    {
+      "diagram_number": 106,
+      "page_title": "Mate: Mating pattern (Rook + Rook): G",
+      "fen": "3r2k1/p4ppp/8/3p1n2/1pN5/1P2R1P1/P1P2P1P/r3K3 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... Nxe3+", "2. Ke2", "2... Re1#"],
+      "hint": "Black to move. Take the e3 rook with check to break White's defense.",
+      "explanation": "1...Nxe3+ uncovers a check on White's king, allowing the doubled rooks on the e-file and 1st rank to force mate."
+    },
+    {
+      "diagram_number": 107,
+      "page_title": "Mate: Mating pattern (Rook + Rook): G",
+      "fen": "r7/r2n3k/8/3ppR2/8/8/8/4R1K1 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Rg5", "1... Kh6", "2. Rg2"],
+      "hint": "Swing the f5 rook to g5 to cut off Black's king along the g-file.",
+      "explanation": "1. Rg5 restricts the black king to the h-file, building a doubled-rook net along the g- and h-files."
+    },
+    {
+      "diagram_number": 108,
+      "page_title": "Mate: Mating pattern (Rook + Rook): G",
+      "fen": "2RR3k/8/1q2r2p/p5pn/4P3/8/P4P1P/3q1K2 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Rxd1", "1... Qxd1+", "2. Rxd1"],
+      "hint": "Recapture Black's queen on d1 to restore material balance.",
+      "explanation": "1. Rxd1 neutralizes Black's promotion, leaving White's connected doubled rooks dominant on the d-file."
+    },
+    {
+      "diagram_number": 109,
+      "page_title": "Mate: Mating pattern (Rook + Rook): G",
+      "fen": "k7/1R3p1b/1Pqp1n1p/1p1Pb3/4p1P1/8/r1q1R2K/8 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Ra7+", "1... Kb8", "2. Rb7+", "2... Ka8", "3. Ra7#"],
+      "hint": "Use a windmill/staircase rook check pattern on the 7th rank.",
+      "explanation": "1. Ra7+ forces the king between a8 and b8, utilizing the doubled rook coordination along the a- and b-files to deliver mate."
+    },
+    {
+      "diagram_number": 110,
+      "page_title": "Mate: Mating pattern (Rook + Rook): G",
+      "fen": "4r1k1/p4pp1/n7/3bN1B1/1p1P4/1Pr3R1/K1P2P2/7R w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Bf6", "1... Rxg3", "2. Rh8#"],
+      "hint": "Block Black's g-pawn with Bf6 to set up an unstoppable mate on h8.",
+      "explanation": "1. Bf6 pins and restricts the g7-pawn. Even if Black captures on g3, 2. Rh8# delivers checkmate."
+    },
+    {
+      "diagram_number": 111,
+      "page_title": "Mate: Mating pattern (Rook + Rook): G",
+      "fen": "8/4k3/p2p1p2/1bb1p1r1/1P2P1r1/1P6/5R1K/2R5 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... Rh5#"],
+      "hint": "Black to move. Swing the g4 rook to h5 for an immediate back-rank/edge mate.",
+      "explanation": "1...Rh5# uses the two rooks to cover the h-file and g-file completely, leaving White's king no escape."
+    },
+    {
+      "diagram_number": 112,
+      "page_title": "Mate: Mating pattern (Rook + Rook): G",
+      "fen": "2br2rk/pppqqR1p/8/1P1p4/8/1B1Pp1RP/PPP1Q1P1/6K1 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Rxh7+", "1... Qxh7", "2. Rxh7+", "2... Kxh7", "3. Qh5#"],
+      "hint": "Sacrifice both rooks on h7 to dismantle Black's king defense.",
+      "explanation": "1. Rxh7+ forces 1...Qxh7, allowing 2. Rxh7+ Kxh7 3. Qh5# to finish with the queen."
+    },
+    {
+      "diagram_number": 113,
+      "page_title": "Mate: Mating pattern (Rook + Rook): G",
+      "fen": "3r2k1/ppp2qqp/8/8/4R3/PP4PP/5P1K/5Q1K w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Rg4+", "1... Qxg4", "2. hxg4"],
+      "hint": "Check on g4 to pin Black's queen against the king.",
+      "explanation": "1. Rg4+ forces Black to give up the queen for a rook, leaving White with a winning material advantage."
+    },
+    {
+      "diagram_number": 114,
+      "page_title": "Mate: Mating pattern (Rook + Rook): G",
+      "fen": "2b2rk1/1p1R1p2/1p4p1/8/1P1q3p/1q5P/2q2PP1/4R1K1 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Rxd4"],
+      "hint": "Remove Black's central queen on d4.",
+      "explanation": "1. Rxd4 captures the active queen on d4, defusing Black's central pressure and winning decisive material."
+    },
+    {
+      "diagram_number": 115,
+      "page_title": "Mate: Mating pattern (Bishop + Bishop): H",
+      "fen": "r2rn1k1/pp2pp1p/2P3bn/3Q4/QBB5/PP5P/2P2P2/4R1K1 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. cxb7", "1... Rab8", "2. Qxe7"],
+      "hint": "Advance the pawn on c6 to open diagonals for your two active bishops.",
+      "explanation": "1. cxb7 attacks Black's rook and opens up the a2-g8 diagonal for the light-squared bishop, overwhelming Black's position."
+    },
+    {
+      "diagram_number": 116,
+      "page_title": "Mate: Mating pattern (Bishop + Bishop): H",
+      "fen": "1q2rk1r/p2n1pb1/1pQ1p2p/8/BB2B3/P4P2/1PP2PPP/3R2K1 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Qxd7", "1... Kg8", "2. Qxe8+"],
+      "hint": "Take the pinned knight on d7 with your queen.",
+      "explanation": "1. Qxd7 captures Black's knight with check, supported by the bishop battery on the a4-e8 diagonal."
+    },
+    {
+      "diagram_number": 117,
+      "page_title": "Mate: Mating pattern (Bishop + Bishop): H",
+      "fen": "8/1p5p/pR5n/P7/3B1p1b/4B2k/2P2P1P/3r2K1 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Rxh6", "1... Rg1+"],
+      "hint": "Eliminate Black's knight on h6 while maintaining control of key diagonals.",
+      "explanation": "1. Rxh6 captures Black's piece and defuses local counterplay around the kingside."
+    },
+    {
+      "diagram_number": 118,
+      "page_title": "Mate: Mating pattern (Bishop + Bishop): H",
+      "fen": "r3k2r/2bpp2p/1pn4p/pP6/3P2B1/1PP1PP2/2KB2RR/8 b kq - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... Bxh2", "2. Rxh2", "2... e6"],
+      "hint": "Black to move. Take the undefended rook on h2.",
+      "explanation": "1...Bxh2 captures White's rook, winning decisive material for Black."
+    },
+    {
+      "diagram_number": 119,
+      "page_title": "Mate: Mating pattern (Bishop + Bishop): H",
+      "fen": "r1b1k2r/ppp3pp/3n4/3b2q1/3P2N1/PP2N1PP/R2Q1P1R/3BK3 b kq - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... Ne4", "2. Qb4", "2... c5"],
+      "hint": "Black to move. Jump the knight to e4 to fork White's queen and attack the central pawn structure.",
+      "explanation": "1...Ne4 forces White's queen to move, allowing Black to expand centrally with a strong initiative."
+    },
+    {
+      "diagram_number": 120,
+      "page_title": "Mate: Mating pattern (Bishop + Bishop): H",
+      "fen": "4k3/4b1rb/3p2p1/3p1b1B/3P4/1r1q4/5R1K/8 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Bxg6+", "1... Rxg6", "2. Rf8+"],
+      "hint": "Check with the bishop on g6 to disrupt Black's rook and king structure.",
+      "explanation": "1. Bxg6+ forces 1...Rxg6 or 1...Bxg6, opening lines for White's rooks against Black's open king."
+    },
+    {
+      "diagram_number": 121,
+      "page_title": "Mate: Mating pattern (Bishop + Bishop): H",
+      "fen": "r1q1b1k1/5R1p/1p1p2p1/p1p5/P1P3r1/1BB2B2/2Q5/8 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Rg7+", "1... Kf8", "2. Bd5"],
+      "hint": "Check with the rook on g7 and align your double bishops against Black's king.",
+      "explanation": "1. Rg7+ forces 1...Kf8, enabling 2. Bd5 which coordinates both bishops toward the a1-h8 and a2-g8 diagonals for a winning attack."
+    },
+    {
+      "diagram_number": 122,
+      "page_title": "Mate: Mating pattern (Bishop + Bishop): H",
+      "fen": "8/1p3k2/6p1/2b1b1P1/PP1q1P2/B1N2P2/2Q4R/8 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... Qxf4+", "2. Ke2", "2... Qe3+"],
+      "hint": "Black to move. Infiltrate with the queen on f4 with check.",
+      "explanation": "1...Qxf4+ breaks White's pawn chain and drives White's king into a lethal series of queen checks."
+    },
+    {
+      "diagram_number": 123,
+      "page_title": "Mate: Mating pattern (Bishop + Bishop): H",
+      "fen": "7B/r1p5/p1q1k1b1/2n1pp2/QP1b2P1/1P2K3/8/8 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Qxc6+", "1... Ke7", "2. Qf6#"],
+      "hint": "Capture Black's queen on c6 with check.",
+      "explanation": "1. Qxc6+ wins the queen and leads to immediate checkmate supported by the bishop on h8."
+    },
+    {
+      "diagram_number": 124,
+      "page_title": "Mate: Mating pattern (Bishop + Bishop): H",
+      "fen": "r3b1rk/1qn1kpp1/1p1bp2p/2P1P2P/1p6/P1N5/P3Q1P1/K2RB3 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. cxd6+", "1... Kd7", "2. dxc7+"],
+      "hint": "Advance the c-pawn with a pawn check to break open Black's uncastled king.",
+      "explanation": "1. cxd6+ forces Black's king to d7, enabling a discovered check with 2. dxc7+ that wins material and shatters Black's position."
+    },
+    {
+      "diagram_number": 125,
+      "page_title": "Mate: Mating pattern (Bishop + Bishop): H",
+      "fen": "b3k3/1q3pb1/p2qp1p1/1pb2N2/1P2P3/5P2/6P1/3BK3 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... Qxd1+", "2. Kxd1", "2... exf5"],
+      "hint": "Black to move. Sacrifice the queen on d1 to eliminate White's dark-squared bishop.",
+      "explanation": "1...Qxd1+ forces 2. Kxd1, allowing Black to capture the knight on f5 with a winning material advantage."
+    },
+    {
+      "diagram_number": 126,
+      "page_title": "Mate: Mating pattern (Bishop + Bishop): H",
+      "fen": "r1b2rk1/ppp2pp1/4p3/3P4/2b1n3/N1P1q1b1/PP2P2P/1R1R1K2 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... Qf2#"],
+      "hint": "Black to move. Deliver immediate checkmate on f2.",
+      "explanation": "1...Qf2# is checkmate; the queen is protected by the light-squared bishop on g3 and White's king has no legal escape squares."
+    },
+    {
+      "diagram_number": 127,
+      "page_title": "Elimination of the defence: Chasing away + material: A",
+      "fen": "r1bq1rk1/pp1p1ppp/2p5/n7/P1N5/1B2N1PP/1P1Q1PK1/R4R2 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. b4", "1... Nb3", "2. Qxb3"],
+      "hint": "Advance b4 to chase away Black's knight on a5 and win material.",
+      "explanation": "1. b4 attacks the knight on a5. By forcing the knight off its defended post, White gains control of key central squares and material."
+    },
+    {
+      "diagram_number": 128,
+      "page_title": "Elimination of the defence: Chasing away + material: A",
+      "fen": "1r2r1k1/pp2Rppp/4n3/8/2P1b3/1P2N3/P2N1PPP/2R1B1K1 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. f3", "1... Bc6", "2. Rxe8+"],
+      "hint": "Attack Black's e4-bishop with f3 to force it away from defending key central squares.",
+      "explanation": "1. f3 attacks the bishop on e4, forcing it to retreat and removing its defensive hold over the e-file."
+    },
+    {
+      "diagram_number": 129,
+      "page_title": "Elimination of the defence: Chasing away + material: A",
+      "fen": "8/1p3p1k/p1b1pq1p/r3b1pP/1PP2BP1/P1R1Q1K1/4RN2/8 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... gxf4+", "2. Qxf4", "2... Qxf4+"],
+      "hint": "Black to move. Advance gxf4 with check to force White's queen away or capture it.",
+      "explanation": "1...gxf4+ gives a check that forces White's bishop/queen defense to crumble, winning decisive material."
+    },
+    {
+      "diagram_number": 130,
+      "page_title": "Elimination of the defence: Chasing away + material: A",
+      "fen": "r1bq1r1k/pp1n1ppp/2pbp3/3n3Q/1P1P1N2/P2B1P2/1PP3PP/R1B1K2R b KQ - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... g6", "2. Qh6", "2... Nxf4"],
+      "hint": "Black to move. Push g6 to attack White's queen and block checkmate threats on h7.",
+      "explanation": "1...g6 defends the h7-pawn and attacks White's queen, driving it back and allowing Black to capture the knight on f4."
+    },
+    {
+      "diagram_number": 131,
+      "page_title": "Elimination of the defence: Chasing away + material: A",
+      "fen": "r1bq1rk1/1p2bppp/p2p1n2/2n1p3/2PNP3/1PN5/P2BBPPP/R2Q1RK1 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... exd4", "2. Nd5", "2... Nxd5"],
+      "hint": "Black to move. Capture the central pawn on d4 to dislodge White's central knight.",
+      "explanation": "1...exd4 attacks White's knight on d4 and opens up lines for Black's central pieces."
+    },
+    {
+      "diagram_number": 132,
+      "page_title": "Elimination of the defence: Chasing away + material: A",
+      "fen": "r4rk1/pp1b1p1p/4p1p1/3p1n2/3q4/1B3N2/PP3PPP/1R1R2K1 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Nxd4", "1... Nxd4", "2. Rxd4"],
+      "hint": "Trade on d4 to eliminate Black's active queen.",
+      "explanation": "1. Nxd4 takes Black's queen, forcing 1...Nxd4, after which White recaptures on d4 with a winning material advantage."
+    },
+    {
+      "diagram_number": 133,
+      "page_title": "Elimination of the defence: Chasing away + material: A",
+      "fen": "r1b1r1k1/pp1q1p1p/1p1p2p1/3Pn3/3N1P2/P1P1B3/1P1Q2PP/R3R1K1 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. fxe5", "1... dxe5", "2. Nf3"],
+      "hint": "Push f4 or take on e5 to chase away/eliminate Black's active knight on e5.",
+      "explanation": "1. fxe5 removes Black's centralized knight on e5, winning a piece for a pawn."
+    },
+    {
+      "diagram_number": 134,
+      "page_title": "Elimination of the defence: Chasing away + material: A",
+      "fen": "r1b2rk1/pp1q1p1p/1np1p1p1/1Q1p4/1B1P4/1PN1B3/P1P2PPP/R3K2R w KQ - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Qe2", "1... f5", "2. f4"],
+      "hint": "Retreat the queen to safety while keeping Black's b6-knight restricted.",
+      "explanation": "1. Qe2 preserves White's queen while maintaining a strong grip on the queenside diagonals."
+    },
+    {
+      "diagram_number": 135,
+      "page_title": "Elimination of the defence: Chasing away + material: A",
+      "fen": "2kr1r2/ppp3pp/1nn1p3/2p1p3/1P2Pb2/P1N1NB2/1KP2PPP/R6R b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... Bxe3", "2. fxe3", "2... cxb4"],
+      "hint": "Black to move. Eliminate the e3-knight to weaken White's pawn cover.",
+      "explanation": "1...Bxe3 removes the e3 defender, allowing Black to break open White's queenside pawns with 2...cxb4."
+    },
+    {
+      "diagram_number": 136,
+      "page_title": "Elimination of the defence: Chasing away + material: A",
+      "fen": "r1bq1rk1/pp1p1ppp/2p5/n3P3/P1BN3b/1PP5/P2Q1PPP/R3K2R w KQ - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. g3", "1... Be7", "2. Bd3"],
+      "hint": "Kick Black's h4-bishop with g3 to dislodge it from the diagonal.",
+      "explanation": "1. g3 forces Black's dark-squared bishop to retreat, removing its pressure along the e1-h4 diagonal."
+    },
+    {
+      "diagram_number": 137,
+      "page_title": "Elimination of the defence: Chasing away + material: A",
+      "fen": "r1bq1nk1/pp2b1pp/2p1p3/3pPn2/1P1P1B2/1NN2P2/P1P1Q1PP/R3K2R b KQ - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... Bxb4", "2. Bd2", "2... Nxd4"],
+      "hint": "Black to move. Take the pawn on b4 with the bishop to pin White's c3-knight.",
+      "explanation": "1...Bxb4 wins a pawn and pins White's knight on c3 against the king on e1."
+    },
+    {
+      "diagram_number": 138,
+      "page_title": "Elimination of the defence: Chasing away + material: A",
+      "fen": "r1bq1nk1/pp2b1pp/2p1pn2/3p4/1P1P1B2/P1NQ1P2/2P1N1PP/R3K2R b KQ - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... Ng6", "2. Bg3", "2... e5"],
+      "hint": "Black to move. Jump the f8-knight to g6 to attack White's dark-squared bishop on f4.",
+      "explanation": "1...Ng6 forces White's f4-bishop to retreat, allowing Black to break in the center with 2...e5."
+    },
+    {
+      "diagram_number": 139,
+      "page_title": "Elimination of the defence: Luring away + material: A",
+      "fen": "1R1r4/1p2kppp/2br4/p3p3/3p4/PQ1P1BPq/1P1N1P1q/4K3 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Rxd8", "1... Kxd8", "2. Qxf7"],
+      "hint": "Lure Black's king or rook away from defending e7/f7 by exchanging on d8.",
+      "explanation": "1. Rxd8 forces Black's king to recapture on d8, deflects Black's defensive coordination, and allows White to win material with 2. Qxf7."
+    },
+    {
+      "diagram_number": 140,
+      "page_title": "Elimination of the defence: Luring away + material: A",
+      "fen": "r1bqk2r/p4pbn/1pn1p1pp/2ppp3/Q1P1P3/P1N2N2/1P1PBPPP/R1BR2K1 w kq - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. cxd5", "1... exd5", "2. Qxc6+"],
+      "hint": "Break open the center on d5 to deflect Black's pawn cover away from protecting the c6-knight.",
+      "explanation": "1. cxd5 forces 1...exd5, luring away Black's pawn defense of c6 and allowing 2. Qxc6+ to pick up the undefended knight with check."
+    },
+    {
+      "diagram_number": 141,
+      "page_title": "Elimination of the defence: Luring away + material: A",
+      "fen": "2r2rk1/1p1nbppp/2bp3p/1p6/4PNQ1/PP2B1N1/1P1Q2PP/1KR1R2R b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... Bxe4+", "2. Nxe4", "2... Rxc1+"],
+      "hint": "Black to move. Sacrifice on e4 with check to lure White's knight away from defending the 1st rank.",
+      "explanation": "1...Bxe4+ forces 2. Nxe4, luring the knight away from e3/c1 and enabling Black to capture White's rook with 2...Rxc1+."
+    },
+    {
+      "diagram_number": 142,
+      "page_title": "Elimination of the defence: Luring away + material: A",
+      "fen": "r1bqk2r/ppppbppp/2n5/1b6/3P4/2N1BN2/PPP2PPP/R2QK2R w KQkq - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. d5", "1... Ne5", "2. Nxb5"],
+      "hint": "Push d5 to attack the c6-knight and lure it away from defending the b5-bishop.",
+      "explanation": "1. d5 attacks the c6-knight. Once the knight retreats or moves away, White wins the unpinned bishop on b5 with 2. Nxb5."
+    },
+    {
+      "diagram_number": 143,
+      "page_title": "Elimination of the defence: Luring away + material: A",
+      "fen": "r1bqk2r/1p3pbp/2p3p1/3p3B/N2pPN2/PP1PBPPP/R4RK1 b kq - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... dxe3", "2. Qxe3", "2... gxh5"],
+      "hint": "Black to move. Take on e3 to disrupt White's bishop battery and win White's light-squared bishop on h5.",
+      "explanation": "1...dxe3 lures White's queen away to recapture on e3, leaving White's bishop on h5 undefended for 2...gxh5."
+    },
+    {
+      "diagram_number": 144,
+      "page_title": "Elimination of the defence: Luring away + material: A",
+      "fen": "2kr3r/pppq2pp/3p1n2/bQ2p3/1n1P2P1/PN2BN1P/1PP2P2/2KR3R b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... Na2+", "2. Kb1", "2... Qxb5"],
+      "hint": "Black to move. Deliver a knight check on a2 to lure White's king away and deflect defense from the b5-queen.",
+      "explanation": "1...Na2+ forces 2. Kb1, deflecting White's defense of the queen on b5 and allowing Black to capture it with 2...Qxb5."
+    },
+    {
+      "diagram_number": 145,
+      "page_title": "Elimination of the defence: Luring away + material: A",
+      "fen": "2r3k1/pp2pbqp/1p1p2Q1/8/4P3/8/PPK2PP1/3N3R w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Qxc8+", "1... Qf8", "2. Qxf8+"],
+      "hint": "Sacrifice or trade on c8 to lure Black's queen or king away from kingside defenses.",
+      "explanation": "1. Qxc8+ forces 1...Qf8 or 1...Bxc8, luring Black's pieces to the c-file and clearing White's way to take full control."
+    },
+    {
+      "diagram_number": 146,
+      "page_title": "Elimination of the defence: Luring away + material: A",
+      "fen": "3r2k1/p5p1/3bp1bp/3b2p1/8/PPq1Q1PB/3RRK1P/8 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Qxc3"],
+      "hint": "Take Black's undefended queen on c3.",
+      "explanation": "1. Qxc3 captures Black's queen on c3 directly, exploiting Black's misplaced pieces to win queen for free."
+    },
+    {
+      "diagram_number": 147,
+      "page_title": "Elimination of the defence: Luring away + material: A",
+      "fen": "r1b2rk1/pp1n2bp/2n3p1/1B2p1p1/8/5BN1/PP3PPP/2R1R1K1 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Bxc6", "1... bxc6", "2. Rxc6"],
+      "hint": "Capture on c6 with your bishop to dislodge Black's knight defender.",
+      "explanation": "1. Bxc6 forces 1...bxc6, luring Black's b-pawn onto c6 and allowing White to capture on c6 or control the open c-file."
+    },
+    {
+      "diagram_number": 148,
+      "page_title": "Elimination of the defence: Luring away + material: A",
+      "fen": "r4rk1/p3bppp/3p4/p1pn2N1/1P1P1P2/1Q1q1K1P/2PB1q1P/R3R2K b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... Q2xf3+", "2. Nxf3", "2... Qxb3"],
+      "hint": "Black to move. Check on f3 to deflect White's g5-knight away from defending the b3-queen.",
+      "explanation": "1...Q2xf3+ forces 2. Nxf3, deflecting the knight from defending b3 and allowing Black to win the queen with 2...Qxb3."
+    },
+    {
+      "diagram_number": 149,
+      "page_title": "Elimination of the defence: Luring away + material: A",
+      "fen": "3q4/p4p1k/4bnpp/8/3p4/P3N1P1/1P5P/3Q2K1 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Qxd4"],
+      "hint": "Capture Black's d4-pawn with your queen.",
+      "explanation": "1. Qxd4 captures the d4-pawn, defusing Black's passed pawn and utilizing the pin on the d-file."
+    },
+    {
+      "diagram_number": 150,
+      "page_title": "Elimination of the defence: Luring away + material: A",
+      "fen": "3r2r1/p4p1k/5b1p/2p4Q/P2p1P2/1PBq2P1/1K1R3P/8 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... Qxc3+", "2. Ka2", "2... Qxd2+"],
+      "hint": "Black to move. Capture the bishop on c3 with check to deflect White's king or rook.",
+      "explanation": "1...Qxc3+ forces 2. Ka2, allowing Black to capture White's rook on d2 with 2...Qxd2+ to gain a decisive material advantage."
+    },
+    {
+      "diagram_number": 151,
+      "page_title": "Elimination of the defence: Capturing + material: A",
+      "fen": "r2r2k1/ppp1qpp1/2p1p1bn/1P2P3/1PQ1B3/P3B2P/3N2P1/1R2R1K1 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... Bxe4", "2. Qxe4", "2... Rxd2"],
+      "hint": "Black to move. Capture the e4-bishop to remove the key defender of White's d2-knight.",
+      "explanation": "1...Bxe4 eliminates the bishop guarding d2. After 2. Qxe4, Black wins material with 2...Rxd2."
+    },
+    {
+      "diagram_number": 152,
+      "page_title": "Elimination of the defence: Capturing + material: A",
+      "fen": "r4r2/pp2q1kp/3p1bp1/3n4/3B2Q1/P7/1P1R1PPP/2R3K1 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Bxf6+", "1... Nxf6", "2. Qxd4"],
+      "hint": "Trade bishops on f6 to eliminate the defender of Black's d5-knight.",
+      "explanation": "1. Bxf6+ removes the dark-squared bishop protecting d5, allowing White to take the unpinned knight on d4."
+    },
+    {
+      "diagram_number": 153,
+      "page_title": "Elimination of the defence: Capturing + material: A",
+      "fen": "1k1r3r/ppp1n1p1/2nr1b1p/3P4/1PP5/R2R1B1P/P3P1P1/R5K1 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. dxc6", "1... Rxd3", "2. exd3"],
+      "hint": "Capture on c6 to destroy Black's knight structure.",
+      "explanation": "1. dxc6 captures the knight and attacks Black's d6-rook, leading to favorable exchanges."
+    },
+    {
+      "diagram_number": 154,
+      "page_title": "Elimination of the defence: Capturing + material: A",
+      "fen": "2rr2k1/pb1nbppp/1p1pp3/1P1P2b1/P1N1Q1N1/2P1P1BP/1P1N2P1/1R2R1K1 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. dxe6", "1... Bxe4", "2. exf7+", "3. Nxe4"],
+      "hint": "Capture on e6 to open central files and unpin White's active knight.",
+      "explanation": "1. dxe6 sacrifices the queen temporarily to regain material with check on f7 and win an active position."
+    },
+    {
+      "diagram_number": 155,
+      "page_title": "Elimination of the defence: Capturing + material: A",
+      "fen": "r1b1r1k1/pp1nbp1p/qpn2p2/3p2N1/3P4/1PN1P1PB/PP1Q1P1P/R1R3K1 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Nxd5", "1... fxg5", "2. Nc7"],
+      "hint": "Capture on d5 with the knight to fork Black's queen and rooks.",
+      "explanation": "1. Nxd5 opens lines for White's pieces while creating a lethal knight fork on c7."
+    },
+    {
+      "diagram_number": 156,
+      "page_title": "Elimination of the defence: Capturing + material: A",
+      "fen": "r1b1k2r/pp1nbppp/1qn1p3/3p4/2PN1B2/1PN1P3/PP1Q1PPP/R3R1K1 w kq - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. cxd5", "1... exd5", "2. Nxd5"],
+      "hint": "Capture on d5 with the c-pawn to open the file for a knight fork.",
+      "explanation": "1. cxd5 eliminates Black's d5 defender and opens the d-file, allowing 2. Nxd5 to attack Black's queen on b6."
+    },
+    {
+      "diagram_number": 157,
+      "page_title": "Elimination of the defence: Capturing + material: A",
+      "fen": "r2r2k1/p1q1bppp/1p1p4/q2P4/3B4/P1PQ1N2/1RR2PPP/6K1 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Bxb6", "1... axb6", "2. Qxa5"],
+      "hint": "Capture on b6 to remove the defender of Black's queen on a5.",
+      "explanation": "1. Bxb6 removes the b6-pawn protecting the queen, enabling White to win the queen on a5 with 2. Qxa5."
+    },
+    {
+      "diagram_number": 158,
+      "page_title": "Elimination of the defence: Capturing + material: A",
+      "fen": "r2r2k1/pp2bppp/2p1b3/7N/3P4/1P3P2/q1Q1Q1PP/1RR3K1 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Qxa2"],
+      "hint": "Capture Black's undefended queen on a2.",
+      "explanation": "1. Qxa2 simply captures Black's queen on a2, winning a full queen."
+    },
+    {
+      "diagram_number": 159,
+      "page_title": "Elimination of the defence: Capturing + material: A",
+      "fen": "r1q1rn1k/pp2p1bp/1p1p1np1/3Q2p1/2P5/1PN1P1PB/PP3P1P/R2R2K1 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... Qxh3", "2. Qxb7", "2... Ng4"],
+      "hint": "Black to move. Take White's undefended bishop on h3.",
+      "explanation": "1...Qxh3 wins White's bishop on h3 directly and sets up a winning kingside attack."
+    },
+    {
+      "diagram_number": 160,
+      "page_title": "Elimination of the defence: Capturing + material: A",
+      "fen": "r1bq1rk1/pp1n1pbp/2p1p1p1/3p4/1P1Pn3/2P1PNB1/PP1NQPPP/R1B2RK1 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... Nxg3", "2. hxg3", "2... e5"],
+      "hint": "Black to move. Eliminate White's g3-bishop to ruin White's pawn structure.",
+      "explanation": "1...Nxg3 removes White's active bishop, giving Black the bishop pair and a strong central position."
+    },
+    {
+      "diagram_number": 161,
+      "page_title": "Elimination of the defence: Capturing + material: A",
+      "fen": "r2q1rk1/pp1b1ppp/2n1p3/1B1q4/3N4/1P6/PP2QPPP/R3R1K1 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Bxc6", "1... Bxc6", "2. Nxc6"],
+      "hint": "Capture on c6 with your bishop to dislodge Black's knight defender.",
+      "explanation": "1. Bxc6 removes Black's defender on c6, allowing White to follow up with 2. Nxc6 to win material."
+    },
+    {
+      "diagram_number": 162,
+      "page_title": "Elimination of the defence: Capturing + mate: A",
+      "fen": "r1b1k2r/pp1qpp1p/2p1b1n1/3N4/8/PPPPQPPP/RN2R1K1 w kq - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Qxe6", "1... fxe6", "2. Nc7#"],
+      "hint": "Sacrifice the queen on e6 to remove the defender of the c7 square and deliver mate.",
+      "explanation": "1. Qxe6 captures the defending bishop on e6. After 1...fxe6, White delivers checkmate with 2. Nc7#."
+    },
+    {
+      "diagram_number": 163,
+      "page_title": "Elimination of the defence: Capturing + mate: A",
+      "fen": "r1b1k2r/ppp1pp1p/3n1q1n/7B/1b1Q4/2N2N2/PPP2PPP/R2R2K1 w kq - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Qxb4", "1... e5", "2. Nd5"],
+      "hint": "Capture the undefended bishop on b4 to eliminate a key piece in Black's camp.",
+      "explanation": "1. Qxb4 wins the bishop on b4 directly, eliminating Black's defensive coverage and opening central lines for White's knights."
+    },
+    {
+      "diagram_number": 164,
+      "page_title": "Elimination of the defence: Capturing + mate: A",
+      "fen": "rn1qk2r/pppp1p1p/6n1/4p3/4Q3/2PP1PP1/PPP1P1BN/R1B1K2R w KQkq - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Qxe5+", "1... Nxe5", "2. Bg5#"],
+      "hint": "Sacrifice the queen on e5 to deflect Black's knight from controlling the g5 square.",
+      "explanation": "1. Qxe5+ forces 1...Nxe5, deflecting the knight from g5 and enabling 2. Bg5# to deliver checkmate."
+    },
+    {
+      "diagram_number": 165,
+      "page_title": "Elimination of the defence: Capturing + mate: A",
+      "fen": "r2q3k/1p4p1/1p1p3p/1P2p2n/2B2P1P/P1P2P2/1R1Q1R1K b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... Qxh4+", "2. Kg1", "2... Qg3+"],
+      "hint": "Black to move. Take the h4 pawn with check to remove White's kingside pawn shield.",
+      "explanation": "1...Qxh4+ removes White's h-pawn defender, driving White's king to g1 and exposing it to an inescapable mating attack."
+    },
+    {
+      "diagram_number": 166,
+      "page_title": "Elimination of the defence: Capturing + mate: A",
+      "fen": "b1rq1r1k/p4p1p/1p2p1p1/1P2P3/2N1P3/1Q4P1/R1R3K1 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Nd6", "1... Rxc2+", "2. Rxc2"],
+      "hint": "Jump the knight to d6 to block Black's open d-file and attack c8.",
+      "explanation": "1. Nd6 establishes a dominant outpost that cuts off Black's heavy pieces and threatens tactical gains."
+    },
+    {
+      "diagram_number": 167,
+      "page_title": "Elimination of the defence: Capturing + mate: A",
+      "fen": "1b2rr1k/1p4p1/1P1q1p1p/1P1p1P1n/3Qp1P1/2R4P/1R1B1NK1 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... Qh2+", "2. Kf1", "2... Ng3+"],
+      "hint": "Black to move. Check on h2 with the queen to penetrate White's position.",
+      "explanation": "1...Qh2+ forces 2. Kf1, allowing 2...Ng3+ to dismantle White's king shelter and force checkmate."
+    },
+    {
+      "diagram_number": 168,
+      "page_title": "Elimination of the defence: Capturing + mate: A",
+      "fen": "1b1r2n1/3p2r1/3p4/pP1k1p2/P1P1p3/3N1P2/P1R3P1/2R1K3 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Nf4+", "1... Ke5", "2. Ng6#"],
+      "hint": "Check with the knight on f4 to drive Black's king deeper into White's pawn field.",
+      "explanation": "1. Nf4+ forces 1...Ke5, enabling 2. Ng6# to trap Black's king in a mating net."
+    },
+    {
+      "diagram_number": 169,
+      "page_title": "Elimination of the defence: Capturing + mate: A",
+      "fen": "r2q1b1r/ppp1k1pp/3p1n2/3bp3/1n1P4/1PN1P3/P1P1NPPP/R1BQKB1R b KQ - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... Be4", "2. Nxe4", "2... Nxe4"],
+      "hint": "Black to move. Attack c2 by playing the bishop to e4.",
+      "explanation": "1...Be4 threatens 2...Nxc2+, forcing White to trade on e4 and giving Black a dominant attacking position."
+    },
+    {
+      "diagram_number": 170,
+      "page_title": "Elimination of the defence: Capturing + mate: A",
+      "fen": "r1bq1rk1/pp1n1p1p/2p1p1p1/1P1p2NQ/P1N5/1B6/1R2PP1P/R1R3K1 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Qxh7#"],
+      "hint": "Deliver immediate checkmate on h7 with the queen.",
+      "explanation": "1. Qxh7# is an immediate checkmate protected by the knight on g5."
+    },
+    {
+      "diagram_number": 171,
+      "page_title": "Elimination of the defence: Capturing + mate: A",
+      "fen": "r1bq1rk1/pp1n1p1N/2p1p1p1/3pP1N1/3P2Pn/1R3P2/P1P1Q2P/1R1B2K1 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Qf2", "1... Nf5", "2. gxf5"],
+      "hint": "Attack the trapped knight on h4 with your queen.",
+      "explanation": "1. Qf2 attacks Black's knight on h4, which has no safe escape squares, winning a piece."
+    },
+    {
+      "diagram_number": 172,
+      "page_title": "Elimination of the defence: Capturing + mate: A",
+      "fen": "1b1r1rk1/1p2q1p1/1P2p2p/p2p1n2/P2B4/3N1P2/1P2N1PK/R2Q1R2 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... Qh4+", "2. Kg1", "2... Bh2+", "3. Kh1", "3... Bg3+", "4. Kg1", "4... Qh2#"],
+      "hint": "Black to move. Infiltrate with the queen on h4 to force a windmill-style mating attack.",
+      "explanation": "1...Qh4+ 2. Kg1 Bh2+ 3. Kh1 Bg3+ 4. Kg1 Qh2# is a classic mating sequence using the queen and bishop."
+    },
+    {
+      "diagram_number": 173,
+      "page_title": "Elimination of the defence: Capturing + mate: A",
+      "fen": "r1b1k2r/ppp2p1p/4p3/3p2q1/1P1PP1b1/2P1n1P1/PP1N2PK/R1BQ1R2 b kq - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... Qh5+", "2. Kg1", "2... Nxd1"],
+      "hint": "Black to move. Check on h5 with the queen to force White's king to g1 before capturing White's queen on d1.",
+      "explanation": "1...Qh5+ forces 2. Kg1, allowing 2...Nxd1 to capture White's queen with check and win decisive material."
+    },
+    {
+      "diagram_number": 174,
+      "page_title": "Elimination of the defence: Luring away + mate: A",
+      "fen": "1kr2nr1/pp3pp1/1qp1b2p/8/3P1N2/1P1Q2P1/PP2P2P/1NB1RRK1 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... Rxd4", "2. Qe3", "2... Re4"],
+      "hint": "Black to move. Sacrifice or strike on d4 to lure White's queen away and expose the pinned d-file.",
+      "explanation": "1...Rxd4 attacks White's queen and opens a discovered check along the d-file, winning material and forcing White into a defensive shell."
+    },
+    {
+      "diagram_number": 175,
+      "page_title": "Elimination of the defence: Luring away + mate: A",
+      "fen": "r2r2k1/1p1p1p2/1p1Q1P2/1p1bp2q/1P6/1P3PP1/1R4KR/8 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Rxh5", "1... Bxh5", "2. Qxe5"],
+      "hint": "Capture Black's queen on h5 to deflect Black's bishop and break open the kingside.",
+      "explanation": "1. Rxh5 removes Black's queen threat and lures the bishop off the long diagonal, allowing White's queen to dominate."
+    },
+    {
+      "diagram_number": 176,
+      "page_title": "Elimination of the defence: Luring away + mate: A",
+      "fen": "1Rb2r1r/1p2k3/p1p1pb1p/4p3/2P5/q4P2/P2Q2PK/4R3 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Rxb7+", "1... Bxb7", "2. Qd7#"],
+      "hint": "Sacrifice the rook on b7 to lure Black's light-squared bishop away from defending d7.",
+      "explanation": "1. Rxb7+ forces 1...Bxb7, deflecting the bishop and allowing 2. Qd7# to deliver checkmate."
+    },
+    {
+      "diagram_number": 177,
+      "page_title": "Elimination of the defence: Luring away + mate: A",
+      "fen": "2rk4/p1pr3p/1p1Q4/1BbN4/3P4/5PPP/2R3K1/8 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Qxd7#"],
+      "hint": "Deliver immediate checkmate on d7 with your queen.",
+      "explanation": "1. Qxd7# is an immediate checkmate supported by the bishop on b5."
+    },
+    {
+      "diagram_number": 178,
+      "page_title": "Elimination of the defence: Luring away + mate: A",
+      "fen": "1k4rr/pp3p1p/2p5/4P3/5Q1P/P1N2p1q/1PP2P1P/2RR2K1 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... Qg2#"],
+      "hint": "Black to move. Deliver checkmate on g2 supported by the rook on g8.",
+      "explanation": "1...Qg2# is an immediate checkmate supported along the g-file."
+    },
+    {
+      "diagram_number": 179,
+      "page_title": "Elimination of the defence: Luring away + mate: A",
+      "fen": "2rq1bkr/pp1n1p1p/2p1b2p/8/1P1PN3/2B1Q3/PPP1P1PP/RN2KB1R w KQ - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Qg3+", "1... Bg7", "2. d5"],
+      "hint": "Check with the queen on g3 and push d5 to open a discovered attack from your light-squared bishop.",
+      "explanation": "1. Qg3+ Bg7 forces Black to block, allowing 2. d5 which threatens 3. Qxg7# and 3. dxe6 simultaneously."
+    },
+    {
+      "diagram_number": 180,
+      "page_title": "Elimination of the defence: Luring away + mate: A",
+      "fen": "r1b2knr/pp1p1p1p/1q1p2p1/3P2b1/q2Nn3/2P2P2/PP1N2PP/R1B1KBNR b KQ - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... Qxd4", "2. cxd4", "2... Bxd2#"],
+      "hint": "Black to move. Sacrifice the queen on d4 to lure White's c3-pawn away and enable a bishop mate.",
+      "explanation": "1...Qxd4 forces 2. cxd4, luring the pawn off c3 and allowing 2...Bxd2# to checkmate White's king."
+    },
+    {
+      "diagram_number": 181,
+      "page_title": "Elimination of the defence: Luring away + mate: A",
+      "fen": "3q4/1P3p1k/8/p2n1n1b/P2P1N1b/1P1Q3r/1BN2P2/1R2K3 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... Rh1+", "2. Kd2", "2... Rd1#"],
+      "hint": "Black to move. Check on h1 with the rook to force White's king to d2 before delivering mate.",
+      "explanation": "1...Rh1+ forces 2. Kd2, enabling 2...Rd1# to deliver checkmate supported by Black's active pieces."
+    },
+    {
+      "diagram_number": 182,
+      "page_title": "Elimination of the defence: Luring away + mate: A",
+      "fen": "r1bqkb1r/pp1n1p1p/2p1p1pB/1BB5/3P4/2N1P3/PPP2PPP/R2QK1NR w KQkq - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Bxf8", "1... Nxf8", "2. Bxc6+"],
+      "hint": "Trade bishops on f8 to dislodge Black's defending knight.",
+      "explanation": "1. Bxf8 removes Black's f8-bishop and forces 1...Nxf8, allowing White to break open Black's queenside with 2. Bxc6+."
+    },
+    {
+      "diagram_number": 183,
+      "page_title": "Elimination of the defence: Luring away + mate: A",
+      "fen": "1k1r4/p1p3p1/1q2p2n/1r6/3Q4/3P4/PP3PBP/1KR1R3 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Qxd8#"],
+      "hint": "Deliver immediate back-rank checkmate on d8.",
+      "explanation": "1. Qxd8# is checkmate on the back rank, supported by White's rook/queen alignment."
+    },
+    {
+      "diagram_number": 184,
+      "page_title": "Elimination of the defence: Luring away + mate: A",
+      "fen": "1k1r3k/p1p3pp/1r2nn2/8/p3P3/1r1P4/Prq2PBP/1RR1Q1K1 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... Rxb1", "2. Rxb1+", "2... Qxb1"],
+      "hint": "Black to move. Exchange rooks on b1 to deflect White's back-rank defense.",
+      "explanation": "1...Rxb1 forces White's rook to respond, neutralizing White's counter-attack and securing Black's advantage."
+    },
+    {
+      "diagram_number": 185,
+      "page_title": "Defending: Defend against a double attack: A",
+      "fen": "5r1k/2r5/4N3/7P/2B5/1PK5/8/8 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... Rf3+"],
+      "hint": "Black to move. Check White's king with the rook on f3 to defend against the knight fork on e6.",
+      "explanation": "1...Rf3+ gives a counter-check, gaining a tempo to save the rook from White's knight fork on e6."
+    },
+    {
+      "diagram_number": 186,
+      "page_title": "Defending: Defend against a double attack: A",
+      "fen": "rn1q1rk1/pp2pp1p/2p3p1/1b1n3q/2NB4/1P1B1P2/P1Q3PP/R3K2R w KQ - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Qf2"],
+      "hint": "Retreat the queen to f2 to cover key threats and protect White's central pieces.",
+      "explanation": "1. Qf2 neutralizes Black's double threats while guarding key central squares and consolidating White's piece setup."
+    },
+    {
+      "diagram_number": 187,
+      "page_title": "Defending: Defend against a double attack: A",
+      "fen": "r1bq1rk1/pp1nbp1p/4p1p1/3pP3/3N1B2/1P1N1P2/P1P1Q1PP/R3K2R w KQ - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. O-O"],
+      "hint": "Castle kingside to bring the king to safety and connect the rooks.",
+      "explanation": "1. O-O removes the king from any potential tactical checks or double attacks in the center while linking the rooks."
+    },
+    {
+      "diagram_number": 188,
+      "page_title": "Defending: Defend against a double attack: A",
+      "fen": "k1r5/pp1n3p/1q3p2/1P1n1P1P/1b1Q2P1/1P2B3/1P5K/8 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Qxd5"],
+      "hint": "Capture the knight on d5 with your queen to defend against the double attack on e3.",
+      "explanation": "1. Qxd5 captures Black's attacking knight while simultaneously defending White's bishop on e3."
+    },
+    {
+      "diagram_number": 189,
+      "page_title": "Defending: Defend against a double attack: A",
+      "fen": "8/2pb4/5kB1/7N/8/4P3/8/7K w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Nf4"],
+      "hint": "Retreat the knight to f4 to defend both the knight and the bishop on g6.",
+      "explanation": "1. Nf4 protects the bishop on g6 and moves the knight to a safe, centralized square."
+    },
+    {
+      "diagram_number": 190,
+      "page_title": "Defending: Defend against a double attack: A",
+      "fen": "r4rk1/1p2b1pp/2p1p1n1/1RP1P1N1/p1n5/1P2Q1PP/1B2RRK1/8 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Qe4"],
+      "hint": "Centralize the queen on e4 to escape the attack on e3 while attacking Black's knight on c4.",
+      "explanation": "1. Qe4 moves the queen out of danger and counter-attacks Black's knight on c4."
+    },
+    {
+      "diagram_number": 191,
+      "page_title": "Defending: Defend against a double attack: A",
+      "fen": "rn1q1rk1/pp2pp1p/6p1/2p1P3/2NB1P2/1P1b2PP/P2Q2B1/R3K2R w KQ - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Bb2"],
+      "hint": "Retreat the bishop from d4 to b2 to defend against Black's double attacks.",
+      "explanation": "1. Bb2 saves the bishop and maintains White's strong long-diagonal control."
+    },
+    {
+      "diagram_number": 192,
+      "page_title": "Defending: Defend against a double attack: A",
+      "fen": "3r2k1/pp3p1p/3p2p1/P1n1qP2/1P1Q4/2P1b2B/6P1/4R2K b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... Bxd4"],
+      "hint": "Black to move. Take White's queen on d4 with your bishop.",
+      "explanation": "1...Bxd4 captures the queen, solving White's double attack and winning significant material."
+    },
+    {
+      "diagram_number": 193,
+      "page_title": "Defending: Defend against a double attack: A",
+      "fen": "r2q1rk1/1p3p1p/p5p1/2p1nb2/2P1p3/1P6/P2Q2PP/R1B2RK1 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... Qd4+"],
+      "hint": "Black to move. Centralize the queen with check on d4 to neutralize White's counterplay.",
+      "explanation": "1...Qd4+ forces White to respond to check, allowing Black to consolidate their piece advantage."
+    },
+    {
+      "diagram_number": 194,
+      "page_title": "Defending: Defend against a double attack: A",
+      "fen": "rn1qk2r/pp2pp1p/3p1np1/2p5/2B1N3/1P6/P1PP1PPP/R2QK2R w KQkq - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Nxf6+", "1... exf6", "2. Qe2+"],
+      "hint": "Eliminate Black's knight on f6 with check to resolve double threats.",
+      "explanation": "1. Nxf6+ forces Black to recapture on f6, eliminating Black's attacking piece and allowing White to consolidate."
+    },
+    {
+      "diagram_number": 195,
+      "page_title": "Defending: Defend against a double attack: A",
+      "fen": "3r1rk1/1b2b1pp/pn2N3/1p6/1P1P1n2/1P6/P1B2PPP/RN3RK1 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... Nxe6"],
+      "hint": "Black to move. Capture the dangerous knight on e6.",
+      "explanation": "1...Nxe6 neutralizes White's fork on e6 and restores material equality."
+    },
+    {
+      "diagram_number": 196,
+      "page_title": "Defending: Defend against a double attack: A",
+      "fen": "r1b1k2r/pp3p1p/2p5/3p1n2/2B1n3/1B1Q4/P1P2PPP/R1B2RK1 b kq - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... Be6"],
+      "hint": "Black to move. Develop the light-squared bishop to e6 to defend d5 and solidify the center.",
+      "explanation": "1...Be6 defends the d5-pawn, protects the central knight on e4, and neutralizes White's attacking threats."
+    },
+    {
+      "diagram_number": 197,
+      "page_title": "Defending: Defend against a double attack: B",
+      "fen": "r3k2r/pppp1ppp/1qn5/8/1b2N3/3Q4/PPP2PPP/R3K2R b KQkq - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... O-O-O", "2. O-O", "2... Re8"],
+      "hint": "Black to move. Castle queenside to escape the central pressure and defend against White's double attack threats.",
+      "explanation": "1...O-O-O brings the king to safety and connects rooks, neutralizing White's tactical threats."
+    },
+    {
+      "diagram_number": 198,
+      "page_title": "Defending: Defend against a double attack: B",
+      "fen": "r3r1k1/pp1b1ppp/2p5/3p4/8/1PN1N3/1PP2PPP/R2QR1K1 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Nc4", "1... dxc4", "2. Qxd7"],
+      "hint": "Move your knight to c4 to counter Black's threats and defend key squares.",
+      "explanation": "1. Nc4 creates a counter-threat and defends White's position against double attacks."
+    },
+    {
+      "diagram_number": 199,
+      "page_title": "Defending: Defend against a double attack: B",
+      "fen": "8/8/4k3/p3p3/1pP5/3r4/PP4PP/4K3 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... Rd4", "2. b3", "2... a4"],
+      "hint": "Black to move. Activate your rook to d4 to defend against White's pawn advances.",
+      "explanation": "1...Rd4 centralizes the rook, blocking White's pawns and organizing an active defense."
+    },
+    {
+      "diagram_number": 200,
+      "page_title": "Defending: Defend against a double attack: B",
+      "fen": "r2q1rk1/pp3ppp/8/3p4/1b6/1N3P2/P1P3PP/R1BQ1RK1 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... Bc3", "2. Rb1", "2... Re8"],
+      "hint": "Black to move. Place your bishop on c3 to disrupt White's rook and knight coordination.",
+      "explanation": "1...Bc3 attacks White's rook and disrupts White's coordination, neutralizing the double attack threat."
+    },
+    {
+      "diagram_number": 201,
+      "page_title": "Defending: Defend against a double attack: B",
+      "fen": "2rr3k/p5p1/1p5p/8/1P3N2/8/P5PP/R1R2RK1 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Ng6+", "1... Kh7", "2. Ne5"],
+      "hint": "Check with the knight on g6 to disrupt Black's king and defend your position.",
+      "explanation": "1. Ng6+ gains a tempo with check, allowing the knight to retreat to safety on e5."
+    },
+    {
+      "diagram_number": 202,
+      "page_title": "Defending: Defend against a double attack: B",
+      "fen": "r2q1rk1/pp3ppp/2p5/4p3/4P3/1P3P1P/P1P1Q1P1/R3K2R w KQ - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Rd1", "1... Qe7", "2. O-O"],
+      "hint": "Contest the open d-file with your rook to neutralize Black's central queen pressure.",
+      "explanation": "1. Rd1 challenges the file and prepares castling to safety."
+    },
+    {
+      "diagram_number": 203,
+      "page_title": "Defending: Defend against a double attack: B",
+      "fen": "3r2k1/p1p3p1/3p4/4p3/8/1P2Q3/P1P3PP/3R2K1 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Qxe5", "1... dxe5", "2. Rxd8+"],
+      "hint": "Capture the central pawn on e5 with your queen to simplify into an advantageous endgame.",
+      "explanation": "1. Qxe5 trades material favorably and wins the open d-file with check after recapturing."
+    },
+    {
+      "diagram_number": 204,
+      "page_title": "Defending: Defend against a double attack: B",
+      "fen": "r1b3k1/pp3p1p/3p2p1/3p4/1Q1P4/8/PP3PPP/R1B2RK1 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": ["1. Qxd6", "1... Be6", "2. Qe5"],
+      "hint": "Capture Black's d6-pawn with your queen to eliminate tactical weaknesses.",
+      "explanation": "1. Qxd6 wins a pawn and centralizes White's queen while maintaining strong defensive control."
+    },
+    {
+      "diagram_number": 205,
+      "page_title": "Defending: Defend against a double attack: B",
+      "fen": "r1b2rk1/pp3p1p/2n1N1p1/1N6/8/8/PPP3PP/R1BQ1RK1 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... Bxe6", "2. Qe2", "2... Rae8"],
+      "hint": "Black to move. Capture White's invading knight on e6 with your bishop.",
+      "explanation": "1...Bxe6 eliminates the dangerous knight on e6, removing White's double attack threat."
+    },
+    {
+      "diagram_number": 206,
+      "page_title": "Defending: Defend against a double attack: B",
+      "fen": "r3rk2/pp3ppp/2p5/4p3/1Q6/8/P5PP/4R2K b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... Re7", "2. Rxe7", "2... Kg8"],
+      "hint": "Black to move. Interpose your rook on e7 to block White's queen penetration.",
+      "explanation": "1...Re7 defends against back-rank and queen threats, consolidating Black's defense."
+    },
+    {
+      "diagram_number": 207,
+      "page_title": "Defending: Defend against a double attack: B",
+      "fen": "r1b3k1/pp3p1p/2p3p1/8/8/1N6/PPP2PPP/R1B3K1 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": ["1... Bf5", "2. c3", "2... Re8"],
+      "hint": "Black to move. Develop your bishop to f5 to challenge White's control.",
+      "explanation": "1...Bf5 activates the bishop and pressures White's queenside structure."
+    }
+  ]
+}

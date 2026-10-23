@@ -36,6 +36,7 @@ import {
 } from '../../utils/storage';
 import { playMoveSound, playCaptureSound, playCheckSound, playSolvedSound } from '../../utils/soundEffects';
 import { parseFenText } from '../../utils/fenParser';
+import { parseStep3Extra } from '../../utils/step3Extra';
 
 interface AdminDashboardProps {
   puzzles: Puzzle[];
@@ -215,6 +216,51 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({
   // Import JSON
   const handleImportSubmit = () => {
     if (!importJsonText.trim()) return;
+
+    try {
+      const parsedJson: unknown = JSON.parse(importJsonText);
+      if (
+        parsedJson &&
+        typeof parsedJson === 'object' &&
+        'diagrams' in parsedJson &&
+        Array.isArray(parsedJson.diagrams)
+      ) {
+        const parsedStep3Extra = parseStep3Extra(parsedJson);
+        if (parsedStep3Extra.puzzles.length === 0) {
+          setImportStatus(`Error: ${parsedStep3Extra.errors.join(' ') || 'No valid puzzles found.'}`);
+          return;
+        }
+
+        const existingIds = new Set(puzzles.map((puzzle) => puzzle.id));
+        const newPuzzles = parsedStep3Extra.puzzles.filter((puzzle) => !existingIds.has(puzzle.id));
+        const { added } = addCustomPuzzles(newPuzzles);
+        let importedSolutions = 0;
+        newPuzzles.forEach((puzzle) => {
+          const solution = parsedStep3Extra.solutions[puzzle.id];
+          if (solution) {
+            savePuzzleSolution(solution);
+            importedSolutions++;
+          }
+        });
+
+        onPuzzlesUpdated();
+        onSolutionsImported();
+        const issueMessage = parsedStep3Extra.errors.length
+          ? ` ${parsedStep3Extra.errors.length} item(s) need attention.`
+          : '';
+        setImportStatus(`Imported ${added} puzzle(s) and ${importedSolutions} solution(s).${issueMessage}`);
+        setTimeout(() => {
+          setShowImportModal(false);
+          setImportStatus('');
+          setImportJsonText('');
+        }, 1800);
+        return;
+      }
+    } catch (error) {
+      setImportStatus(`Error: ${(error as Error).message || 'Failed to parse JSON'}`);
+      return;
+    }
+
     const res = importSolutionsFromJson(importJsonText);
     if (res.success) {
       setImportStatus(`Successfully imported ${res.count} solutions!`);
@@ -406,7 +452,7 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({
           <button
             onClick={() => setShowImportModal(true)}
             className="px-2.5 py-1.5 bg-slate-800 hover:bg-slate-700 text-slate-300 rounded-lg text-xs font-medium flex items-center gap-1.5 min-h-[38px] transition-colors"
-            title="Import solutions JSON"
+            title="Import solutions or puzzle JSON"
           >
             <Upload className="w-3.5 h-3.5" />
             <span className="hidden sm:inline">Import</span>
@@ -829,7 +875,7 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({
           <div className="bg-slate-900 border border-slate-800 rounded-3xl p-5 max-w-lg w-full shadow-2xl">
             <div className="flex items-center justify-between mb-3">
               <h3 className="text-base font-bold text-slate-100 flex items-center gap-2">
-                <Upload className="w-5 h-5 text-amber-400" /> Import Solutions JSON
+                <Upload className="w-5 h-5 text-amber-400" /> Import JSON
               </h3>
               <button
                 onClick={() => setShowImportModal(false)}
@@ -840,8 +886,24 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({
             </div>
 
             <p className="text-xs text-slate-400 mb-3">
-              Paste the exported JSON data containing puzzle solutions below:
+              Choose a Step 3 Extra puzzle JSON file or paste exported solutions JSON below:
             </p>
+
+            <input
+              type="file"
+              accept=".json,application/json"
+              onChange={async (event) => {
+                const file = event.target.files?.[0];
+                if (!file) return;
+                try {
+                  setImportJsonText(await file.text());
+                  setImportStatus('');
+                } catch {
+                  setImportStatus('Error: Could not read the selected file.');
+                }
+              }}
+              className="w-full text-xs text-slate-300 file:mr-3 file:rounded-lg file:border-0 file:bg-slate-800 file:px-3 file:py-2 file:text-slate-200 hover:file:bg-slate-700 mb-3"
+            />
 
             <textarea
               rows={8}
@@ -872,7 +934,7 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({
                 onClick={handleImportSubmit}
                 className="px-4 py-2 bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-xs rounded-xl transition-all"
               >
-                Import Solutions
+                Import JSON
               </button>
             </div>
           </div>
