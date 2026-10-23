@@ -1,30 +1,27 @@
 import React from 'react';
-import { Swords, LayoutGrid, Bookmark, ShieldCheck, Lock } from 'lucide-react';
+import { Swords, LayoutGrid, Bookmark } from 'lucide-react';
 import { AppTab } from '../../types/puzzle';
 
 interface BottomTabBarProps {
   activeTab: AppTab;
   onTabChange: (tab: AppTab) => void;
-  isAdmin: boolean;
   favoritesCount: number;
 }
 
 export const BottomTabBar: React.FC<BottomTabBarProps> = ({
   activeTab,
   onTabChange,
-  isAdmin,
   favoritesCount
 }) => {
   const tabs = [
     { id: 'puzzles' as AppTab, label: 'Puzzles', icon: Swords },
     { id: 'categories' as AppTab, label: 'Categories', icon: LayoutGrid },
-    { id: 'favorites' as AppTab, label: 'Favorites', icon: Bookmark, badge: favoritesCount > 0 ? favoritesCount : null },
-    { id: 'admin' as AppTab, label: isAdmin ? 'Admin' : 'Login', icon: isAdmin ? ShieldCheck : Lock }
+    { id: 'favorites' as AppTab, label: 'Favorites', icon: Bookmark, badge: favoritesCount > 0 ? favoritesCount : null }
   ];
 
   return (
     <nav className="fixed bottom-0 left-0 right-0 z-40 bg-slate-950/90 backdrop-blur-lg border-t border-slate-800/80 max-w-xl mx-auto">
-      <div className="grid grid-cols-4 items-center h-16 px-1">
+      <div className="grid grid-cols-3 items-center h-16 px-1">
         {tabs.map((tab) => {
           const Icon = tab.icon;
           const isActive = activeTab === tab.id;

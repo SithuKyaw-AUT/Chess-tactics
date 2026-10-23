@@ -271,7 +271,10 @@ export const ChessBoard: React.FC<ChessBoardProps> = ({
                         piece.color === chessInstance.turn() && interactive ? 'cursor-grab active:cursor-grabbing' : ''
                       }`}
                     >
-                      <ChessPiece type={piece.type as PieceSymbol} color={piece.color as Color} />
+                      <ChessPiece
+                        type={piece.type as PieceSymbol}
+                        color={piece.color as Color}
+                      />
                     </div>
                   )}
 

@@ -6,9 +6,6 @@ const PROGRESS_KEY = 'step4_chess_progress_v1';
 const THEME_KEY = 'step4_chess_board_theme_v1';
 const SOUND_KEY = 'step4_chess_sound_enabled_v1';
 const VIEW_KEY = 'step4_chess_device_view_v1';
-const ADMIN_SESSION_KEY = 'step4_admin_session_v1';
-
-export const ADMIN_HARDCODED_PASSWORD = 'step4admin';
 
 /**
  * Load all puzzle solutions, merging initial starter solutions with local overrides
@@ -214,22 +211,6 @@ export const loadDeviceView = (): DeviceView => {
 
 export const saveDeviceView = (view: DeviceView): void => {
   localStorage.setItem(VIEW_KEY, view);
-};
-
-/**
- * Admin session
- */
-export const isAdminLoggedIn = (): boolean => {
-  if (typeof window === 'undefined') return false;
-  return sessionStorage.getItem(ADMIN_SESSION_KEY) === 'true';
-};
-
-export const setAdminSession = (loggedIn: boolean): void => {
-  if (loggedIn) {
-    sessionStorage.setItem(ADMIN_SESSION_KEY, 'true');
-  } else {
-    sessionStorage.removeItem(ADMIN_SESSION_KEY);
-  }
 };
 
 const CUSTOM_PUZZLES_KEY = 'step_chess_custom_puzzles_v1';

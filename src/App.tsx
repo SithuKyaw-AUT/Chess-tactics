@@ -12,30 +12,26 @@ import {
   saveBoardTheme,
   loadDeviceView,
   saveDeviceView,
-  isAdminLoggedIn,
-  setAdminSession,
   toggleBookmark,
-  loadCustomPuzzles,
   loadStepFilter,
   saveStepFilter,
-  ADMIN_HARDCODED_PASSWORD
+  loadCustomPuzzles
 } from './utils/storage';
 import { TopBar } from './components/Navigation/TopBar';
 import { BottomTabBar } from './components/Navigation/BottomTabBar';
 import { PuzzlePlayer } from './components/PuzzlePlayer/PuzzlePlayer';
 import { CategoryList } from './components/CategoryList/CategoryList';
 import { FavoritesList } from './components/FavoritesList/FavoritesList';
-import { AdminDashboard } from './components/Admin/AdminDashboard';
 import { PWAInstallModal } from './components/Navigation/PWAInstallModal';
 
 export default function App() {
   // Puzzles state (Built-in + Custom added)
-  const [customPuzzles, setCustomPuzzles] = useState<Puzzle[]>(() => loadCustomPuzzles());
+  const [customPuzzles] = useState<Puzzle[]>(() => loadCustomPuzzles());
   const allPuzzles = useMemo(() => {
     return [...PUZZLES_DATA, ...customPuzzles];
   }, [customPuzzles]);
 
-  const [solutions, setSolutions] = useState<Record<string, PuzzleSolution>>(() => loadSolutions());
+  const [solutions] = useState<Record<string, PuzzleSolution>>(() => loadSolutions());
   const [progress, setProgress] = useState(() => loadUserProgress());
   const [activeTab, setActiveTab] = useState<AppTab>('puzzles');
   const [activePuzzleId, setActivePuzzleId] = useState<string>(allPuzzles[0]?.id || 'p3_d1');
@@ -43,8 +39,7 @@ export default function App() {
   const [selectedStep, setSelectedStep] = useState<string>(() => loadStepFilter());
   const [isInstallModalOpen, setIsInstallModalOpen] = useState<boolean>(false);
 
-  // Settings & Admin
-  const [isAdmin, setIsAdmin] = useState<boolean>(() => isAdminLoggedIn());
+  // Settings
   const [theme, setTheme] = useState<BoardTheme>(() => loadBoardTheme());
   const [deviceView, setDeviceView] = useState<DeviceView>(() => loadDeviceView());
 
@@ -97,38 +92,6 @@ export default function App() {
     if (pool.length > 0) {
       setActivePuzzleId(pool[0].id);
     }
-  };
-
-  // Admin login
-  const handleAdminLogin = (password: string): boolean => {
-    if (password === ADMIN_HARDCODED_PASSWORD) {
-      setIsAdmin(true);
-      setAdminSession(true);
-      return true;
-    }
-    return false;
-  };
-
-  // Admin logout
-  const handleAdminLogout = () => {
-    setIsAdmin(false);
-    setAdminSession(false);
-  };
-
-  // Update solutions list
-  const handleSolutionSaved = (newSol: PuzzleSolution) => {
-    setSolutions((prev) => ({
-      ...prev,
-      [newSol.puzzleId]: newSol
-    }));
-  };
-
-  const handleSolutionsImported = () => {
-    setSolutions(loadSolutions());
-  };
-
-  const handlePuzzlesUpdated = () => {
-    setCustomPuzzles(loadCustomPuzzles());
   };
 
   // Navigation handlers
@@ -199,7 +162,6 @@ export default function App() {
           <PuzzlePlayer
             puzzle={currentPuzzle}
             solution={currentSolution}
-            isAdmin={isAdmin}
             theme={theme}
             isBookmarked={isCurrentBookmarked}
             isSolved={isCurrentSolved}
@@ -207,7 +169,6 @@ export default function App() {
             onNextPuzzle={handleNextPuzzle}
             onPrevPuzzle={handlePrevPuzzle}
             onRandomPuzzle={handleRandomPuzzle}
-            onSolutionSaved={handleSolutionSaved}
           />
         );
 
@@ -231,25 +192,6 @@ export default function App() {
               toggleBookmark(id);
               refreshProgress();
             }}
-          />
-        );
-
-      case 'admin':
-        return (
-          <AdminDashboard
-            puzzles={allPuzzles}
-            solutions={solutions}
-            isAdmin={isAdmin}
-            onLogin={handleAdminLogin}
-            onLogout={handleAdminLogout}
-            onSolutionSaved={handleSolutionSaved}
-            onSolutionsImported={handleSolutionsImported}
-            onPuzzlesUpdated={handlePuzzlesUpdated}
-            onSelectPuzzleToPlay={(p) => {
-              handleSelectPuzzle(p);
-              setActiveTab('puzzles');
-            }}
-            theme={theme}
           />
         );
 
@@ -320,7 +262,6 @@ export default function App() {
             setActiveTab(tab);
             window.scrollTo({ top: 0, behavior: 'smooth' });
           }}
-          isAdmin={isAdmin}
           favoritesCount={progress.bookmarkedIds.length}
         />
       </div>

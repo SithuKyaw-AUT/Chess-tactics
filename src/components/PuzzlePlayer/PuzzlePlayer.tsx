@@ -13,8 +13,6 @@ import {
   VolumeX,
   Shuffle,
   Sparkles,
-  ShieldCheck,
-  Save,
   HelpCircle
 } from 'lucide-react';
 import { ChessBoard, MoveEvent } from '../ChessBoard/ChessBoard';
@@ -29,16 +27,11 @@ import {
   isSoundEnabled,
   setSoundEnabled
 } from '../../utils/soundEffects';
-import {
-  markPuzzleSolved,
-  toggleBookmark,
-  savePuzzleSolution
-} from '../../utils/storage';
+import { markPuzzleSolved } from '../../utils/storage';
 
 interface PuzzlePlayerProps {
   puzzle: Puzzle;
   solution?: PuzzleSolution;
-  isAdmin: boolean;
   theme: BoardTheme;
   isBookmarked: boolean;
   isSolved: boolean;
@@ -46,21 +39,18 @@ interface PuzzlePlayerProps {
   onNextPuzzle: () => void;
   onPrevPuzzle: () => void;
   onRandomPuzzle: () => void;
-  onSolutionSaved?: (solution: PuzzleSolution) => void;
 }
 
 export const PuzzlePlayer: React.FC<PuzzlePlayerProps> = ({
   puzzle,
   solution,
-  isAdmin,
   theme,
   isBookmarked,
   isSolved: initialSolved,
   onBookmarkToggle,
   onNextPuzzle,
   onPrevPuzzle,
-  onRandomPuzzle,
-  onSolutionSaved
+  onRandomPuzzle
 }) => {
   // Game state
   const [chess, setChess] = useState<Chess>(() => new Chess(puzzle.fen));
@@ -77,12 +67,6 @@ export const PuzzlePlayer: React.FC<PuzzlePlayerProps> = ({
   const [flipped, setFlipped] = useState<boolean>(puzzle.sideToMove === 'b');
   const [soundOn, setSoundOn] = useState<boolean>(isSoundEnabled());
   const [isShaking, setIsShaking] = useState<boolean>(false);
-
-  // Admin record mode state
-  const [recordedMoves, setRecordedMoves] = useState<string[]>([]);
-  const [adminHintInput, setAdminHintInput] = useState<string>('');
-  const [adminExplanationInput, setAdminExplanationInput] = useState<string>('');
-  const [showAdminRecordPanel, setShowAdminRecordPanel] = useState<boolean>(false);
 
   const opponentTimeoutRef = useRef<NodeJS.Timeout | null>(null);
 
@@ -101,10 +85,7 @@ export const PuzzlePlayer: React.FC<PuzzlePlayerProps> = ({
     setStatusMessage('');
     setHintTier(0);
     setMoveHistory([]);
-    setRecordedMoves([]);
     setFlipped(puzzle.sideToMove === 'b');
-    setAdminHintInput(solution?.hints?.[0] || '');
-    setAdminExplanationInput(solution?.explanation || '');
   }, [puzzle.id, puzzle.fen, solution]);
 
   const toggleSound = () => {
@@ -127,7 +108,6 @@ export const PuzzlePlayer: React.FC<PuzzlePlayerProps> = ({
     setStatusMessage('');
     setHintTier(0);
     setMoveHistory([]);
-    setRecordedMoves([]);
   };
 
   // Handle a move made on the board
@@ -145,17 +125,6 @@ export const PuzzlePlayer: React.FC<PuzzlePlayerProps> = ({
       if (!moveResult) return;
 
       const san = moveResult.san;
-
-      // Handle Admin Free Record Mode
-      if (isAdmin && (!solution || solution.moves.length === 0 || showAdminRecordPanel)) {
-        setChess(copy);
-        setCurrentFen(copy.fen());
-        setLastMove({ from: moveEvt.from, to: moveEvt.to });
-        setRecordedMoves((prev) => [...prev, san]);
-        setMoveHistory((prev) => [...prev, san]);
-        playMoveSound();
-        return;
-      }
 
       // Check against solution if available
       if (solution && solution.moves.length > 0) {
@@ -273,7 +242,7 @@ export const PuzzlePlayer: React.FC<PuzzlePlayerProps> = ({
   // Provide progressive hints
   const handleRequestHint = () => {
     if (!solution || solution.moves.length === 0) {
-      setStatusMessage('No official solution recorded yet. Use Admin mode to record one!');
+      setStatusMessage('No solution is available for this puzzle yet.');
       return;
     }
 
@@ -306,72 +275,11 @@ export const PuzzlePlayer: React.FC<PuzzlePlayerProps> = ({
     }
   };
 
-  // Admin save recorded line
-  const handleAdminSaveSolution = () => {
-    if (recordedMoves.length === 0) {
-      alert('Please make at least one move on the board first to record the solution line.');
-      return;
-    }
-
-    const newSolution: PuzzleSolution = {
-      puzzleId: puzzle.id,
-      moves: recordedMoves,
-      hints: adminHintInput.trim()
-        ? [adminHintInput.trim()]
-        : [`Focus on ${puzzle.categoryEnglish}`, `Look at ${recordedMoves[0]}`],
-      explanation: adminExplanationInput.trim() || `Tactical sequence for ${puzzle.title}: ${recordedMoves.join(' ')}`,
-      updatedAt: new Date().toISOString(),
-      verified: true
-    };
-
-    savePuzzleSolution(newSolution);
-    if (onSolutionSaved) {
-      onSolutionSaved(newSolution);
-    }
-    setShowAdminRecordPanel(false);
-    setStatus('solved');
-    setStatusMessage('✅ Solution saved and verified successfully!');
-  };
-
   const isWhiteTurn = puzzle.sideToMove === 'w';
 
   return (
     <div className="flex flex-col items-center w-full max-w-xl mx-auto px-3 sm:px-4 pb-20">
-      {/* Top Header Card: Minimal English category + Step line with Bookmark & Sound buttons */}
-      <div className="w-full bg-slate-900/90 backdrop-blur-md border border-slate-800 rounded-2xl px-4 py-3 mb-2.5 shadow-lg flex items-center justify-between gap-3">
-        <div className="min-w-0 flex-1">
-          <h2 className="text-sm font-bold text-slate-100 truncate leading-snug">
-            {puzzle.categoryEnglish}
-          </h2>
-          <span className="text-xs text-slate-400 font-medium block mt-0.5">
-            {puzzle.step || 'Step 4'} Extra
-          </span>
-        </div>
-
-        <div className="flex items-center gap-1 shrink-0">
-          {/* Bookmark button */}
-          <button
-            onClick={onBookmarkToggle}
-            title={isBookmarked ? 'Remove from favorites' : 'Add to favorites'}
-            className={`p-2 rounded-lg transition-colors min-h-[44px] min-w-[44px] flex items-center justify-center ${
-              isBookmarked ? 'text-amber-400 bg-amber-400/10' : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800'
-            }`}
-          >
-            <Bookmark className={`w-4 h-4 ${isBookmarked ? 'fill-amber-400' : ''}`} />
-          </button>
-
-          {/* Sound toggle */}
-          <button
-            onClick={toggleSound}
-            title={soundOn ? 'Mute sound' : 'Unmute sound'}
-            className="p-2 rounded-lg text-slate-400 hover:text-slate-200 hover:bg-slate-800 transition-colors min-h-[44px] min-w-[44px] flex items-center justify-center"
-          >
-            {soundOn ? <Volume2 className="w-4 h-4 text-emerald-400" /> : <VolumeX className="w-4 h-4 text-slate-500" />}
-          </button>
-        </div>
-      </div>
-
-      {/* Turn Indicator with Flip Board button */}
+      {/* Turn Indicator and puzzle controls */}
       <div className="w-full flex items-center justify-between bg-slate-900/70 border border-slate-800/80 rounded-xl px-3.5 py-2 mb-2.5">
         <div className="flex items-center gap-2">
           <div
@@ -384,15 +292,36 @@ export const PuzzlePlayer: React.FC<PuzzlePlayerProps> = ({
           </span>
         </div>
 
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-1">
+          <button
+            onClick={onBookmarkToggle}
+            title={isBookmarked ? 'Remove from favorites' : 'Add to favorites'}
+            aria-label={isBookmarked ? 'Remove from favorites' : 'Add to favorites'}
+            className={`p-2 rounded-lg transition-colors min-h-[36px] min-w-[36px] flex items-center justify-center ${
+              isBookmarked ? 'text-amber-400 bg-amber-400/10' : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800'
+            }`}
+          >
+            <Bookmark className={`w-4 h-4 ${isBookmarked ? 'fill-amber-400' : ''}`} />
+          </button>
+
+          <button
+            onClick={toggleSound}
+            title={soundOn ? 'Mute sound' : 'Unmute sound'}
+            aria-label={soundOn ? 'Mute sound' : 'Unmute sound'}
+            className="p-2 rounded-lg text-slate-400 hover:text-slate-200 hover:bg-slate-800 transition-colors min-h-[36px] min-w-[36px] flex items-center justify-center"
+          >
+            {soundOn ? <Volume2 className="w-4 h-4 text-emerald-400" /> : <VolumeX className="w-4 h-4 text-slate-500" />}
+          </button>
+
           {/* Flip Board button on White to move line */}
           <button
             onClick={() => setFlipped(!flipped)}
             title="Flip board orientation"
-            className="px-2.5 py-1 text-slate-300 hover:text-white bg-slate-800/90 hover:bg-slate-700/90 rounded-lg text-xs font-medium flex items-center gap-1.5 transition-colors min-h-[34px]"
+            aria-label="Flip board orientation"
+            className="px-2 py-1 text-slate-300 hover:text-white bg-slate-800/90 hover:bg-slate-700/90 rounded-lg text-xs font-medium flex items-center gap-1 transition-colors min-h-[36px]"
           >
             <RotateCw className="w-3.5 h-3.5 text-amber-400" />
-            <span>Flip</span>
+            <span className="hidden xs:inline">Flip</span>
           </button>
 
           {/* Status indicator */}
@@ -456,68 +385,6 @@ export const PuzzlePlayer: React.FC<PuzzlePlayerProps> = ({
           </div>
         )}
       </div>
-
-      {/* Admin Quick Recorder Bar (Visible to Admin) */}
-      {isAdmin && (
-        <div className="w-full mt-2.5 bg-amber-500/10 border border-amber-500/30 rounded-xl p-3">
-          <div className="flex items-center justify-between mb-1.5">
-            <div className="flex items-center gap-1.5 text-xs font-semibold text-amber-300">
-              <ShieldCheck className="w-3.5 h-3.5" /> Admin Solution Recorder
-            </div>
-            <button
-              onClick={() => setShowAdminRecordPanel(!showAdminRecordPanel)}
-              className="text-[11px] text-amber-400 hover:underline min-h-[36px] flex items-center"
-            >
-              {showAdminRecordPanel ? 'Hide Details' : 'Edit / Details'}
-            </button>
-          </div>
-
-          <div className="flex items-center justify-between gap-2 text-xs">
-            <div className="font-mono text-[11px] text-slate-200 truncate">
-              {recordedMoves.length > 0 ? (
-                <span>Recorded line: <strong className="text-amber-400">{recordedMoves.join(' ')}</strong></span>
-              ) : (
-                <span className="text-slate-400 italic">Play moves on the board to record solution</span>
-              )}
-            </div>
-
-            {recordedMoves.length > 0 && (
-              <button
-                onClick={handleAdminSaveSolution}
-                className="px-3 py-1.5 bg-amber-500 hover:bg-amber-600 active:scale-95 text-slate-950 font-semibold rounded-lg text-xs flex items-center gap-1 shadow transition-all shrink-0 min-h-[36px]"
-              >
-                <Save className="w-3.5 h-3.5" /> Save Line
-              </button>
-            )}
-          </div>
-
-          {/* Expanded Admin Metadata Form */}
-          {showAdminRecordPanel && (
-            <div className="mt-3 pt-2.5 border-t border-amber-500/20 space-y-2">
-              <div>
-                <label className="text-[11px] font-medium text-slate-300 block mb-0.5">Hint Text</label>
-                <input
-                  type="text"
-                  value={adminHintInput}
-                  onChange={(e) => setAdminHintInput(e.target.value)}
-                  placeholder="e.g. Cut off the defense with a pawn advance"
-                  className="w-full text-xs bg-slate-950 border border-slate-700 rounded-lg px-2.5 py-1.5 text-slate-200 focus:outline-none focus:border-amber-400"
-                />
-              </div>
-              <div>
-                <label className="text-[11px] font-medium text-slate-300 block mb-0.5">Tactical Explanation</label>
-                <textarea
-                  rows={2}
-                  value={adminExplanationInput}
-                  onChange={(e) => setAdminExplanationInput(e.target.value)}
-                  placeholder="e.g. 1. e6! interrupts the black bishop's defense of d7, winning a knight."
-                  className="w-full text-xs bg-slate-950 border border-slate-700 rounded-lg px-2.5 py-1.5 text-slate-200 focus:outline-none focus:border-amber-400"
-                />
-              </div>
-            </div>
-          )}
-        </div>
-      )}
 
       {/* Main Touch Action Bar (Thumb ergonomic zone) */}
       <div className="w-full grid grid-cols-5 gap-2 mt-3">

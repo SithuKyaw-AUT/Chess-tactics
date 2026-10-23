@@ -43,5 +43,5 @@ export interface CategorySummary {
 }
 
 export type BoardTheme = 'tournament' | 'wood' | 'slate' | 'classic';
-export type AppTab = 'puzzles' | 'categories' | 'favorites' | 'admin';
+export type AppTab = 'puzzles' | 'categories' | 'favorites';
 export type DeviceView = 'mobile' | 'fluid';
