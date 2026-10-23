@@ -1,0 +1,6 @@
+{
+  "name": "Step 4 Chess Tactics",
+  "description": "Interactive mobile chess puzzle trainer for Chess Step 4 Extra exercises, featuring touch-first controls, category practice, and admin solution management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
