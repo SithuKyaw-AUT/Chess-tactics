@@ -37,6 +37,7 @@ export interface CategorySummary {
   english: string;
   description: string;
   icon: string;
+  steps: string[];
   pages: number[];
   totalPuzzles: number;
   solvedCount: number;

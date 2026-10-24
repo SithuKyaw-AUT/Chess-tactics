@@ -75,6 +75,10 @@ export const CategoryList: React.FC<CategoryListProps> = ({
       if (existing) {
         existing.totalPuzzles += 1;
         if (isSolved) existing.solvedCount += 1;
+        const step = p.step || 'Step 4';
+        if (!existing.steps.includes(step)) {
+          existing.steps.push(step);
+        }
         if (!existing.pages.includes(p.page)) {
           existing.pages.push(p.page);
         }
@@ -84,6 +88,7 @@ export const CategoryList: React.FC<CategoryListProps> = ({
           english: p.categoryEnglish,
           description: p.categoryDescription,
           icon: p.categoryIcon,
+          steps: [p.step || 'Step 4'],
           pages: [p.page],
           totalPuzzles: 1,
           solvedCount: isSolved ? 1 : 0
@@ -96,14 +101,6 @@ export const CategoryList: React.FC<CategoryListProps> = ({
 
   return (
     <div className="w-full max-w-xl mx-auto px-4 pb-24">
-      {/* Header */}
-      <div className="py-4">
-        <h1 className="text-xl font-bold text-slate-100">Step 4 Categories</h1>
-        <p className="text-xs text-slate-400 mt-1">
-          Master 22 tactical disciplines from Step 4 Extra workbooks
-        </p>
-      </div>
-
       {/* Category List */}
       <div className="space-y-2.5">
         {categories.map((cat) => {
@@ -129,19 +126,13 @@ export const CategoryList: React.FC<CategoryListProps> = ({
                 </div>
 
                 <div className="min-w-0 flex-1">
-                  <div className="flex items-center gap-2 text-xs text-slate-400 mb-0.5">
-                    <span>
-                      Page{cat.pages.length > 1 ? 's' : ''} {cat.pages.sort((a, b) => a - b).join(', ')}
-                    </span>
-                    <span aria-hidden="true">·</span>
-                    <span>{cat.totalPuzzles} puzzles</span>
+                  <div className="text-xs text-slate-400 mb-0.5">
+                    {cat.steps.join(', ')}
                   </div>
 
                   <h3 className="text-sm font-bold text-slate-100 group-hover:text-amber-400 transition-colors truncate">
                     {cat.dutch}
                   </h3>
-
-                  <p className="text-xs text-slate-400 truncate mt-0.5">{cat.english}</p>
 
                   {/* Progress bar */}
                   <div className="mt-2.5 flex items-center gap-2">
