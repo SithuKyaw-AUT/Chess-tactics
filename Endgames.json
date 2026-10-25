@@ -143,6 +143,274 @@
           ]
         }
       ]
+    },
+    {
+      "diagram_number": 4,
+      "page_title": "Opposition",
+      "fen": "8/8/5pk1/5r2/R7/5K2/8/8 w - - 0 1",
+      "side_to_move": "white",
+      "solution_san": [],
+      "hint": "",
+      "explanation": "",
+      "variations": [
+        {
+          "label": "",
+          "san": [
+            "1. Kg4",
+            "1... Rh5",
+            "2. Rb4",
+            "2... f5+",
+            "3. Kg3",
+            "3... Kg5",
+            "4. Rb8",
+            "4... f4+",
+            "5. Kf3",
+            "5... Rh3+",
+            "6. Ke2"
+          ]
+        },
+        {
+          "label": "",
+          "san": [
+            "1. Rf4",
+            "1... Kg5",
+            "2. Rxf5+",
+            "2... Kxf5"
+          ]
+        }
+      ]
+    },
+    {
+      "diagram_number": 5,
+      "page_title": "Opposition",
+      "fen": "8/8/8/4p1p1/8/5P2/6K1/3k4 w - - 0 1",
+      "side_to_move": "white",
+      "solution_san": [
+        "1. Kh1",
+        "1... g4",
+        "2. Kg2",
+        "2... Ke2",
+        "3. fxg4",
+        "3... e4",
+        "4. g5",
+        "4... e3",
+        "5. g6",
+        "5... Kd2",
+        "6. g7",
+        "6... e2",
+        "7. g8=Q",
+        "7... e1=Q"
+      ],
+      "hint": "",
+      "explanation": "",
+      "variations": [
+        {
+          "label": "",
+          "san": [
+            "1. Kh1",
+            "1... g4",
+            "2. Kg2",
+            "2... Ke2",
+            "3. fxg4",
+            "3... e4",
+            "4. g5",
+            "4... e3",
+            "5. g6",
+            "5... Kd2",
+            "6. g7",
+            "6... e2",
+            "7. g8=Q",
+            "7... e1=Q"
+          ]
+        },
+        {
+          "label": "",
+          "san": [
+            "1. Kf1",
+            "1... Kd2",
+            "2. Kf2",
+            "2... Kd3",
+            "3. Kg3",
+            "3... Ke3",
+            "4. Kg4",
+            "4... Kf2"
+          ]
+        },
+        {
+          "label": "",
+          "san": [
+            "1. Kf1",
+            "1... Kd2",
+            "2. Kf2",
+            "2... Kd3",
+            "3. Kg3",
+            "3... Ke3",
+            "4. Kg2",
+            "4... Ke2",
+            "5. Kg3",
+            "5... Kf1",
+            "6. Kg4",
+            "6... Kg2"
+          ]
+        }
+      ]
+    },
+    {
+      "diagram_number": 6,
+      "page_title": "Opposition",
+      "fen": "8/5p2/8/6Pk/5P2/8/8/7K w - - 0 1",
+      "side_to_move": "white",
+      "solution_san": [
+        "1. g6",
+        "1... fxg6",
+        "2. f5",
+        "2... gxf5",
+        "3. Kg1",
+        "3... Kg4",
+        "4. Kg2",
+        "4... Kf4",
+        "5. Kf2",
+        "5... Ke4",
+        "6. Ke2",
+        "6... f4",
+        "7. Kf2",
+        "7... f3",
+        "8. Kf1",
+        "8... Ke3",
+        "9. Ke1",
+        "9... f2+",
+        "10. Kf1",
+        "10... Kf3"
+      ],
+      "hint": "",
+      "explanation": "",
+      "variations": [
+        {
+          "label": "",
+          "san": [
+            "1. g6",
+            "1... Kxg6",
+            "2. Kg2",
+            "2... Kf5",
+            "3. Kg3",
+            "3... Ke4",
+            "4. Kg4"
+          ]
+        }
+      ]
+    },
+    {
+      "diagram_number": 7,
+      "page_title": "Opposition",
+      "fen": "8/4k3/3p4/3P4/2P5/8/8/5K2 w - - 0 1",
+      "side_to_move": "white",
+      "solution_san": [
+        "1. Kg2",
+        "1... Kf6",
+        "2. Kf2",
+        "2... Ke5",
+        "3. Ke3",
+        "3... Kf5",
+        "4. Kd4",
+        "4... Kf6",
+        "5. c5",
+        "5... dxc5+",
+        "6. Kxc5",
+        "6... Ke7",
+        "7. Kc6"
+      ],
+      "hint": "",
+      "explanation": "",
+      "variations": [
+        {
+          "label": "",
+          "san": [
+            "1. Kg2",
+            "1... Kf6",
+            "2. Kf2",
+            "2... Ke7",
+            "3. Kg3",
+            "3... Kf6",
+            "4. Kf4",
+            "4... Ke7",
+            "5. Kg5",
+            "5... Kf7",
+            "6. Kf5",
+            "6... Ke7",
+            "7. Kg6",
+            "7... Kd7",
+            "8. Kf7",
+            "8... Kc7",
+            "9. Ke7",
+            "9... Kc8",
+            "10. Kxd6"
+          ]
+        }
+      ]
+    },
+    {
+      "diagram_number": 8,
+      "page_title": "Opposition",
+      "fen": "8/8/2p5/k1p1K3/p1P5/P7/8/8 w - - 0 1",
+      "side_to_move": "white",
+      "solution_san": [
+        "1. Kf5",
+        "1... Ka6",
+        "2. Ke6",
+        "2... Ka7",
+        "3. Ke7",
+        "3... Ka8",
+        "4. Kd6",
+        "4... Kb7",
+        "5. Kd7",
+        "5... Kb6",
+        "6. Kc8",
+        "6... Ka6",
+        "7. Kc7",
+        "7... Ka5",
+        "8. Kxc6",
+        "8... Ka6",
+        "9. Kxc5"
+      ],
+      "hint": "",
+      "explanation": ""
+    },
+    {
+      "diagram_number": 9,
+      "page_title": "Opposition",
+      "fen": "8/5p2/4k1p1/6Rp/3K3P/5rP1/8/8 b - - 0 1",
+      "side_to_move": "black",
+      "solution_san": [
+        "1... Ra3",
+        "2. Ke4",
+        "2... f5+",
+        "3. Kf4",
+        "3... Kf6"
+      ],
+      "hint": "",
+      "explanation": "",
+      "variations": [
+        {
+          "label": "",
+          "san": [
+            "1... Ra3",
+            "2. Kc4",
+            "2... Ra4+",
+            "3. Kd3",
+            "3... Rg4",
+            "4. Rxg4",
+            "4... hxg4",
+            "5. Ke4",
+            "5... f5+",
+            "6. Kf4",
+            "6... Kf6",
+            "7. Ke3",
+            "7... Ke5",
+            "8. Kd3",
+            "8... f4"
+          ]
+        }
+      ]
     }
   ]
 }
