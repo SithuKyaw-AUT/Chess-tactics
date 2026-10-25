@@ -280,6 +280,10 @@ export const PuzzlePlayer: React.FC<PuzzlePlayerProps> = ({
 
   return (
     <div className="flex flex-col items-center w-full max-w-xl mx-auto px-3 sm:px-4 pb-20">
+      <div className="w-full mb-1.5 rounded-lg border border-amber-500/20 bg-amber-500/5 px-3 py-1.5 text-[11px] font-semibold leading-snug text-amber-200/90">
+        {categoryLine}
+      </div>
+
       {/* Turn Indicator and puzzle controls */}
       <div className="w-full flex items-center justify-between bg-slate-900/70 border border-slate-800/80 rounded-xl px-3.5 py-2 mb-2.5">
         <div className="flex items-center gap-2">
@@ -338,10 +342,6 @@ export const PuzzlePlayer: React.FC<PuzzlePlayerProps> = ({
             )}
           </div>
         </div>
-      </div>
-
-      <div className="w-full px-1 mb-2 text-xs font-semibold leading-snug text-slate-300">
-        {categoryLine}
       </div>
 
       {/* Chessboard Container with shake animation on error */}
