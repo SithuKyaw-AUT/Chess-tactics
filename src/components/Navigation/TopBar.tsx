@@ -44,8 +44,8 @@ export const TopBar: React.FC<TopBarProps> = ({
       <div className="max-w-4xl mx-auto flex flex-col gap-2">
         <div className="flex items-center justify-between gap-2 min-h-9">
           <div className="flex items-center gap-2 min-w-0">
-            <Crown className="w-6 h-6 shrink-0 text-amber-400" aria-hidden="true" />
-            <span className="font-bold text-sm sm:text-base text-slate-100 whitespace-nowrap">
+            <Crown className="w-7 h-7 shrink-0 text-amber-400" aria-hidden="true" />
+            <span className="font-bold text-base sm:text-lg text-slate-100 whitespace-nowrap">
               Marama - Chess Tactics Trainer
             </span>
           </div>

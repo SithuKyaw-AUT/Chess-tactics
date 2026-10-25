@@ -276,6 +276,7 @@ export const PuzzlePlayer: React.FC<PuzzlePlayerProps> = ({
   };
 
   const isWhiteTurn = puzzle.sideToMove === 'w';
+  const categoryLine = `${puzzle.step || 'Step 4'} ${puzzle.categoryDutch.replace(/:\s*/, '; ')}`;
 
   return (
     <div className="flex flex-col items-center w-full max-w-xl mx-auto px-3 sm:px-4 pb-20">
@@ -337,6 +338,10 @@ export const PuzzlePlayer: React.FC<PuzzlePlayerProps> = ({
             )}
           </div>
         </div>
+      </div>
+
+      <div className="w-full px-1 mb-2 text-xs font-semibold leading-snug text-slate-300">
+        {categoryLine}
       </div>
 
       {/* Chessboard Container with shake animation on error */}
