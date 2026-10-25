@@ -34,7 +34,7 @@ export default function App() {
   const [solutions] = useState<Record<string, PuzzleSolution>>(() => loadSolutions());
   const [progress, setProgress] = useState(() => loadUserProgress());
   const [activeTab, setActiveTab] = useState<AppTab>('puzzles');
-  const [activePuzzleId, setActivePuzzleId] = useState<string>(allPuzzles[0]?.id || 'p3_d1');
+  const [activePuzzleId, setActivePuzzleId] = useState<string | null>(null);
   const [categoryFilter, setCategoryFilter] = useState<string | null>(null);
   const [selectedStep, setSelectedStep] = useState<string>(() => loadStepFilter());
   const [isInstallModalOpen, setIsInstallModalOpen] = useState<boolean>(false);
@@ -49,19 +49,27 @@ export default function App() {
     allPuzzles.forEach((p) => {
       set.add(p.step || 'Step 4');
     });
-    return Array.from(set).sort();
+    return Array.from(set).sort((a, b) => a.localeCompare(b, undefined, { numeric: true }));
   }, [allPuzzles]);
+
+  const orderedPuzzles = useMemo(() => {
+    const stepOrder = new Map(availableSteps.map((step, index) => [step, index]));
+    return [...allPuzzles].sort((a, b) =>
+      (stepOrder.get(a.step || 'Step 4') ?? Number.MAX_SAFE_INTEGER) -
+      (stepOrder.get(b.step || 'Step 4') ?? Number.MAX_SAFE_INTEGER)
+    );
+  }, [allPuzzles, availableSteps]);
 
   // Step-filtered puzzles for practice & browsing
   const stepFilteredPuzzles = useMemo(() => {
-    if (selectedStep === 'All') return allPuzzles;
-    return allPuzzles.filter((p) => (p.step || 'Step 4') === selectedStep);
-  }, [allPuzzles, selectedStep]);
+    if (selectedStep === 'All') return orderedPuzzles;
+    return orderedPuzzles.filter((p) => (p.step || 'Step 4') === selectedStep);
+  }, [orderedPuzzles, selectedStep]);
 
   // Current active puzzle
   const currentPuzzle = useMemo(() => {
-    return allPuzzles.find((p) => p.id === activePuzzleId) || stepFilteredPuzzles[0] || allPuzzles[0];
-  }, [allPuzzles, stepFilteredPuzzles, activePuzzleId]);
+    return orderedPuzzles.find((p) => p.id === activePuzzleId) || stepFilteredPuzzles[0] || orderedPuzzles[0];
+  }, [orderedPuzzles, stepFilteredPuzzles, activePuzzleId]);
 
   const currentSolution = solutions[currentPuzzle.id];
 
@@ -88,7 +96,7 @@ export default function App() {
     setSelectedStep(step);
     saveStepFilter(step);
     setCategoryFilter(null);
-    const pool = step === 'All' ? allPuzzles : allPuzzles.filter((p) => (p.step || 'Step 4') === step);
+    const pool = step === 'All' ? orderedPuzzles : orderedPuzzles.filter((p) => (p.step || 'Step 4') === step);
     if (pool.length > 0) {
       setActivePuzzleId(pool[0].id);
     }

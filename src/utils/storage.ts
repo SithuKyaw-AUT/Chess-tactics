@@ -272,10 +272,11 @@ export const deleteCustomPuzzle = (id: string): void => {
  */
 export const loadStepFilter = (): string => {
   if (typeof window === 'undefined') return 'All';
-  return localStorage.getItem(STEP_FILTER_KEY) || 'All';
+  const savedStep = localStorage.getItem(STEP_FILTER_KEY);
+  if (savedStep === 'Step 1') return 'Step 1 Workbook';
+  return savedStep || 'All';
 };
 
 export const saveStepFilter = (step: string): void => {
   localStorage.setItem(STEP_FILTER_KEY, step);
 };
-

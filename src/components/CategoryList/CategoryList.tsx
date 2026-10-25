@@ -96,7 +96,7 @@ export const CategoryList: React.FC<CategoryListProps> = ({
       }
     });
 
-    return Array.from(map.values()).sort((a, b) => Math.min(...a.pages) - Math.min(...b.pages));
+    return Array.from(map.values());
   }, [puzzles, solvedIds]);
 
   return (
