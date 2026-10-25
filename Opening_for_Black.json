@@ -3,25 +3,59 @@
   "diagrams": [
     {
       "diagram_number": 1,
-      "page_title": "Queen's Gambit: cxd5",
+      "page_title": "Queen's Gambit: exd5",
       "fen": "rnbq1rk1/p1p1bpp1/1p2pn1p/3P4/3P3B/2N1PN2/PP3PPP/R2QKB1R b KQ - 0 8",
       "side_to_move": "black",
       "solution_san": [
-        "1... exd5"
+        "1... exd5",
+        "2. Nxd5"
       ],
-      "hint": "Open the center and simplify the position.",
-      "explanation": "After 1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Bg5 Be7 5.e3 O-O 6.Nf3 h6 7.Bh4 b6 8.cxd5, Black answers 8...exd5 to challenge White's center and return the pawn."
+      "hint": "Open the center and challenge White's central pawn.",
+      "explanation": "After 1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Bg5 Be7 5.e3 O-O 6.Nf3 h6 7.Bh4 b6 8.cxd5, Black should play 8...exd5. White often answers with 9.Nxd5, so practice that line.",
+      "variations": [
+        {
+          "label": "Knight recapture",
+          "san": [
+            "1... exd5",
+            "2. Nxd5"
+          ]
+        },
+        {
+          "label": "Bishop maneuver",
+          "san": [
+            "1... exd5",
+            "2. Bg3"
+          ]
+        }
+      ]
     },
     {
       "diagram_number": 2,
-      "page_title": "Queen's Gambit Declined: cxd5",
+      "page_title": "Queen's Gambit Declined: exd5",
       "fen": "rnbq1rk1/p1p1bppp/1p2pn2/3P4/3P1B2/2N1PN2/PP3PPP/R2QKB1R b KQ - 0 7",
       "side_to_move": "black",
       "solution_san": [
-        "1... exd5"
+        "1... exd5",
+        "2. Nxd5"
       ],
-      "hint": "White has opened the center; take it back on d5.",
-      "explanation": "After 1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Bf4 Be7 5.e3 O-O 6.Nf3 b6 7.cxd5, Black immediately plays 7...exd5 to keep the center under control and regain balance."
+      "hint": "Take back the pawn and keep White from building a strong center.",
+      "explanation": "After 1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Bf4 Be7 5.e3 O-O 6.Nf3 b6 7.cxd5, Black plays 7...exd5. White often responds with 8.Nxd5, which is the line you should practice.",
+      "variations": [
+        {
+          "label": "Knight recapture",
+          "san": [
+            "1... exd5",
+            "2. Nxd5"
+          ]
+        },
+        {
+          "label": "Bishop maneuver",
+          "san": [
+            "1... exd5",
+            "2. Bg3"
+          ]
+        }
+      ]
     },
     {
       "diagram_number": 3,
@@ -29,10 +63,27 @@
       "fen": "rnbq1rk1/ppp2ppp/4pn2/3p4/2PP4/P1PBP3/5PPP/R1BQK1NR b KQ - 0 7",
       "side_to_move": "black",
       "solution_san": [
-        "1... c5"
+        "1... c5",
+        "2. dxc5"
       ],
-      "hint": "Challenge the d-pawn with central expansion.",
-      "explanation": "After 1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 O-O 5.Bd3 d5 6.a3 Bxc3+ 7.bxc3, Black's best move is 7...c5, attacking d4 and creating active central play."
+      "hint": "Challenge White's central pawn and create active play.",
+      "explanation": "After 1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 O-O 5.Bd3 d5 6.a3 Bxc3+ 7.bxc3, Black's move 7...c5 is a classic response. White often takes on c5 with 8.dxc5, so practice that exchange.",
+      "variations": [
+        {
+          "label": "Take on c5",
+          "san": [
+            "1... c5",
+            "2. dxc5"
+          ]
+        },
+        {
+          "label": "Take on d5",
+          "san": [
+            "1... c5",
+            "2. cxd5"
+          ]
+        }
+      ]
     },
     {
       "diagram_number": 4,
@@ -40,54 +91,55 @@
       "fen": "rnbq1rk1/ppp1ppbp/6p1/3N4/3P1B2/4P3/PP3PPP/R2QKBNR b KQ - 0 7",
       "side_to_move": "black",
       "solution_san": [
-        "1... Qxd5"
+        "1... Qxd5",
+        "2. Bxc7"
       ],
-      "hint": "Take the knight and simplify the queen-endgame structure.",
-      "explanation": "After 1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Bf4 Bg7 5.e3 O-O 6.cxd5 Nxd5 7.Nxd5, Black responds with 7...Qxd5, extracting the knight and centralizing the queen."
+      "hint": "Capture the knight and simplify the structure.",
+      "explanation": "After 1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Bf4 Bg7 5.e3 O-O 6.cxd5 Nxd5 7.Nxd5, Black replies 7...Qxd5 and White often answers with 8.Bxc7. Practice this tactical sequence.",
+      "variations": [
+        {
+          "label": "Bishop takes c7",
+          "san": [
+            "1... Qxd5",
+            "2. Bxc7"
+          ]
+        },
+        {
+          "label": "Calm development",
+          "san": [
+            "1... Qxd5",
+            "2. Be5"
+          ]
+        }
+      ]
     },
     {
       "diagram_number": 5,
-      "page_title": "London System: Qxb3",
-      "fen": "r1b1kb1r/pp2pppp/1qn2n2/2pp4/3P1B2/1QP1PN2/PP3PPP/RN2KB1R b KQkq - 2 6",
-      "side_to_move": "black",
-      "solution_san": [
-        "1... Qxb3"
-      ],
-      "hint": "Take the queen with a strong central queen move.",
-      "explanation": "After 1.d4 d5 2.Nf3 Nf6 3.Bf4 c5 4.e3 Nc6 5.c3 Qb6 6.Qb3, Black wins the queen with 6...Qxb3 because White's queen is pinned and undefended."
-    },
-    {
-      "diagram_number": 6,
-      "page_title": "Benoni: Bg7",
-      "fen": "rnbqkb1r/pp3p1p/3p1np1/2pP4/4P3/2N2N2/PP3PPP/R1BQKB1R b KQkq - 1 7",
-      "side_to_move": "black",
-      "solution_san": [
-        "1... Bg7"
-      ],
-      "hint": "Develop your bishop to a natural square and complete the setup.",
-      "explanation": "After 1.d4 Nf6 2.c4 c5 3.d5 e6 4.Nc3 exd5 5.cxd5 d6 6.e4 g6 7.Nf3, Black's natural move is 7...Bg7, developing the bishop and preparing the kingside setup."
-    },
-    {
-      "diagram_number": 7,
       "page_title": "Catalan: a6",
       "fen": "rnbq1rk1/ppp1bppp/4pn2/8/Q1pP4/5NP1/PP2PPBP/RNB2RK1 b - - 1 7",
       "side_to_move": "black",
       "solution_san": [
-        "1... a6"
+        "1... a6",
+        "2. Qxa6"
       ],
-      "hint": "Support the b5-pawn and keep the queenside flexible.",
-      "explanation": "After 1.d4 d5 2.c4 e6 3.Nf3 Nf6 4.g3 Be7 5.Bg2 O-O 6.O-O dxc4 7.Qa4, Black plays 7...a6 to prevent White's queenside expansion and keep the position flexible."
-    },
-    {
-      "diagram_number": 8,
-      "page_title": "Dutch Defense: d5",
-      "fen": "rnbq1rk1/ppppb1pp/4pn2/5pB1/2PP4/2N1PN2/PP3PPP/R2QKB1R b KQ - 2 6",
-      "side_to_move": "black",
-      "solution_san": [
-        "1... d5"
-      ],
-      "hint": "Challenge the center by pushing a central pawn.",
-      "explanation": "After 1.d4 f5 2.c4 Nf6 3.Nc3 e6 4.Bg5 Be7 5.e3 O-O 6.Nf3, Black chooses 6...d5 to hit the center and create active counterplay in the Dutch structure."
+      "hint": "Keep the queenside under control and stop White's expansion.",
+      "explanation": "After 1.d4 d5 2.c4 e6 3.Nf3 Nf6 4.g3 Be7 5.Bg2 O-O 6.O-O dxc4 7.Qa4, Black responds 7...a6. White often takes the pawn with 8.Qxa6, so practice this queen trade.",
+      "variations": [
+        {
+          "label": "Queen takes a6",
+          "san": [
+            "1... a6",
+            "2. Qxa6"
+          ]
+        },
+        {
+          "label": "Queen to a5",
+          "san": [
+            "1... a6",
+            "2. Qa5"
+          ]
+        }
+      ]
     }
   ]
 }
