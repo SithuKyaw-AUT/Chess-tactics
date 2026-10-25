@@ -5,15 +5,24 @@
 import { Puzzle, PuzzleSolution } from "../types/puzzle";
 import step3ExtraJson from "../../step3extra_1_18.json";
 import step1WorkbookJson from "../../Step1Workbook.json";
+import endgamesJson from "../../Endgames.json";
 import { parseStep3Extra } from "../utils/step3Extra";
 
 const STEP3_EXTRA_IMPORT = parseStep3Extra(step3ExtraJson);
 const STEP1_WORKBOOK_IMPORT = parseStep3Extra(step1WorkbookJson);
+const ENDGAMES_IMPORT = parseStep3Extra(endgamesJson);
 
 if (STEP1_WORKBOOK_IMPORT.errors.length > 0) {
   console.error(
     `Step 1 workbook imported with ${STEP1_WORKBOOK_IMPORT.errors.length} data issues:`,
     STEP1_WORKBOOK_IMPORT.errors
+  );
+}
+
+if (ENDGAMES_IMPORT.errors.length > 0) {
+  console.error(
+    `Endgames imported with ${ENDGAMES_IMPORT.errors.length} data issues:`,
+    ENDGAMES_IMPORT.errors
   );
 }
 
@@ -4639,12 +4648,14 @@ export const PUZZLES_DATA: Puzzle[] = [
     "difficulty": "Step 4 (Mastery)"
   },
   ...STEP3_EXTRA_IMPORT.puzzles,
-  ...STEP1_WORKBOOK_IMPORT.puzzles
+  ...STEP1_WORKBOOK_IMPORT.puzzles,
+  ...ENDGAMES_IMPORT.puzzles
 ];
 
 export const INITIAL_SOLUTIONS: Record<string, PuzzleSolution> = {
   ...STEP3_EXTRA_IMPORT.solutions,
   ...STEP1_WORKBOOK_IMPORT.solutions,
+  ...ENDGAMES_IMPORT.solutions,
   "p3_d1": {
     "puzzleId": "p3_d1",
     "moves": [
