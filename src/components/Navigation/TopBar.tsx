@@ -44,9 +44,12 @@ export const TopBar: React.FC<TopBarProps> = ({
       <div className="max-w-4xl mx-auto flex flex-col gap-2">
         <div className="flex items-center justify-between gap-2 min-h-9">
           <div className="flex items-center gap-2 min-w-0">
-            <Crown className="w-7 h-7 shrink-0 text-amber-400" aria-hidden="true" />
-            <span className="font-bold text-base sm:text-lg text-slate-100 whitespace-nowrap">
-              Marama - Chess Tactics Trainer
+            <div className="w-9 h-9 shrink-0 rounded-xl border border-teal-400/30 bg-teal-400/10 flex items-center justify-center">
+              <Crown className="w-5 h-5 text-teal-300" aria-hidden="true" />
+            </div>
+            <span className="font-bold text-base sm:text-lg whitespace-nowrap">
+              <span className="text-teal-300">Marama</span>
+              <span className="text-slate-100"> - Chess Tactics Trainer</span>
             </span>
           </div>
         </div>
@@ -59,7 +62,7 @@ export const TopBar: React.FC<TopBarProps> = ({
                 className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-xl bg-slate-900 hover:bg-slate-800 border border-slate-800 text-xs font-bold text-white transition-colors min-h-[38px]"
                 title="Switch Step level"
               >
-                <span className="text-amber-400 font-extrabold">{selectedStep === 'All' ? 'All Steps' : selectedStep}</span>
+                <span className="text-teal-400 font-extrabold">{selectedStep === 'All' ? 'All Steps' : selectedStep}</span>
                 <ChevronDown className="w-3.5 h-3.5 text-slate-400" />
               </button>
 
@@ -74,7 +77,7 @@ export const TopBar: React.FC<TopBarProps> = ({
                       setShowStepMenu(false);
                     }}
                     className={`w-full text-left px-2 py-1.5 rounded-lg text-xs transition-colors ${
-                      selectedStep === 'All' ? 'bg-amber-500/20 text-amber-300 font-bold' : 'text-slate-300 hover:bg-slate-800'
+                      selectedStep === 'All' ? 'bg-teal-500/20 text-teal-300 font-bold' : 'text-slate-300 hover:bg-slate-800'
                     }`}
                   >
                     All Steps
@@ -87,7 +90,7 @@ export const TopBar: React.FC<TopBarProps> = ({
                         setShowStepMenu(false);
                       }}
                       className={`w-full text-left px-2 py-1.5 rounded-lg text-xs transition-colors ${
-                        selectedStep === step ? 'bg-amber-500/20 text-amber-300 font-bold' : 'text-slate-300 hover:bg-slate-800'
+                        selectedStep === step ? 'bg-teal-500/20 text-teal-300 font-bold' : 'text-slate-300 hover:bg-slate-800'
                       }`}
                     >
                       {step}
@@ -99,8 +102,8 @@ export const TopBar: React.FC<TopBarProps> = ({
 
             <div className="flex items-center gap-1.5 text-xs text-slate-300 shrink-0">
               {streak > 0 && (
-                <div className="flex items-center gap-1 text-amber-400 font-semibold">
-                  <Flame className="w-3.5 h-3.5 fill-amber-400" />
+                <div className="flex items-center gap-1 text-teal-400 font-semibold">
+                  <Flame className="w-3.5 h-3.5 fill-teal-400" />
                   <span className="font-mono tabular-nums">{streak}d</span>
                 </div>
               )}
@@ -113,10 +116,10 @@ export const TopBar: React.FC<TopBarProps> = ({
           <div className="flex items-center gap-1 shrink-0 relative">
             <button
               onClick={onOpenInstallModal}
-              className="flex items-center gap-1 px-2.5 py-1.5 rounded-xl bg-amber-500/15 hover:bg-amber-500/25 border border-amber-500/30 text-amber-300 text-xs font-medium transition-colors min-h-[38px]"
+              className="flex items-center gap-1 px-2.5 py-1.5 rounded-xl bg-teal-500/15 hover:bg-teal-500/25 border border-teal-500/30 text-teal-300 text-xs font-medium transition-colors min-h-[38px]"
               title="Install on iPhone / Android"
             >
-              <Download className="w-3.5 h-3.5 text-amber-400" />
+              <Download className="w-3.5 h-3.5 text-teal-400" />
               <span className="hidden xs:inline text-[11px]">Install</span>
             </button>
 
@@ -142,7 +145,7 @@ export const TopBar: React.FC<TopBarProps> = ({
                         setShowThemeMenu(false);
                       }}
                       className={`w-full text-left px-2 py-1.5 rounded-lg text-xs flex items-center gap-2 transition-colors ${
-                        theme === boardTheme.id ? 'bg-amber-500/15 text-amber-300 font-semibold' : 'text-slate-300 hover:bg-slate-800'
+                        theme === boardTheme.id ? 'bg-teal-500/15 text-teal-300 font-semibold' : 'text-slate-300 hover:bg-slate-800'
                       }`}
                     >
                       <span className={`w-3 h-3 rounded-full ${boardTheme.preview}`} />

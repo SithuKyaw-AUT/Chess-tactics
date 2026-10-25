@@ -54,7 +54,7 @@ export const FavoritesList: React.FC<FavoritesListProps> = ({
                   className="flex-1 min-w-0 cursor-pointer"
                 >
                   <div className="flex items-center gap-2 text-xs text-slate-400 mb-0.5">
-                    <span className="font-semibold text-amber-400">Page {p.page} · #{p.diagram}</span>
+                    <span className="font-semibold text-teal-400">Page {p.page} · #{p.diagram}</span>
                     <span aria-hidden="true">·</span>
                     <span>{p.sideToMove === 'w' ? 'White' : 'Black'} to move</span>
                     {isSolved && (
@@ -76,15 +76,15 @@ export const FavoritesList: React.FC<FavoritesListProps> = ({
                     title="Remove from favorites"
                     className="p-2 text-slate-500 hover:text-rose-400 rounded-lg min-h-[44px] min-w-[44px] flex items-center justify-center transition-colors"
                   >
-                    <Bookmark className="w-4 h-4 fill-amber-400 text-amber-400" />
+                    <Bookmark className="w-4 h-4 fill-teal-400 text-teal-400" />
                   </button>
 
                   <button
                     onClick={() => onSelectPuzzle(p)}
-                    className="p-2 bg-amber-500/10 hover:bg-amber-500/20 text-amber-400 rounded-lg min-h-[44px] min-w-[44px] flex items-center justify-center transition-colors"
+                    className="p-2 bg-teal-500/10 hover:bg-teal-500/20 text-teal-400 rounded-lg min-h-[44px] min-w-[44px] flex items-center justify-center transition-colors"
                     title="Play puzzle"
                   >
-                    <Play className="w-4 h-4 fill-amber-400" />
+                    <Play className="w-4 h-4 fill-teal-400" />
                   </button>
                 </div>
               </div>

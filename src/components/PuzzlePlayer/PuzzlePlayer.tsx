@@ -318,7 +318,7 @@ export const PuzzlePlayer: React.FC<PuzzlePlayerProps> = ({
 
   return (
     <div className="flex flex-col items-center w-full max-w-xl mx-auto px-3 sm:px-4 pb-20">
-      <div className="w-full mb-1.5 flex items-center justify-between gap-2 rounded-lg border border-amber-500/20 bg-amber-500/5 px-3 py-1.5 text-[11px] font-semibold leading-snug text-amber-200/90">
+      <div className="w-full mb-1.5 flex items-center justify-between gap-2 rounded-lg border border-teal-500/20 bg-teal-500/5 px-3 py-1.5 text-[11px] font-semibold leading-snug text-teal-200/90">
         <span className="min-w-0 truncate">{categoryLine}</span>
         {hasVariations && (
           <div className="flex shrink-0 items-center gap-1">
@@ -335,8 +335,8 @@ export const PuzzlePlayer: React.FC<PuzzlePlayerProps> = ({
                   title={`${variation.label}${isComplete ? ' (completed)' : ''}`}
                   className={`rounded-md border px-2 py-1 text-[10px] font-semibold transition-colors ${
                     isSelected
-                      ? 'border-sky-400 bg-sky-400/20 text-sky-100'
-                      : 'border-slate-700 bg-slate-900 text-slate-300 hover:border-sky-500/60'
+                      ? 'border-teal-400 bg-teal-400/20 text-teal-100'
+                      : 'border-slate-700 bg-slate-900 text-slate-300 hover:border-teal-500/60'
                   }`}
                 >
                   V{index + 1}{isComplete ? ' ✓' : ''}
@@ -366,10 +366,10 @@ export const PuzzlePlayer: React.FC<PuzzlePlayerProps> = ({
             title={isBookmarked ? 'Remove from favorites' : 'Add to favorites'}
             aria-label={isBookmarked ? 'Remove from favorites' : 'Add to favorites'}
             className={`p-2 rounded-lg transition-colors min-h-[36px] min-w-[36px] flex items-center justify-center ${
-              isBookmarked ? 'text-amber-400 bg-amber-400/10' : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800'
+              isBookmarked ? 'text-teal-400 bg-teal-400/10' : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800'
             }`}
           >
-            <Bookmark className={`w-4 h-4 ${isBookmarked ? 'fill-amber-400' : ''}`} />
+            <Bookmark className={`w-4 h-4 ${isBookmarked ? 'fill-teal-400' : ''}`} />
           </button>
 
           <button
@@ -388,7 +388,7 @@ export const PuzzlePlayer: React.FC<PuzzlePlayerProps> = ({
             aria-label="Flip board orientation"
             className="px-2 py-1 text-slate-300 hover:text-white bg-slate-800/90 hover:bg-slate-700/90 rounded-lg text-xs font-medium flex items-center gap-1 transition-colors min-h-[36px]"
           >
-            <RotateCw className="w-3.5 h-3.5 text-amber-400" />
+            <RotateCw className="w-3.5 h-3.5 text-teal-400" />
             <span className="hidden xs:inline">Flip</span>
           </button>
 
@@ -401,7 +401,7 @@ export const PuzzlePlayer: React.FC<PuzzlePlayerProps> = ({
             ) : activeMoves.length > 0 ? (
               <span className="text-slate-400 font-medium">Practice</span>
             ) : (
-              <span className="text-amber-400/90 font-medium text-[11px]">Pending</span>
+              <span className="text-teal-400/90 font-medium text-[11px]">Pending</span>
             )}
           </div>
         </div>
@@ -430,7 +430,7 @@ export const PuzzlePlayer: React.FC<PuzzlePlayerProps> = ({
                 : status === 'wrong'
                 ? 'text-rose-400'
                 : status === 'waiting_opponent'
-                ? 'text-amber-400 animate-pulse'
+                ? 'text-teal-400 animate-pulse'
                 : 'text-slate-200'
             }`}
           >
@@ -440,7 +440,7 @@ export const PuzzlePlayer: React.FC<PuzzlePlayerProps> = ({
           <div className="flex items-center justify-between text-xs text-slate-400">
             <span>Find the best move in this exercise</span>
             {moveHistory.length > 0 && (
-              <span className="font-mono text-amber-300 font-semibold">{moveHistory.join(' ')}</span>
+              <span className="font-mono text-teal-300 font-semibold">{moveHistory.join(' ')}</span>
             )}
           </div>
         )}
@@ -479,10 +479,10 @@ export const PuzzlePlayer: React.FC<PuzzlePlayerProps> = ({
         {/* Hint button */}
         <button
           onClick={handleRequestHint}
-          className="flex flex-col items-center justify-center p-2 rounded-xl bg-amber-500/15 border border-amber-500/30 text-amber-300 hover:bg-amber-500/25 active:scale-95 transition-all min-h-[48px]"
+          className="flex flex-col items-center justify-center p-2 rounded-xl bg-teal-500/15 border border-teal-500/30 text-teal-300 hover:bg-teal-500/25 active:scale-95 transition-all min-h-[48px]"
           title="Get a hint"
         >
-          <Lightbulb className="w-5 h-5 text-amber-400" />
+          <Lightbulb className="w-5 h-5 text-teal-400" />
           <span className="text-[10px] font-medium mt-0.5">Hint {hintTier > 0 ? `(${hintTier}/3)` : ''}</span>
         </button>
 

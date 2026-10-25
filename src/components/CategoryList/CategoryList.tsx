@@ -119,7 +119,7 @@ export const CategoryList: React.FC<CategoryListProps> = ({
                   className={`w-10 h-10 rounded-xl flex items-center justify-center shrink-0 mt-0.5 ${
                     isComplete
                       ? 'bg-emerald-500/20 text-emerald-400 border border-emerald-500/30'
-                      : 'bg-slate-800 text-amber-400 border border-slate-700'
+                      : 'bg-slate-800 text-teal-400 border border-slate-700'
                   }`}
                 >
                   <IconComponent className="w-5 h-5" />
@@ -130,7 +130,7 @@ export const CategoryList: React.FC<CategoryListProps> = ({
                     {cat.steps.join(', ')}
                   </div>
 
-                  <h3 className="text-sm font-bold text-slate-100 group-hover:text-amber-400 transition-colors truncate">
+                  <h3 className="text-sm font-bold text-slate-100 group-hover:text-teal-400 transition-colors truncate">
                     {cat.dutch}
                   </h3>
 
@@ -139,7 +139,7 @@ export const CategoryList: React.FC<CategoryListProps> = ({
                     <div className="flex-1 h-1.5 bg-slate-800 rounded-full overflow-hidden">
                       <div
                         className={`h-full transition-all duration-300 rounded-full ${
-                          isComplete ? 'bg-emerald-500' : 'bg-amber-500'
+                          isComplete ? 'bg-emerald-500' : 'bg-teal-500'
                         }`}
                         style={{ width: `${percent}%` }}
                       />

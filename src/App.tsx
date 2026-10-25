@@ -247,13 +247,13 @@ export default function App() {
 
         {/* Category Active Filter Banner (if filtering by category in Puzzles tab) */}
         {activeTab === 'puzzles' && categoryFilter && (
-          <div className="w-full bg-amber-500/15 border-b border-amber-500/30 px-4 py-2 flex items-center justify-between text-xs">
-            <span className="text-amber-300 font-medium truncate">
+          <div className="w-full bg-teal-500/15 border-b border-teal-500/30 px-4 py-2 flex items-center justify-between text-xs">
+            <span className="text-teal-300 font-medium truncate">
               Practicing: <strong>{categoryFilter}</strong>
             </span>
             <button
               onClick={() => setCategoryFilter(null)}
-              className="text-amber-400 font-semibold hover:underline text-[11px] shrink-0 ml-2"
+              className="text-teal-400 font-semibold hover:underline text-[11px] shrink-0 ml-2"
             >
               Clear Filter
             </button>

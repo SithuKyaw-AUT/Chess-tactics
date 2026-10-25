@@ -15,9 +15,9 @@ export default defineConfig(() => {
         manifest: {
           id: '/',
           name: 'Marama - Chess Tactics Trainer',
-          short_name: 'Marama - Chess Tactics Trainer',
+          short_name: 'Marama',
           description: 'Practice chess tactics with interactive puzzles, category practice, and progress tracking.',
-          theme_color: '#0f172a',
+          theme_color: '#0f766e',
           background_color: '#0f172a',
           display: 'standalone',
           start_url: '/',

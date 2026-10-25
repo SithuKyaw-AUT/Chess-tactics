@@ -25,7 +25,7 @@ export const PWAInstallModal: React.FC<PWAInstallModalProps> = ({ isOpen, onClos
 
         {/* Modal Header */}
         <div className="flex items-center gap-3 mb-4">
-          <div className="w-12 h-12 rounded-2xl bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-amber-400 shrink-0">
+          <div className="w-12 h-12 rounded-2xl bg-teal-500/10 border border-teal-500/30 flex items-center justify-center text-teal-400 shrink-0">
             <Smartphone className="w-6 h-6" />
           </div>
           <div>
@@ -36,8 +36,8 @@ export const PWAInstallModal: React.FC<PWAInstallModalProps> = ({ isOpen, onClos
 
         {/* If Chromium direct install button is ready */}
         {isInstallable && (
-          <div className="mb-5 p-3.5 bg-amber-500/15 border border-amber-500/30 rounded-2xl">
-            <p className="text-xs text-amber-300 font-medium mb-2.5">
+          <div className="mb-5 p-3.5 bg-teal-500/15 border border-teal-500/30 rounded-2xl">
+            <p className="text-xs text-teal-300 font-medium mb-2.5">
               Instant 1-Click Install is available for your browser:
             </p>
             <button
@@ -45,7 +45,7 @@ export const PWAInstallModal: React.FC<PWAInstallModalProps> = ({ isOpen, onClos
                 await install();
                 onClose();
               }}
-              className="w-full py-2.5 bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold rounded-xl text-xs flex items-center justify-center gap-2 shadow-lg min-h-[44px]"
+              className="w-full py-2.5 bg-teal-500 hover:bg-teal-400 text-slate-950 font-bold rounded-xl text-xs flex items-center justify-center gap-2 shadow-lg min-h-[44px]"
             >
               <Download className="w-4 h-4" /> Install App to Device
             </button>
@@ -54,13 +54,13 @@ export const PWAInstallModal: React.FC<PWAInstallModalProps> = ({ isOpen, onClos
 
         {/* iOS Step-by-Step Guide */}
         <div className="space-y-3.5">
-          <div className="text-xs font-semibold text-amber-400 uppercase tracking-wider">
+          <div className="text-xs font-semibold text-teal-400 uppercase tracking-wider">
             {isIOS ? 'iPhone & iPad (iOS Safari)' : 'Instructions for iOS (Safari)'}
           </div>
 
           {/* Step 1 */}
           <div className="flex items-start gap-3 bg-slate-950/70 border border-slate-800/80 rounded-xl p-3">
-            <div className="w-7 h-7 rounded-lg bg-slate-800 text-amber-400 font-bold text-xs flex items-center justify-center shrink-0 font-mono">
+            <div className="w-7 h-7 rounded-lg bg-slate-800 text-teal-400 font-bold text-xs flex items-center justify-center shrink-0 font-mono">
               1
             </div>
             <div className="text-xs text-slate-300">
@@ -70,18 +70,18 @@ export const PWAInstallModal: React.FC<PWAInstallModalProps> = ({ isOpen, onClos
 
           {/* Step 2 */}
           <div className="flex items-start gap-3 bg-slate-950/70 border border-slate-800/80 rounded-xl p-3">
-            <div className="w-7 h-7 rounded-lg bg-slate-800 text-amber-400 font-bold text-xs flex items-center justify-center shrink-0 font-mono">
+            <div className="w-7 h-7 rounded-lg bg-slate-800 text-teal-400 font-bold text-xs flex items-center justify-center shrink-0 font-mono">
               2
             </div>
             <div className="text-xs text-slate-300">
               Tap the <strong className="text-white">Share</strong> button{' '}
-              <Share className="w-3.5 h-3.5 inline mx-1 text-sky-400" /> in Safari's bottom toolbar.
+              <Share className="w-3.5 h-3.5 inline mx-1 text-teal-400" /> in Safari's bottom toolbar.
             </div>
           </div>
 
           {/* Step 3 */}
           <div className="flex items-start gap-3 bg-slate-950/70 border border-slate-800/80 rounded-xl p-3">
-            <div className="w-7 h-7 rounded-lg bg-slate-800 text-amber-400 font-bold text-xs flex items-center justify-center shrink-0 font-mono">
+            <div className="w-7 h-7 rounded-lg bg-slate-800 text-teal-400 font-bold text-xs flex items-center justify-center shrink-0 font-mono">
               3
             </div>
             <div className="text-xs text-slate-300">
@@ -92,7 +92,7 @@ export const PWAInstallModal: React.FC<PWAInstallModalProps> = ({ isOpen, onClos
 
           {/* Step 4 */}
           <div className="flex items-start gap-3 bg-slate-950/70 border border-slate-800/80 rounded-xl p-3">
-            <div className="w-7 h-7 rounded-lg bg-slate-800 text-amber-400 font-bold text-xs flex items-center justify-center shrink-0 font-mono">
+            <div className="w-7 h-7 rounded-lg bg-slate-800 text-teal-400 font-bold text-xs flex items-center justify-center shrink-0 font-mono">
               4
             </div>
             <div className="text-xs text-slate-300">

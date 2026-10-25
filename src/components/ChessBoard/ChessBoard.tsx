@@ -247,10 +247,10 @@ export const ChessBoard: React.FC<ChessBoardProps> = ({
                   data-square={sq}
                 >
                   {/* Last Move Highlight */}
-                  {isLastMove && <div className="absolute inset-0 bg-amber-400/35 pointer-events-none" />}
+                  {isLastMove && <div className="absolute inset-0 bg-teal-400/35 pointer-events-none" />}
 
                   {/* Selected Square Highlight */}
-                  {isSelected && <div className="absolute inset-0 bg-amber-300/40 ring-2 ring-amber-400 inset-0 pointer-events-none z-10" />}
+                  {isSelected && <div className="absolute inset-0 bg-teal-300/40 ring-2 ring-teal-400 inset-0 pointer-events-none z-10" />}
 
                   {/* King in Check Highlight */}
                   {isInCheck && (
@@ -259,7 +259,7 @@ export const ChessBoard: React.FC<ChessBoardProps> = ({
 
                   {/* Hint Highlight */}
                   {isHint && (
-                    <div className="absolute inset-0 ring-4 ring-amber-400 ring-offset-1 animate-ping pointer-events-none z-15 opacity-75" />
+                    <div className="absolute inset-0 ring-4 ring-teal-400 ring-offset-1 animate-ping pointer-events-none z-15 opacity-75" />
                   )}
 
                   {/* Piece */}

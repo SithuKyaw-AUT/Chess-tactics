@@ -31,13 +31,13 @@ export const BottomTabBar: React.FC<BottomTabBarProps> = ({
               key={tab.id}
               onClick={() => onTabChange(tab.id)}
               className={`relative flex flex-col items-center justify-center h-full min-h-[48px] transition-colors ${
-                isActive ? 'text-amber-400' : 'text-slate-400 hover:text-slate-200'
+                isActive ? 'text-teal-400' : 'text-slate-400 hover:text-slate-200'
               }`}
             >
               <div className="relative">
                 <Icon className={`w-5 h-5 transition-transform ${isActive ? 'scale-110' : ''}`} />
                 {tab.badge && (
-                  <span className="absolute -top-1.5 -right-2 bg-amber-500 text-slate-950 font-bold text-[9px] w-4 h-4 rounded-full flex items-center justify-center font-mono">
+                  <span className="absolute -top-1.5 -right-2 bg-teal-500 text-slate-950 font-bold text-[9px] w-4 h-4 rounded-full flex items-center justify-center font-mono">
                     {tab.badge}
                   </span>
                 )}
