@@ -4,7 +4,7 @@
     {
       "diagram_number": 1,
       "page_title": "Defending: Protecting: A",
-      "fen": "3r4/1p3p2/1k4pb/3n4/2pN4/5B1P/PPP1KPP1/8 w - - 0 1",
+      "fen": "3r4/1p3p2/1k4pb/8/2pN4/5B1P/PPP1KPP1/8 w - - 0 1",
       "side_to_move": "white",
       "solution_san": [
         "1. c3"
