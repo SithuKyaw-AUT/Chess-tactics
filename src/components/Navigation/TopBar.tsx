@@ -40,72 +40,74 @@ export const TopBar: React.FC<TopBarProps> = ({
   ];
 
   return (
-    <header className="sticky top-0 z-30 w-full bg-slate-950/90 backdrop-blur-md border-b border-slate-800/80 px-3 sm:px-4 pt-5 pb-3 sm:pt-4 sm:pb-3 shadow-md">
+    <header className="sticky top-0 z-30 w-full bg-slate-950/90 backdrop-blur-md border-b border-slate-800/80 px-3 sm:px-4 pt-7 pb-3 sm:pt-6 sm:pb-3 shadow-md">
       <div className="max-w-4xl mx-auto flex flex-col gap-2">
-        <div className="flex items-center justify-between gap-2 min-h-8">
+        <div className="flex items-center justify-between gap-2 min-h-9">
           <div className="flex items-center gap-2 min-w-0">
-            <Crown className="w-5 h-5 shrink-0 text-amber-400" aria-hidden="true" />
-            <span className="font-bold text-xs sm:text-sm text-slate-100 whitespace-nowrap">
+            <Crown className="w-6 h-6 shrink-0 text-amber-400" aria-hidden="true" />
+            <span className="font-bold text-sm sm:text-base text-slate-100 whitespace-nowrap">
               Marama - Chess Tactics Trainer
-            </span>
-          </div>
-
-          <div className="flex items-center gap-2 text-xs text-slate-300 shrink-0">
-            {streak > 0 && (
-              <div className="flex items-center gap-1 text-amber-400 font-semibold">
-                <Flame className="w-3.5 h-3.5 fill-amber-400" />
-                <span className="font-mono tabular-nums">{streak}d</span>
-              </div>
-            )}
-            <span className="font-mono text-slate-400 tabular-nums">
-              {solvedCount}/{totalPuzzles}
             </span>
           </div>
         </div>
 
         <div className="flex items-center justify-between gap-2">
-          <div className="relative shrink-0">
-            <button
-              onClick={() => setShowStepMenu(!showStepMenu)}
-              className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-xl bg-slate-900 hover:bg-slate-800 border border-slate-800 text-xs font-bold text-white transition-colors min-h-[38px]"
-              title="Switch Step level"
-            >
-              <span className="text-amber-400 font-extrabold">{selectedStep === 'All' ? 'All Steps' : selectedStep}</span>
-              <ChevronDown className="w-3.5 h-3.5 text-slate-400" />
-            </button>
+          <div className="flex items-center gap-2 min-w-0">
+            <div className="relative shrink-0">
+              <button
+                onClick={() => setShowStepMenu(!showStepMenu)}
+                className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-xl bg-slate-900 hover:bg-slate-800 border border-slate-800 text-xs font-bold text-white transition-colors min-h-[38px]"
+                title="Switch Step level"
+              >
+                <span className="text-amber-400 font-extrabold">{selectedStep === 'All' ? 'All Steps' : selectedStep}</span>
+                <ChevronDown className="w-3.5 h-3.5 text-slate-400" />
+              </button>
 
-            {showStepMenu && (
-              <div className="absolute left-0 mt-1 w-36 bg-slate-900 border border-slate-800 rounded-xl p-1.5 shadow-2xl z-50">
-                <span className="text-[10px] uppercase font-bold text-slate-500 px-2 py-1 block">
-                  Select Step
-                </span>
-                <button
-                  onClick={() => {
-                    onStepChange('All');
-                    setShowStepMenu(false);
-                  }}
-                  className={`w-full text-left px-2 py-1.5 rounded-lg text-xs transition-colors ${
-                    selectedStep === 'All' ? 'bg-amber-500/20 text-amber-300 font-bold' : 'text-slate-300 hover:bg-slate-800'
-                  }`}
-                >
-                  All Steps
-                </button>
-                {availableSteps.map((step) => (
+              {showStepMenu && (
+                <div className="absolute left-0 mt-1 w-36 bg-slate-900 border border-slate-800 rounded-xl p-1.5 shadow-2xl z-50">
+                  <span className="text-[10px] uppercase font-bold text-slate-500 px-2 py-1 block">
+                    Select Step
+                  </span>
                   <button
-                    key={step}
                     onClick={() => {
-                      onStepChange(step);
+                      onStepChange('All');
                       setShowStepMenu(false);
                     }}
                     className={`w-full text-left px-2 py-1.5 rounded-lg text-xs transition-colors ${
-                      selectedStep === step ? 'bg-amber-500/20 text-amber-300 font-bold' : 'text-slate-300 hover:bg-slate-800'
+                      selectedStep === 'All' ? 'bg-amber-500/20 text-amber-300 font-bold' : 'text-slate-300 hover:bg-slate-800'
                     }`}
                   >
-                    {step}
+                    All Steps
                   </button>
-                ))}
-              </div>
-            )}
+                  {availableSteps.map((step) => (
+                    <button
+                      key={step}
+                      onClick={() => {
+                        onStepChange(step);
+                        setShowStepMenu(false);
+                      }}
+                      className={`w-full text-left px-2 py-1.5 rounded-lg text-xs transition-colors ${
+                        selectedStep === step ? 'bg-amber-500/20 text-amber-300 font-bold' : 'text-slate-300 hover:bg-slate-800'
+                      }`}
+                    >
+                      {step}
+                    </button>
+                  ))}
+                </div>
+              )}
+            </div>
+
+            <div className="flex items-center gap-1.5 text-xs text-slate-300 shrink-0">
+              {streak > 0 && (
+                <div className="flex items-center gap-1 text-amber-400 font-semibold">
+                  <Flame className="w-3.5 h-3.5 fill-amber-400" />
+                  <span className="font-mono tabular-nums">{streak}d</span>
+                </div>
+              )}
+              <span className="font-mono text-slate-400 tabular-nums">
+                {solvedCount}/{totalPuzzles}
+              </span>
+            </div>
           </div>
 
           <div className="flex items-center gap-1 shrink-0 relative">

@@ -14,9 +14,9 @@ export default defineConfig(() => {
         includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'icon.svg'],
         manifest: {
           id: '/',
-          name: 'Chess Tactics Trainer',
-          short_name: 'ChessTactics',
-          description: 'Interactive Step chess puzzle trainer with touch controls and solution manager.',
+          name: 'Marama - Chess Tactics Trainer',
+          short_name: 'Marama - Chess Tactics Trainer',
+          description: 'Practice chess tactics with interactive puzzles, category practice, and progress tracking.',
           theme_color: '#0f172a',
           background_color: '#0f172a',
           display: 'standalone',
