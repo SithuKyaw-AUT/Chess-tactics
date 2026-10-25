@@ -318,16 +318,10 @@ export const PuzzlePlayer: React.FC<PuzzlePlayerProps> = ({
 
   return (
     <div className="flex flex-col items-center w-full max-w-xl mx-auto px-3 sm:px-4 pb-20">
-      <div className="w-full mb-1.5 rounded-lg border border-amber-500/20 bg-amber-500/5 px-3 py-1.5 text-[11px] font-semibold leading-snug text-amber-200/90">
-        {categoryLine}
-      </div>
-
-      {hasVariations && (
-        <div className="w-full mb-2.5 rounded-xl border border-sky-500/25 bg-sky-500/5 p-3">
-          <p className="mb-2 text-xs font-medium text-sky-200">
-            Practice every variation ({completedVariationIndices.size}/{variations.length} complete)
-          </p>
-          <div className="flex flex-wrap gap-2">
+      <div className="w-full mb-1.5 flex items-center justify-between gap-2 rounded-lg border border-amber-500/20 bg-amber-500/5 px-3 py-1.5 text-[11px] font-semibold leading-snug text-amber-200/90">
+        <span className="min-w-0 truncate">{categoryLine}</span>
+        {hasVariations && (
+          <div className="flex shrink-0 items-center gap-1">
             {variations.map((variation, index) => {
               const isSelected = selectedVariationIndex === index;
               const isComplete = completedVariationIndices.has(index);
@@ -337,22 +331,21 @@ export const PuzzlePlayer: React.FC<PuzzlePlayerProps> = ({
                   type="button"
                   onClick={() => selectVariation(index)}
                   aria-pressed={isSelected}
-                  className={`rounded-lg border px-3 py-1.5 text-xs font-medium transition-colors ${
+                  aria-label={`${variation.label}${isComplete ? ', completed' : ''}`}
+                  title={`${variation.label}${isComplete ? ' (completed)' : ''}`}
+                  className={`rounded-md border px-2 py-1 text-[10px] font-semibold transition-colors ${
                     isSelected
                       ? 'border-sky-400 bg-sky-400/20 text-sky-100'
                       : 'border-slate-700 bg-slate-900 text-slate-300 hover:border-sky-500/60'
                   }`}
                 >
-                  {variation.label}{isComplete ? ' ✓' : ''}
+                  V{index + 1}{isComplete ? ' ✓' : ''}
                 </button>
               );
             })}
           </div>
-          {allVariationsPracticed && (
-            <p className="mt-2 text-[11px] text-emerald-300">All variations practiced. You can replay any line.</p>
-          )}
-        </div>
-      )}
+        )}
+      </div>
 
       {/* Turn Indicator and puzzle controls */}
       <div className="w-full flex items-center justify-between bg-slate-900/70 border border-slate-800/80 rounded-xl px-3.5 py-2 mb-2.5">
