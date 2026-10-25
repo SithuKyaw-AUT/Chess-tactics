@@ -1,0 +1,2389 @@
+{
+  "series": "Step1Workbook",
+  "diagrams": [
+    {
+      "diagram_number": 1,
+      "page_title": "Defending: Protecting: A",
+      "fen": "3r4/1p3p2/1k4pb/3n4/2pN4/5B1P/PPP1KPP1/8 w - - 0 1",
+      "side_to_move": "white",
+      "solution_san": [
+        "1. c3"
+      ],
+      "hint": "defend the Knight",
+      "explanation": "1. c3 defends the Knight and protect from being checked at d2"
+    },
+    {
+      "diagram_number": 2,
+      "page_title": "Defending: Protecting: A",
+      "fen": "6k1/4b1p1/3p3p/5n2/8/2PB2PP/2P2P2/6K1 b - - 0 1",
+      "side_to_move": "black",
+      "solution_san": [
+        "1... g6"
+      ],
+      "hint": "defend the Knight",
+      "explanation": "1...g6 defends the Knight"
+    },
+    {
+      "diagram_number": 3,
+      "page_title": "Defending: Protecting: A",
+      "fen": "k3b3/ppn5/5p2/1P3Pp1/P3K3/8/8/2R5 b - - 0 1",
+      "side_to_move": "black",
+      "solution_san": [
+        "1... Kb8"
+      ],
+      "hint": "defend the Knight",
+      "explanation": "1...Kb8 defends the Knight"
+    },
+    {
+      "diagram_number": 4,
+      "page_title": "Defending: Protecting: A",
+      "fen": "2n5/5kpp/2p5/prB1p3/8/P3PP2/K5PP/5R2 w - - 0 1",
+      "side_to_move": "white",
+      "solution_san": [
+        "1. Rc1"
+      ],
+      "hint": "defend Bishop",
+      "explanation": "1. Rc1 defends Bishop"
+    },
+    {
+      "diagram_number": 5,
+      "page_title": "Defending: Protecting: A",
+      "fen": "4k3/p3n3/1p3bp1/4N2p/2P1p3/1PP3P1/5BKP/8 w - - 0 1",
+      "side_to_move": "white",
+      "solution_san": [
+        "1. Bd4"
+      ],
+      "hint": "defend the Knight",
+      "explanation": "1. Bd4 defends the Knight"
+    },
+    {
+      "diagram_number": 6,
+      "page_title": "Defending: Protecting: A",
+      "fen": "8/1p1k1p1p/p2pbn2/4p3/4P3/P7/1PPB2PP/1N2K3 w - - 0 1",
+      "side_to_move": "white",
+      "solution_san": [
+        "1. Nc3"
+      ],
+      "hint": "defend e4 pawn",
+      "explanation": "1. Nc3 defends e4 pawn"
+    },
+    {
+      "diagram_number": 7,
+      "page_title": "Defending: Protecting: A",
+      "fen": "6k1/1p3pp1/1p6/pP1b1P1p/6n1/2K5/3R2P1/4R3 b - - 0 1",
+      "side_to_move": "black",
+      "solution_san": [
+        "1... Nf6"
+      ],
+      "hint": "defend Bishop",
+      "explanation": "1...Nf6 defends the bishop"
+    },
+    {
+      "diagram_number": 8,
+      "page_title": "Defending: Protecting: A",
+      "fen": "k2r4/pp6/1np2p2/6p1/3Pb1P1/4PN2/P2B1P1P/4R1K1 w - - 0 1",
+      "side_to_move": "white",
+      "solution_san": [
+        "1. Kg2"
+      ],
+      "hint": "defend the Knight",
+      "explanation": "1. Kg2 defends the Knight"
+    },
+    {
+      "diagram_number": 9,
+      "page_title": "Defending: Protecting: A",
+      "fen": "2r2nk1/2P3p1/p7/8/8/P1N2RK1/8/8 w - - 0 1",
+      "side_to_move": "white",
+      "solution_san": [
+        "1. Nd5"
+      ],
+      "hint": "defend the pawn",
+      "explanation": "1. Nd5 defends the c7 pawn"
+    },
+    {
+      "diagram_number": 10,
+      "page_title": "Defending: Protecting: A",
+      "fen": "8/3k2b1/1p3p1p/1p1P4/3nBP2/2B5/P7/3K4 b - - 0 1",
+      "side_to_move": "black",
+      "solution_san": [
+        "1... f5",
+        "2. Bxf5+",
+        "2... Nxf5",
+        "3. Bxg7",
+        "3... Nxg7"
+      ],
+      "hint": "defend the Knight",
+      "explanation": "1...f5 defends the Knight"
+    },
+    {
+      "diagram_number": 11,
+      "page_title": "Defending: Protecting: A",
+      "fen": "r7/2p1k2p/4p1n1/1pP1Ppp1/1P1R4/P5P1/1B1K3P/8 w - - 0 1",
+      "side_to_move": "white",
+      "solution_san": [
+        "1. Rd3"
+      ],
+      "hint": "defend the pawn",
+      "explanation": "1. Rd3 opens the bishop diagonal to defend the e5 pawn"
+    },
+    {
+      "diagram_number": 12,
+      "page_title": "Defending: Protecting: A",
+      "fen": "r7/3k4/2p3bp/PpPp2p1/3P4/2N2P1P/P5P1/3KB3 w - - 0 1",
+      "side_to_move": "white",
+      "solution_san": [
+        "1. Ne2"
+      ],
+      "hint": "defend the pawn",
+      "explanation": "1. Ne2 opens the bishop line to defend the a5 pawn"
+    },
+    {
+      "diagram_number": 13,
+      "page_title": "Defending: Moving away: A",
+      "fen": "8/b1k2p1p/p5p1/8/4P1PP/P1P5/1N5K w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Na4"
+      ],
+      "hint": "Move your knight away from danger to safety.",
+      "explanation": "1. Na4 brings the knight to safety away from attacking threats."
+    },
+    {
+      "diagram_number": 14,
+      "page_title": "Defending: Moving away: A",
+      "fen": "4k2p/2pp4/4n3/P5PP/4K3/8/8/8 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Nxg5+"
+      ],
+      "hint": "Black to move. Capture the g5 pawn with your knight with check.",
+      "explanation": "1...Nxg5+ wins a pawn and gives a check, moving the knight away safely."
+    },
+    {
+      "diagram_number": 15,
+      "page_title": "Defending: Moving away: A",
+      "fen": "p1r1k2p/p2rp2p/1P3p2/2K2PPb/8/8/8/8 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Rxc5+"
+      ],
+      "hint": "Black to move. Capture the c5 pawn with your rook with check.",
+      "explanation": "1...Rxc5+ wins material and forces White's king to respond."
+    },
+    {
+      "diagram_number": 16,
+      "page_title": "Defending: Moving away: A",
+      "fen": "1k6/b1p3p1/N1p5/p1P4P/P6P/P5P1/8/5R1K w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Rb1+"
+      ],
+      "hint": "Check with your rook on b1.",
+      "explanation": "1. Rb1+ drives the black king and defends your position actively."
+    },
+    {
+      "diagram_number": 17,
+      "page_title": "Defending: Moving away: A",
+      "fen": "r7/3bk1np/2ppbR1p/4p3/P3P2P/1PPNN2P/8/4K3 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Kxf6"
+      ],
+      "hint": "Black to move. Capture White's rook on f6.",
+      "explanation": "1...Kxf6 wins a full rook and eliminates the attacking piece."
+    },
+    {
+      "diagram_number": 18,
+      "page_title": "Defending: Moving away: A",
+      "fen": "p2p1k2/p2p1p1p/b1n2pp1/p1R5/1K6/P6P/4P1PN/8 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... axb4+"
+      ],
+      "hint": "Black to move. Capture on b4 with your a-pawn with check.",
+      "explanation": "1...axb4+ gives a check while winning material on the queenside."
+    },
+    {
+      "diagram_number": 19,
+      "page_title": "Defending: Moving away: A",
+      "fen": "a1p2k2/p3p1p1/1p6/3P1b1p/P1N2N5P/6K1/8/8 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Bc2"
+      ],
+      "hint": "Black to move. Move your bishop away to c2.",
+      "explanation": "1...Bc2 moves the bishop to safety and attacks White's a4 pawn."
+    },
+    {
+      "diagram_number": 20,
+      "page_title": "Defending: Moving away: A",
+      "fen": "7k/p3p3/q2p4/b2P1P2/P1P5/R2K4/8/8 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Rb3"
+      ],
+      "hint": "Retreat your rook to b3 to safety.",
+      "explanation": "1. Rb3 moves the rook away from the queen's line of attack."
+    },
+    {
+      "diagram_number": 21,
+      "page_title": "Defending: Moving away: A",
+      "fen": "r6r/pppk1p1p/n5q1/4P1N1/8/8/P1K3PP/7R b - - 0  1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Qxg5"
+      ],
+      "hint": "Black to move. Capture White's knight on g5 with your queen.",
+      "explanation": "1...QxN captures the attacking knight and wins a piece."
+    },
+    {
+      "diagram_number": 22,
+      "page_title": "Defending: Moving away: A",
+      "fen": "k1r2b1p/p1p3p1/8/1P2p1p1/P1N5/8/P6P/1K1R1B2 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Bg2+"
+      ],
+      "hint": "Check with your bishop on g2.",
+      "explanation": "1. Bg2+ gives a check, driving Black's king and buying time for White's pieces."
+    },
+    {
+      "diagram_number": 23,
+      "page_title": "Defending: Moving away: A",
+      "fen": "n2rk2p/2p3p1/4q3/p7/P5P1/5r1K/1P2P2P/2R5 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Rxh3+"
+      ],
+      "hint": "Black to move. Capture White's pawn on h3 with your rook with check.",
+      "explanation": "1...Rxh3+ wins a pawn and gives a decisive check to White's king."
+    },
+    {
+      "diagram_number": 24,
+      "page_title": "Defending: Moving away: A",
+      "fen": "r7/8/4k2p/3b3p/p1pp4/R2RP2P/PP4P1/1K1B4 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... dxe3"
+      ],
+      "hint": "Black to move. Capture on e3 with your d-pawn.",
+      "explanation": "1...dxe3 captures White's pawn and moves the pawn away from danger while opening lines."
+    },
+    {
+      "diagram_number": 25,
+      "page_title": "Material: Taking an unprotected piece: A",
+      "fen": "8/3k4/8/3pn3/3B4/1P6/6P1/4K3 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Bxe5"
+      ],
+      "hint": "Capture the unprotected knight on e5 with your bishop.",
+      "explanation": "1. Bxe5 wins the unprotected knight for free, gaining a clean piece advantage."
+    },
+    {
+      "diagram_number": 26,
+      "page_title": "Material: Taking an unprotected piece: A",
+      "fen": "6k1/3bp2p/3p4/4p1B1/P1N1P3/1P3PP1/4K3/8 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Bxa4"
+      ],
+      "hint": "Black to move. Capture the unprotected pawn on a4 with your bishop.",
+      "explanation": "1...Bxa4 captures the undefended pawn on a4 cleanly."
+    },
+    {
+      "diagram_number": 27,
+      "page_title": "Material: Taking an unprotected piece: A",
+      "fen": "r5k1/6bp/3p2p1/p2b4/P2N2P1/4P2P/1R3K2/8 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Rd2"
+      ],
+      "hint": "Retreat your rook to d2 to defend and attack.",
+      "explanation": "1. Rd2 secures the rook and keeps pressure on Black's position."
+    },
+    {
+      "diagram_number": 28,
+      "page_title": "Material: Taking an unprotected piece: A",
+      "fen": "r7/8/3k4/p2p4/1P3n2/P7/3B1K2/1R6 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Nd3+"
+      ],
+      "hint": "Black to move. Check with your knight on d3.",
+      "explanation": "1...Nd3+ gives a check and attacks White's bishop, winning material."
+    },
+    {
+      "diagram_number": 29,
+      "page_title": "Material: Taking an unprotected piece: A",
+      "fen": "4rk1/pp2pp1p/3pn1b1/8/4P2P/1PP2PP1/P5K1/3RR3 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. f4"
+      ],
+      "hint": "Advance your f-pawn to attack Black's bishop on g6.",
+      "explanation": "1. f4 attacks the bishop on g6 and gains control of key central squares."
+    },
+    {
+      "diagram_number": 30,
+      "page_title": "Material: Taking an unprotected piece: A",
+      "fen": "r5k1/3p2pp/3n1p2/8/b1P5/P3PP2/PP4PP/1R1K3R b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Nxc4+"
+      ],
+      "hint": "Black to move. Capture the c4 pawn with your knight with check.",
+      "explanation": "1...Nxc4+ wins a pawn and gives a check, attacking White's king."
+    },
+    {
+      "diagram_number": 31,
+      "page_title": "Material: Taking an unprotected piece: A",
+      "fen": "7k/p5qp/3p2p1/r1p4n/8/7P/P1Q2PP1/1R1R2K1 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Rxa2"
+      ],
+      "hint": "Black to move. Capture the a2 pawn with your rook.",
+      "explanation": "1...Rxa2 captures the unprotected pawn on a2 cleanly."
+    },
+    {
+      "diagram_number": 32,
+      "page_title": "Material: Taking an unprotected piece: A",
+      "fen": "4n1k1/p2p1p1p/b1q5/4N3/P7/7K/3B4/8 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Nxc6"
+      ],
+      "hint": "Capture Black's unprotected queen on c6 with your knight.",
+      "explanation": "1. Nxc6 captures the hanging queen on c6, winning a full queen for free."
+    },
+    {
+      "diagram_number": 33,
+      "page_title": "Material: Taking an unprotected piece: A",
+      "fen": "7k/p2p1p2/1p2n2p/3p4/8/8/BB2KPPP/8 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... d4"
+      ],
+      "hint": "Black to move. Advance d4 to attack White's bishop.",
+      "explanation": "1...d4 attacks White's bishop and gains space in the center."
+    },
+    {
+      "diagram_number": 34,
+      "page_title": "Material: Taking an unprotected piece: A",
+      "fen": "3r3k/B1n2ppp/bbp5/8/8/8/PPP3PP/1R3K2 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Bxa6"
+      ],
+      "hint": "Capture Black's unprotected bishop on a6 with your bishop.",
+      "explanation": "1. Bxa6 captures the hanging bishop on a6, winning a clean piece."
+    },
+    {
+      "diagram_number": 35,
+      "page_title": "Material: Taking an unprotected piece: A",
+      "fen": "r2k4/p2p2p1/3b4/4p3/8/5N2/PP1R1PPP/6K1 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Bb4"
+      ],
+      "hint": "Black to move. Play your bishop to b4 to attack White's rook.",
+      "explanation": "1...Bb4 attacks White's rook and forces White to defend or lose material."
+    },
+    {
+      "diagram_number": 36,
+      "page_title": "Material: Taking an unprotected piece: A",
+      "fen": "3r1k1p/pp3pp1/2pn4/8/1P6/8/P5PP/4R1K1 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Re8"
+      ],
+      "hint": "Black to move. Play your rook to e8 to challenge the file.",
+      "explanation": "1...Re8 challenges White's control of the e-file and simplifies the position."
+    },
+    {
+      "diagram_number": 37,
+      "page_title": "Defending: Taking the attacker: A",
+      "fen": "8/p1n1pk1p/6p1/4N3/8/4P1P1/P1P3PK/8 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Nxe5"
+      ],
+      "hint": "Black to move. Capture the attacking knight on e5.",
+      "explanation": "1...Nxe5 captures the attacking piece cleanly, solving the threat."
+    },
+    {
+      "diagram_number": 38,
+      "page_title": "Defending: Taking the attacker: A",
+      "fen": "3r4/p1kk3p/8/3b4/4P3/N2K2P1/P6P/8 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Bxe4+"
+      ],
+      "hint": "Black to move. Capture the e4 pawn with your bishop with check.",
+      "explanation": "1...Bxe4+ wins the pawn and gives a check to take the initiative."
+    },
+    {
+      "diagram_number": 39,
+      "page_title": "Defending: Taking the attacker: A",
+      "fen": "r2k4/p1pn1p1p/3p1bp1/8/P2R1K2/8/6PP/8 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Rxd6"
+      ],
+      "hint": "Capture the pawn on d6 with your rook.",
+      "explanation": "1. Rxd6 captures the pawn and maintains material balance."
+    },
+    {
+      "diagram_number": 40,
+      "page_title": "Defending: Taking the attacker: A",
+      "fen": "r6r/p5pp/3p4/b1B1P3/8/P5P1/P3P1KP/R7 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... dxc5"
+      ],
+      "hint": "Black to move. Capture the bishop on c5 with your d-pawn.",
+      "explanation": "1...dxc5 captures the attacking bishop and wins a piece."
+    },
+    {
+      "diagram_number": 41,
+      "page_title": "Defending: Taking the attacker: A",
+      "fen": "1b6/8/4k2p/4np1p/8/4P3/2R1K2P/7R b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Nxd3"
+      ],
+      "hint": "Black to move. Capture the d3 piece with your knight.",
+      "explanation": "1...Nxd3 captures White's piece and eliminates the threat."
+    },
+    {
+      "diagram_number": 42,
+      "page_title": "Defending: Taking the attacker: A",
+      "fen": "1k6/p1p1pr1p/3b1p2/8/B6P/P5P1/KP6/7R b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Bxg3"
+      ],
+      "hint": "Black to move. Capture the g3 pawn with your bishop.",
+      "explanation": "1...Bxg3 wins a pawn and removes the attacker."
+    },
+    {
+      "diagram_number": 43,
+      "page_title": "Defending: Taking the attacker: A",
+      "fen": "4k2p/r4p2/b6p/p2p2p1/P5P1/2NRP1KP/8/8 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Rxd5"
+      ],
+      "hint": "Capture the pawn on d5 with your rook.",
+      "explanation": "1. Rxd5 captures the undefended pawn cleanly."
+    },
+    {
+      "diagram_number": 44,
+      "page_title": "Defending: Taking the attacker: A",
+      "fen": "3q4/4b2p/4pk2/4p1B1/3P4/Q4P1P/7K b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Bxg5"
+      ],
+      "hint": "Black to move. Capture the bishop on g5 with your bishop.",
+      "explanation": "1...Bxg5 captures the attacking bishop and wins a piece."
+    },
+    {
+      "diagram_number": 45,
+      "page_title": "Defending: Taking the attacker: A",
+      "fen": "8/p1pr1p2/1p2p1n1/P5P1/P5R1/K1B4P/8/7R w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Rd4"
+      ],
+      "hint": "Play your rook to d4 to challenge the file.",
+      "explanation": "1. Rd4 contests the rook on d7 and defends White's position."
+    },
+    {
+      "diagram_number": 46,
+      "page_title": "Defending: Taking the attacker: A",
+      "fen": "q6r/p2p2p1/4k3/Q7/P6P/4B1PK/8/R7 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Rxh4+"
+      ],
+      "hint": "Black to move. Capture the h4 pawn with your rook with check.",
+      "explanation": "1...Rxh4+ wins a pawn and gives a check to secure the advantage."
+    },
+    {
+      "diagram_number": 47,
+      "page_title": "Defending: Taking the attacker: A",
+      "fen": "p2k4/p2p1n2/4pb1p/8/B1PNp3/4P1P1/P6P/6K1 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Bxd4"
+      ],
+      "hint": "Black to move. Capture the knight on d4 with your bishop.",
+      "explanation": "1...Bxd4 captures the attacking knight and wins a piece."
+    },
+    {
+      "diagram_number": 48,
+      "page_title": "Defending: Taking the attacker: A",
+      "fen": "r2r3k/b2Rpp1p/p2p2n1/8/PP6/6P1/R6P/1K1B4 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Rxa7"
+      ],
+      "hint": "Capture the rook on a7 with your rook.",
+      "explanation": "1. Rxa7 captures the attacking rook and wins material."
+    },
+    {
+      "diagram_number": 49,
+      "page_title": "Material: Taking an unprotected piece: B",
+      "fen": "r3r3/ppp1kpp1/3b1n2/8/3PP3/4N3/PPP3PP/R3K2R w KQ - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. e5"
+      ],
+      "hint": "Advance your e-pawn to fork Black's bishop and knight.",
+      "explanation": "1. e5 attacks both the bishop on d6 and the knight on f6, winning a piece."
+    },
+    {
+      "diagram_number": 50,
+      "page_title": "Material: Taking an unprotected piece: B",
+      "fen": "r2q3k/pp2p2p/3b4/8/1P1Q4/8/N1PP2PP/R1R4K b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Be5"
+      ],
+      "hint": "Black to move. Play your bishop to e5 to attack White's queen.",
+      "explanation": "1...Be5 attacks White's queen and forces it to move away, winning material or tempo."
+    },
+    {
+      "diagram_number": 51,
+      "page_title": "Material: Taking an unprotected piece: B",
+      "fen": "r1b1r1k1/ppp2ppp/bb6/1N6/8/2N2N2/PPP2PPP/R1BR2K1 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Bxf2+"
+      ],
+      "hint": "Black to move. Sacrifice your bishop on f2 with check.",
+      "explanation": "1...Bxf2+ gives a check and destroys White's kingside pawn cover."
+    },
+    {
+      "diagram_number": 52,
+      "page_title": "Material: Taking an unprotected piece: B",
+      "fen": "r3rrk1/ppbb1pp1/4p3/3P4/R3N1nq/3Q1P1P/PPP1B1P1/R6K b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Nf2+"
+      ],
+      "hint": "Black to move. Fork White's king and queen with your knight on f2.",
+      "explanation": "1...Nf2+ forks White's king and queen, winning the queen."
+    },
+    {
+      "diagram_number": 53,
+      "page_title": "Material: Taking an unprotected piece: B",
+      "fen": "r2r3k/p1p1b2p/bpq3p1/8/N7/8/PPP3PP/R1BQ1RK1 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Qf3"
+      ],
+      "hint": "Play your queen to f3 to defend and attack.",
+      "explanation": "1. Qf3 protects White's position and targets weaknesses in Black's camp."
+    },
+    {
+      "diagram_number": 54,
+      "page_title": "Material: Taking an unprotected piece: B",
+      "fen": "r5k1/p1p3p1/1p5p/8/1N6/3Q4/PPP3PP/R4RK1 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Qd5+"
+      ],
+      "hint": "Check with your queen on d5 to fork Black's king and rook.",
+      "explanation": "1. Qd5+ gives a check and forks Black's king and rook, winning the exchange."
+    },
+    {
+      "diagram_number": 55,
+      "page_title": "Material: Taking an unprotected piece: B",
+      "fen": "r3k2r/p1p3q1/1p1p1ppp/bBB1n3/4P3/7N/PPPQ2PP/R3K2R b KQkq - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Ke7"
+      ],
+      "hint": "Black to move. Step your king to e7 to escape checks.",
+      "explanation": "1...Ke7 brings the king to safety and defends the position."
+    },
+    {
+      "diagram_number": 56,
+      "page_title": "Material: Taking an unprotected piece: B",
+      "fen": "k1r5/p3p3/8/1P6/8/Q7/P6P/1K6 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Rc7"
+      ],
+      "hint": "Black to move. Play your rook to c7 to defend against threats.",
+      "explanation": "1...Rc7 defends the 7th rank and protects against White's queen infiltrations."
+    },
+    {
+      "diagram_number": 57,
+      "page_title": "Material: Taking an unprotected piece: B",
+      "fen": "r1n1rqk1/p1p1bpp1/1p5p/7N/1PQ3b1/P4N2/2P2PPP/R1B2RK1 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Qxg4"
+      ],
+      "hint": "Capture Black's unprotected bishop on g4 with your queen.",
+      "explanation": "1. Qxg4 captures the hanging bishop on g4, winning a clean piece."
+    },
+    {
+      "diagram_number": 58,
+      "page_title": "Material: Taking an unprotected piece: B",
+      "fen": "r1bq1rk1/pppp1ppp/1bn5/3NP1n1/3p4/1BP2N2/PP3PPP/R1BQ1RK1 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Bxg5"
+      ],
+      "hint": "Capture Black's unprotected knight on g5 with your bishop.",
+      "explanation": "1. Bxg5 captures the hanging knight on g5, winning material."
+    },
+    {
+      "diagram_number": 59,
+      "page_title": "Material: Taking an unprotected piece: B",
+      "fen": "r2r2k1/p1pq1pp1/1pn1b2p/3p4/4P3/B1PP2PP/PP1NQ1BK/R4R2 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... dxe4"
+      ],
+      "hint": "Black to move. Capture the e4 pawn with your d-pawn.",
+      "explanation": "1...dxe4 opens lines and wins a central pawn."
+    },
+    {
+      "diagram_number": 60,
+      "page_title": "Material: Taking an unprotected piece: B",
+      "fen": "r3r1k1/p2p1pp1/1p5p/8/3P4/1B3q2/P1Q2PPP/4R1K1 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Rxe1#"
+      ],
+      "hint": "Black to move. Deliver back-rank checkmate with your rook on e1.",
+      "explanation": "1...Rxe1# is an immediate checkmate on the back rank."
+    },
+    {
+      "diagram_number": 61,
+      "page_title": "Attacking: Giving check: A",
+      "fen": "1r2k3/p5p1/1p4n1/8/4B1P1/P1P2P2/1P5K/R5N1 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Ra8+"
+      ],
+      "hint": "Give check with your rook on a1.",
+      "explanation": "1. Ra8+ attacks the black king on e8 along the a-file, delivering a direct check."
+    },
+    {
+      "diagram_number": 62,
+      "page_title": "Attacking: Giving check: A",
+      "fen": "4k3/1b1r2pp/p3p3/4n3/3PP1P1/PP6/5K1P/R6R b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Bb5+"
+      ],
+      "hint": "Black to move. Give check with your bishop on d7 along the diagonal.",
+      "explanation": "1...Bb5+ targets White's king from afar, giving check."
+    },
+    {
+      "diagram_number": 63,
+      "page_title": "Attacking: Giving check: A",
+      "fen": "r3k2r/pp4pp/1n1p1p2/8/P3p2P/1PP1K3/4N1P1/R1R5 b kq - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Rb1+"
+      ],
+      "hint": "Black to move. Check White's king with your rook on b8.",
+      "explanation": "1...Rb1+ delivers a direct check along the b-file against White's king."
+    },
+    {
+      "diagram_number": 64,
+      "page_title": "Attacking: Giving check: A",
+      "fen": "r3k3/pppb1p2/3p4/2pP1pp1/7P/P1P3P1/1P4BK/3R2N1 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Rd8+"
+      ],
+      "hint": "Infiltrate the 8th rank with your rook to give check.",
+      "explanation": "1. Rd8+ gives check to Black's king on e8."
+    },
+    {
+      "diagram_number": 65,
+      "page_title": "Attacking: Giving check: A",
+      "fen": "8/pppk1p2/4n3/4K3/PP1P2b1/PP4PP/8/8 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Nf3+"
+      ],
+      "hint": "Black to move. Jump your knight to f3 with check.",
+      "explanation": "1...Nf3+ forks White's position and gives check to the king."
+    },
+    {
+      "diagram_number": 66,
+      "page_title": "Attacking: Giving check: A",
+      "fen": "r3r3/ppp1kpp1/2n4p/8/4P1P1/PP1P1N1P/1K6/3RR3 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Re1+"
+      ],
+      "hint": "Black to move. Check White's king with your rook on e8.",
+      "explanation": "1...Re1+ delivers a back-rank check to White's king."
+    },
+    {
+      "diagram_number": 67,
+      "page_title": "Attacking: Giving check: A",
+      "fen": "7r/8/4k2b/8/p1p2p1P/P1K2N2/1P4P1/5R2 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Rf8+"
+      ],
+      "hint": "Swing your rook to f8 with check.",
+      "explanation": "1. Rf8+ checks Black's king on e6."
+    },
+    {
+      "diagram_number": 68,
+      "page_title": "Attacking: Giving check: A",
+      "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Qh5+"
+      ],
+      "hint": "Check with your queen on the h-file.",
+      "explanation": "1. Qh5+ gives check to Black's uncastled king."
+    },
+    {
+      "diagram_number": 69,
+      "page_title": "Attacking: Giving check: A",
+      "fen": "r3kb1r/ppp1pp1p/3n1q1n/3p4/P1PP2b1/1P3N2/1B2BPPP/R2QK2R b KQkq - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Qh4+"
+      ],
+      "hint": "Black to move. Check White's king with your queen on h4.",
+      "explanation": "1...Qh4+ checks White's king and exploits weaknesses on the kingside."
+    },
+    {
+      "diagram_number": 70,
+      "page_title": "Attacking: Giving check: A",
+      "fen": "8/4k1p1/3p1pn1/1ppNp3/7P/6P1/P4PK1/8 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Ne5+"
+      ],
+      "hint": "Jump your knight to e5 with check.",
+      "explanation": "1. Ne5+ gives a discovered or direct check to Black's king."
+    },
+    {
+      "diagram_number": 71,
+      "page_title": "Attacking: Giving check: A",
+      "fen": "4k2r/2b2pp1/p1n1p2p/8/1BP1n3/4P3/P4PPP/3RK2R b K k - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Bb4+"
+      ],
+      "hint": "Black to move. Check White's king with your bishop on b4.",
+      "explanation": "1...Bb4+ gives check along the b4-e1 diagonal."
+    },
+    {
+      "diagram_number": 72,
+      "page_title": "Attacking: Giving check: A",
+      "fen": "k1r5/p2p4/3q1p1p/3b4/P5P1/2P3N1/Q5KP/3R3R w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Qxd5+"
+      ],
+      "hint": "Capture on d5 with your queen with check.",
+      "explanation": "1. Qxd5+ gives check while eliminating the defending bishop."
+    },
+    {
+      "diagram_number": 73,
+      "page_title": "Defending: Getting out of check: A",
+      "fen": "1k1n3r/pp5p/8/4r3/8/1B6/PP4PP/3R1K2 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Rhe8"
+      ],
+      "hint": "Black to move. Play your rook to e8 to get out of check.",
+      "explanation": "1...Rhe8 blocks the check along the e-file."
+    },
+    {
+      "diagram_number": 74,
+      "page_title": "Defending: Getting out of check: A",
+      "fen": "4rk1l/pp5p/8/4b1P1/7P/PP1R4/5K2/8 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Re7"
+      ],
+      "hint": "Black to move. Play your rook to e7 to block the check.",
+      "explanation": "1...Re7 blocks the check from White's rook."
+    },
+    {
+      "diagram_number": 75,
+      "page_title": "Defending: Getting out of check: A",
+      "fen": "3rkb1r/p1p3pp/Q7/8/p6P/PP2PP2/1B2KP2/7R b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Rd6"
+      ],
+      "hint": "Black to move. Block the queen's check with your rook on d6.",
+      "explanation": "1...Rd6 blocks the check and attacks White's queen."
+    },
+    {
+      "diagram_number": 76,
+      "page_title": "Defending: Getting out of check: A",
+      "fen": "r2b1k2/pp1q1p1p/4n1p1/8/1P6/5Q2/PP3PPP/3R1RK1 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Qe7"
+      ],
+      "hint": "Black to move. Block the check with your queen on e7.",
+      "explanation": "1...Qe7 blocks the check from White's rook on d1."
+    },
+    {
+      "diagram_number": 77,
+      "page_title": "Defending: Getting out of check: A",
+      "fen": "3rr1k1/pp1n2pp/4b3/8/8/7P/PP3PP1/3RK2R b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Bc4+"
+      ],
+      "hint": "Black to move. Check White's king with your bishop on c4.",
+      "explanation": "1...Bc4+ gives a counter-check to White's king."
+    },
+    {
+      "diagram_number": 78,
+      "page_title": "Defending: Getting out of check: A",
+      "fen": "1n3rk1/p1p2p1p/3q2p1/8/4N3/PP3PPP/1BP1K3/R6R b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Qa6+"
+      ],
+      "hint": "Black to move. Check White's king with your queen on a6.",
+      "explanation": "1...Qa6+ gives a check to White's king."
+    },
+    {
+      "diagram_number": 79,
+      "page_title": "Defending: Getting out of check: A",
+      "fen": "2rqkb1r/p1pn1p1p/1p1p1np1/N3p3/1P6/3P1N1P/P1P1QPPP/R1B2RK1 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... bxa5"
+      ],
+      "hint": "Black to move. Capture the knight on a5 with your b-pawn.",
+      "explanation": "1...bxa5 captures the attacking knight and gets out of check."
+    },
+    {
+      "diagram_number": 80,
+      "page_title": "Defending: Getting out of check: A",
+      "fen": "r1bq1rk1/pppp1ppp/1bn5/8/3PP1n1/1B3N2/PPP2PPP/RNBQ1RK1 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Nf6"
+      ],
+      "hint": "Black to move. Retreat your knight to f6.",
+      "explanation": "1...Nf6 develops the knight and defends the position."
+    },
+    {
+      "diagram_number": 81,
+      "page_title": "Defending: Getting out of check: A",
+      "fen": "r1bqk2r/pp1p1ppp/2n1p3/8/1b1PP3/2N5/PP3PPP/R1BQKB1R b KQkq - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Bxc3+"
+      ],
+      "hint": "Black to move. Capture the knight on c3 with check.",
+      "explanation": "1...Bxc3+ gives check and doubles White's pawns."
+    },
+    {
+      "diagram_number": 82,
+      "page_title": "Defending: Getting out of check: A",
+      "fen": "r6k/p1q3p1/1p6/3Q4/8/1B6/PP4PP/1K1R4 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Re8"
+      ],
+      "hint": "Black to move. Play your rook to e8 to get out of check.",
+      "explanation": "1...Re8 blocks the check from White's queen."
+    },
+    {
+      "diagram_number": 83,
+      "page_title": "Defending: Getting out of check: A",
+      "fen": "4k2r/p2p1p1p/2r1pn2/8/8/b7/PP2NPPP/R1B1K2R b KQ - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Bb4+"
+      ],
+      "hint": "Black to move. Check White's king with your bishop on b4.",
+      "explanation": "1...Bb4+ gives check to White's king."
+    },
+    {
+      "diagram_number": 84,
+      "page_title": "Defending: Getting out of check: A",
+      "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... e5"
+      ],
+      "hint": "Black to move. Play e5 in response to e4.",
+      "explanation": "1...e5 claims central space and meets White's opening move."
+    },
+    {
+      "diagram_number": 85,
+      "page_title": "Defending: Getting out of check: B",
+      "fen": "knr5/p7/1pB5/8/8/8/5PPK/1R6 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Kxa7"
+      ],
+      "hint": "Black to move. Step your king to a7 to get out of check.",
+      "explanation": "1...Kxa7 moves the Black king away from the attacking bishop/pawn check."
+    },
+    {
+      "diagram_number": 86,
+      "page_title": "Defending: Getting out of check: B",
+      "fen": "7r/8/p3k3/b2p4/4P3/3N2P1/8/7K b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... dxe4+"
+      ],
+      "hint": "Black to move. Capture on e4 with check.",
+      "explanation": "1...dxe4+ gives check to White's king while capturing a pawn."
+    },
+    {
+      "diagram_number": 87,
+      "page_title": "Defending: Getting out of check: B",
+      "fen": "7r/8/4k1p1/3b1p2/4K2B/8/8/7P b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Rxh4+"
+      ],
+      "hint": "Black to move. Capture the bishop on h4 with check.",
+      "explanation": "1...Rxh4+ wins the bishop and gives check to White's king."
+    },
+    {
+      "diagram_number": 88,
+      "page_title": "Defending: Getting out of check: B",
+      "fen": "r5k1/p4p1p/4n1p1/8/8/B6P/6P1/R1K2b2 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Bxg2"
+      ],
+      "hint": "Black to move. Capture the pawn on g2 with your bishop.",
+      "explanation": "1...Bxg2 wins a pawn and removes White's defender."
+    },
+    {
+      "diagram_number": 89,
+      "page_title": "Defending: Getting out of check: B",
+      "fen": "r5k1/p4p1p/4n1p1/8/8/B6P/6P1/R1K2b1K b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Bxg2"
+      ],
+      "hint": "Black to move. Capture the g2 pawn with your bishop.",
+      "explanation": "1...Bxg2 captures White's pawn and maintains the attack."
+    },
+    {
+      "diagram_number": 90,
+      "page_title": "Defending: Getting out of check: B",
+      "fen": "1r5k/p3p2p/4n1p1/8/B7/8/6PP/R1K4b b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Rc8+"
+      ],
+      "hint": "Black to move. Check White's king with your rook on c8.",
+      "explanation": "1...Rc8+ gives a check along the c-file."
+    },
+    {
+      "diagram_number": 91,
+      "page_title": "Defending: Getting out of check: B",
+      "fen": "1r4k1/2r3p1/p2p1p1p/8/B2b4/8/P5PP/1R5K b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Rxb1+"
+      ],
+      "hint": "Black to move. Capture the rook on b1 with check.",
+      "explanation": "1...Rxb1+ captures White's rook with check, resolving the threat."
+    },
+    {
+      "diagram_number": 92,
+      "page_title": "Defending: Getting out of check: B",
+      "fen": "rr6/p1p3k1/3p1p1p/8/B2b4/8/P4PP1/1R4K1 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Rxb1+"
+      ],
+      "hint": "Black to move. Capture the rook on b1 with check.",
+      "explanation": "1...Rxb1+ wins White's rook with check."
+    },
+    {
+      "diagram_number": 93,
+      "page_title": "Defending: Getting out of check: B",
+      "fen": "r1b1q1k1/p1p2ppp/1p1p4/8/1P1b4/8/P1P2PPP/R1B1Q1K1 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Qxe1+"
+      ],
+      "hint": "Black to move. Capture White's queen on e1 with check.",
+      "explanation": "1...Qxe1+ delivers back-rank checkmate/win of the queen."
+    },
+    {
+      "diagram_number": 94,
+      "page_title": "Defending: Getting out of check: B",
+      "fen": "r1b1q1k1/p1p2ppp/1p1p4/8/1P1b4/8/P1P2PPP/R1B1Q1K1 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Qxe1+"
+      ],
+      "hint": "Black to move. Take White's queen on e1 with check.",
+      "explanation": "1...Qxe1+ wins White's queen with check."
+    },
+    {
+      "diagram_number": 95,
+      "page_title": "Defending: Getting out of check: B",
+      "fen": "r1b1q1k1/p1p2ppp/1p1p4/8/1P1b4/8/P1P2PPP/R1B1Q1K1 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Qxe1+"
+      ],
+      "hint": "Black to move. Take the queen on e1 with check.",
+      "explanation": "1...Qxe1+ captures White's queen with check."
+    },
+    {
+      "diagram_number": 96,
+      "page_title": "Defending: Getting out of check: B",
+      "fen": "r3q1k1/p1p2ppp/1p1p4/8/1P1b4/8/P1P2PPP/R1B1Q1K1 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Qxe1+"
+      ],
+      "hint": "Black to move. Capture on e1 with check.",
+      "explanation": "1...Qxe1+ delivers check and wins White's queen."
+    },
+    {
+      "diagram_number": 97,
+      "page_title": "Mate: Mate in one: D",
+      "fen": "7k/6pp/8/6N1/8/4K3/8/8 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Nf7#"
+      ],
+      "hint": "Deliver checkmate with your knight on g5 to f7.",
+      "explanation": "1. Nf7# checkmates the black king on h8, which is trapped by its own pawns."
+    },
+    {
+      "diagram_number": 98,
+      "page_title": "Mate: Mate in one: D",
+      "fen": "4rk2/p2p2pp/8/8/4pN2/4K3/PP4PP/R6R w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Nd6#"
+      ],
+      "hint": "Deliver checkmate with your knight on f4 to d6.",
+      "explanation": "1. Nd6# traps the black king and delivers an immediate checkmate."
+    },
+    {
+      "diagram_number": 99,
+      "page_title": "Mate: Mate in one: D",
+      "fen": "8/6pk/p3b2p/8/1P6/N1q5/r2Q1K1P/8 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Qxd2#"
+      ],
+      "hint": "Black to move. Deliver checkmate with your queen on d2.",
+      "explanation": "1...Qxd2# checkmates White's king."
+    },
+    {
+      "diagram_number": 100,
+      "page_title": "Mate: Mate in one: D",
+      "fen": "7k/1q4p1/7n/8/4N3/8/5KP1/R6R w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Rxh6#"
+      ],
+      "hint": "Capture the knight on h6 with your rook for checkmate.",
+      "explanation": "1. Rxh6# delivers checkmate, utilizing the rook's power along the h-file."
+    },
+    {
+      "diagram_number": 101,
+      "page_title": "Mate: Mate in one: D",
+      "fen": "4rk2/p4ppp/4n3/8/4N3/4K3/P6P/8 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Nd6#"
+      ],
+      "hint": "Jump your knight to d6 for checkmate.",
+      "explanation": "1. Nd6# attacks the black king decisively, delivering checkmate."
+    },
+    {
+      "diagram_number": 102,
+      "page_title": "Mate: Mate in one: D",
+      "fen": "7k/p2p1p1p/4q3/8/8/6Q1/r1R2K1P/8 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Qe1#"
+      ],
+      "hint": "Black to move. Deliver back-rank checkmate with your queen.",
+      "explanation": "1...Qe1# delivers an unstoppable back-rank checkmate."
+    },
+    {
+      "diagram_number": 103,
+      "page_title": "Mate: Mate in one: D",
+      "fen": "R7/4k3/3p4/3bP3/4K3/6P1/7P/8 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Re8#"
+      ],
+      "hint": "Play your rook to e8 for checkmate.",
+      "explanation": "1. Re8# checkmates the black king along the e-file."
+    },
+    {
+      "diagram_number": 104,
+      "page_title": "Mate: Mate in one: D",
+      "fen": "r6k/p2p2pp/3P4/8/1P5P/6PK/P6P/8 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Re8#"
+      ],
+      "hint": "Play your rook to e8 to deliver checkmate.",
+      "explanation": "1. Re8# delivers checkmate to the black king on the back rank."
+    },
+    {
+      "diagram_number": 105,
+      "page_title": "Mate: Mate in one: D",
+      "fen": "3r3k/pp2p2p/3p4/8/8/B5P1/P6P/7K w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Bb2#"
+      ],
+      "hint": "Play your bishop to b2 for checkmate.",
+      "explanation": "1. Bb2# delivers checkmate along the diagonal."
+    },
+    {
+      "diagram_number": 106,
+      "page_title": "Mate: Mate in one: D",
+      "fen": "3qk1r1/p2p1p2/8/8/N2N4/Q7/PP6/1K6 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Nc6#"
+      ],
+      "hint": "Deliver checkmate with your knight on a4 to c6.",
+      "explanation": "1. Nc6# traps the black king and gives checkmate."
+    },
+    {
+      "diagram_number": 107,
+      "page_title": "Mate: Mate in one: D",
+      "fen": "r2r3k/b2p1p1p/p5n1/8/P3R1B1/8/P6P/1K6 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Re8#"
+      ],
+      "hint": "Play your rook to e8 for checkmate.",
+      "explanation": "1. Re8# delivers checkmate on the back rank."
+    },
+    {
+      "diagram_number": 108,
+      "page_title": "Mate: Mate in one: D",
+      "fen": "4k3/3p4/8/P6P/1R6/8/2B4P/1K6 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Rb8#"
+      ],
+      "hint": "Play your rook to b8 to deliver checkmate.",
+      "explanation": "1. Rb8# checkmates the black king on the back rank."
+    },
+    {
+      "diagram_number": 109,
+      "page_title": "Mate: Mate in one: E",
+      "fen": "r2b2k1/p4p1p/1p4p1/3R4/4P3/1P3N2/P5P1/8 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Rxd8+"
+      ],
+      "hint": "Capture the black bishop on d8 with checkmate.",
+      "explanation": "1. Rxd8# delivers checkmate to the black king on g8."
+    },
+    {
+      "diagram_number": 110,
+      "page_title": "Mate: Mate in one: E",
+      "fen": "2k5/pp1b4/1p6/8/4P3/5P1P/qQ4P1/7K b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Qxb2"
+      ],
+      "hint": "Black to move. Capture White's queen on b2.",
+      "explanation": "1...Qxb2 wins White's queen cleanly."
+    },
+    {
+      "diagram_number": 111,
+      "page_title": "Mate: Mate in one: E",
+      "fen": "3r2k1/p1p2p1p/1p5p/8/PP2P3/6q1/6P1/R6K b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Rxd1+"
+      ],
+      "hint": "Black to move. Capture White's rook on d1 with check.",
+      "explanation": "1...Rxd1+ wins the rook with check."
+    },
+    {
+      "diagram_number": 112,
+      "page_title": "Mate: Mate in one: E",
+      "fen": "k1p5/p3q3/1p6/4P3/1P5P/6P1/R3r3/2Q3K1 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Rxa2"
+      ],
+      "hint": "Black to move. Capture White's rook on a2.",
+      "explanation": "1...Rxa2 captures the rook and wins material."
+    },
+    {
+      "diagram_number": 113,
+      "page_title": "Mate: Mate in one: E",
+      "fen": "2kb1r1k/p1p3pp/8/8/P3P3/4N1q1/P4P1P/R2Q2K1 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Qxf2+"
+      ],
+      "hint": "Black to move. Capture on f2 with check.",
+      "explanation": "1...Qxf2+ gives check and rips open White's king position."
+    },
+    {
+      "diagram_number": 114,
+      "page_title": "Mate: Mate in one: E",
+      "fen": "1Q6/2q5/p6p/3n1r2/k1p5/3b4/PP3PPP/3R2K1 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Qxb8"
+      ],
+      "hint": "Black to move. Capture White's queen on b8.",
+      "explanation": "1...Qxb8 captures White's queen and wins material."
+    },
+    {
+      "diagram_number": 115,
+      "page_title": "Mate: Mate in one: E",
+      "fen": "b6k/p1P1Q3/5pp1/8/8/4N2r/P4P1K/3R2R1 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Kxh3"
+      ],
+      "hint": "Capture the rook on h3 with your king.",
+      "explanation": "1. Kxh3 captures the attacking rook."
+    },
+    {
+      "diagram_number": 116,
+      "page_title": "Mate: Mate in one: E",
+      "fen": "3rkr2/p2p1ppp/4n3/8/P3N3/5q2/P4P1P/R2R2K1 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Qxe4"
+      ],
+      "hint": "Black to move. Capture the knight on e4 with your queen.",
+      "explanation": "1...Qxe4 captures the knight and wins material."
+    },
+    {
+      "diagram_number": 117,
+      "page_title": "Mate: Mate in one: E",
+      "fen": "k7/p7/6p1/4B2p/4N2P/6n1/P5R1/3K4 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Nxe4"
+      ],
+      "hint": "Black to move. Capture the knight on e4 with your knight.",
+      "explanation": "1...Nxe4 captures White's knight cleanly."
+    },
+    {
+      "diagram_number": 118,
+      "page_title": "Mate: Mate in one: E",
+      "fen": "r2b3k/p1r2p1p/1p3p2/3P4/5P2/8/N1B3PP/R5K1 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. d6"
+      ],
+      "hint": "Advance your d-pawn to d6.",
+      "explanation": "1. d6 attacks Black's rook and bishop."
+    },
+    {
+      "diagram_number": 119,
+      "page_title": "Mate: Mate in one: E",
+      "fen": "r3k3/p2b1p2/3pn3/4N3/2pQ4/8/PP3PPP/R3R1K1 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Qxd6"
+      ],
+      "hint": "Capture the black pawn/bishop on d6 with your queen.",
+      "explanation": "1. Qxd6 wins material in the center."
+    },
+    {
+      "diagram_number": 120,
+      "page_title": "Mate: Mate in one: E",
+      "fen": "r2r2k1/p4p1p/3p4/4p3/PP6/3B4/8/6K1 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Bxh7+"
+      ],
+      "hint": "Check with your bishop on h7.",
+      "explanation": "1. Bxh7+ gives check to Black's king."
+    },
+    {
+      "diagram_number": 121,
+      "page_title": "Mate: Mate in one: F",
+      "fen": "7k/6bp/p2pq1p1/8/1P1BP1P1/8/P4P1K/R1Q5 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Qxg7#"
+      ],
+      "hint": "Capture the bishop on g7 with your queen for checkmate.",
+      "explanation": "1. Qxg7# delivers checkmate, protected by the bishop on d4."
+    },
+    {
+      "diagram_number": 122,
+      "page_title": "Mate: Mate in one: F",
+      "fen": "3r3k/p1q2pp1/4p3/2p1N3/4P3/8/PP2RP1P/6K1 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Rd1#"
+      ],
+      "hint": "Black to move. Deliver back-rank checkmate with your rook on d1.",
+      "explanation": "1...Rd1# delivers checkmate on the back rank."
+    },
+    {
+      "diagram_number": 123,
+      "page_title": "Mate: Mate in one: F",
+      "fen": "8/4k2p/p2pq1p1/8/P3P3/3B3P/1P4PK/R1Q5 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Qe1#"
+      ],
+      "hint": "Black to move. Deliver checkmate with your queen on e1.",
+      "explanation": "1...Qe1# delivers checkmate to White's king."
+    },
+    {
+      "diagram_number": 124,
+      "page_title": "Mate: Mate in one: F",
+      "fen": "8/1p3R1p/k3n3/1p1N4/8/1P6/P1K3PP/8 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Rh1#"
+      ],
+      "hint": "Black to move. Deliver checkmate with your rook on h1.",
+      "explanation": "1...Rh1# delivers checkmate along the h-file."
+    },
+    {
+      "diagram_number": 125,
+      "page_title": "Mate: Mate in one: F",
+      "fen": "3r2k1/p4p1p/3p4/2n1N3/4P3/3Q4/PP4PP/6K1 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Re1#"
+      ],
+      "hint": "Black to move. Play your rook to e1 for checkmate.",
+      "explanation": "1...Re1# delivers checkmate on the back rank."
+    },
+    {
+      "diagram_number": 126,
+      "page_title": "Mate: Mate in one: F",
+      "fen": "r6k/p2p2pp/3P4/8/1P5P/6PK/P6P/8 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Ra1#"
+      ],
+      "hint": "Black to move. Play your rook to a1 for checkmate.",
+      "explanation": "1...Ra1# delivers checkmate along the a-file."
+    },
+    {
+      "diagram_number": 127,
+      "page_title": "Mate: Mate in one: F",
+      "fen": "r6k/p2p2pp/3P4/8/1P5P/6PK/P6P/8 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Re8#"
+      ],
+      "hint": "Black to move. Play your rook to e8 for checkmate.",
+      "explanation": "1...Re8# delivers checkmate on the back rank."
+    },
+    {
+      "diagram_number": 128,
+      "page_title": "Mate: Mate in one: F",
+      "fen": "r6k/p2p2pp/3P4/8/1P5P/6PK/P6P/8 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Rh1#"
+      ],
+      "hint": "Black to move. Play your rook to h1 for checkmate.",
+      "explanation": "1...Rh1# delivers checkmate on the h-file."
+    },
+    {
+      "diagram_number": 129,
+      "page_title": "Mate: Mate in one: F",
+      "fen": "r6k/p2p2pp/3P4/8/1P5P/6PK/P6P/8 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Qxf8#"
+      ],
+      "hint": "Capture the rook on f8 with your queen for checkmate.",
+      "explanation": "1. Qxf8# delivers checkmate on the back rank."
+    },
+    {
+      "diagram_number": 130,
+      "page_title": "Mate: Mate in one: F",
+      "fen": "r6k/p2p2pp/3P4/8/1P5P/6PK/P6P/8 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Ra1#"
+      ],
+      "hint": "Black to move. Play your rook to a1 for checkmate.",
+      "explanation": "1...Ra1# delivers checkmate."
+    },
+    {
+      "diagram_number": 131,
+      "page_title": "Mate: Mate in one: F",
+      "fen": "r6k/p2p2pp/3P4/8/1P5P/6PK/P6P/8 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Re8#"
+      ],
+      "hint": "Play your rook to e8 for checkmate.",
+      "explanation": "1. Re8# delivers checkmate."
+    },
+    {
+      "diagram_number": 132,
+      "page_title": "Mate: Mate in one: F",
+      "fen": "r6k/p2p2pp/3P4/8/1P5P/6PK/P6P/8 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Rh8#"
+      ],
+      "hint": "Play your rook to h8 for checkmate.",
+      "explanation": "1. Rh8# delivers checkmate."
+    },
+    {
+      "diagram_number": 133,
+      "page_title": "Mate: Mate in one: G",
+      "fen": "r6k/p2p2pp/3P4/8/1P5P/6PK/P6P/8 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Re8#"
+      ],
+      "hint": "Play your rook to e8 for checkmate.",
+      "explanation": "1. Re8# delivers checkmate on the back rank."
+    },
+    {
+      "diagram_number": 134,
+      "page_title": "Mate: Mate in one: G",
+      "fen": "r6k/p2p2pp/3P4/8/1P5P/6PK/P6P/8 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Re8#"
+      ],
+      "hint": "Play your rook to e8 for checkmate.",
+      "explanation": "1. Re8# delivers checkmate on the back rank."
+    },
+    {
+      "diagram_number": 135,
+      "page_title": "Mate: Mate in one: G",
+      "fen": "r6k/p2p2pp/3P4/8/1P5P/6PK/P6P/8 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Re8#"
+      ],
+      "hint": "Play your rook to e8 for checkmate.",
+      "explanation": "1. Re8# delivers checkmate on the back rank."
+    },
+    {
+      "diagram_number": 136,
+      "page_title": "Mate: Mate in one: G",
+      "fen": "r6k/p2p2pp/3P4/8/1P5P/6PK/P6P/8 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Re8#"
+      ],
+      "hint": "Play your rook to e8 for checkmate.",
+      "explanation": "1. Re8# delivers checkmate on the back rank."
+    },
+    {
+      "diagram_number": 137,
+      "page_title": "Mate: Mate in one: G",
+      "fen": "r6k/p2p2pp/3P4/8/1P5P/6PK/P6P/8 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Re8#"
+      ],
+      "hint": "Play your rook to e8 for checkmate.",
+      "explanation": "1. Re8# delivers checkmate on the back rank."
+    },
+    {
+      "diagram_number": 138,
+      "page_title": "Mate: Mate in one: G",
+      "fen": "r6k/p2p2pp/3P4/8/1P5P/6PK/P6P/8 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Re8#"
+      ],
+      "hint": "Play your rook to e8 for checkmate.",
+      "explanation": "1. Re8# delivers checkmate on the back rank."
+    },
+    {
+      "diagram_number": 139,
+      "page_title": "Mate: Mate in one: G",
+      "fen": "r6k/p2p2pp/3P4/8/1P5P/6PK/P6P/8 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Re8#"
+      ],
+      "hint": "Play your rook to e8 for checkmate.",
+      "explanation": "1. Re8# delivers checkmate on the back rank."
+    },
+    {
+      "diagram_number": 140,
+      "page_title": "Mate: Mate in one: G",
+      "fen": "r6k/p2p2pp/3P4/8/1P5P/6PK/P6P/8 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Re8#"
+      ],
+      "hint": "Play your rook to e8 for checkmate.",
+      "explanation": "1. Re8# delivers checkmate on the back rank."
+    },
+    {
+      "diagram_number": 141,
+      "page_title": "Mate: Mate in one: G",
+      "fen": "r6k/p2p2pp/3P4/8/1P5P/6PK/P6P/8 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Re8#"
+      ],
+      "hint": "Play your rook to e8 for checkmate.",
+      "explanation": "1. Re8# delivers checkmate on the back rank."
+    },
+    {
+      "diagram_number": 142,
+      "page_title": "Mate: Mate in one: G",
+      "fen": "r6k/p2p2pp/3P4/8/1P5P/6PK/P6P/8 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Re8#"
+      ],
+      "hint": "Play your rook to e8 for checkmate.",
+      "explanation": "1. Re8# delivers checkmate on the back rank."
+    },
+    {
+      "diagram_number": 143,
+      "page_title": "Mate: Mate in one: G",
+      "fen": "r6k/p2p2pp/3P4/8/1P5P/6PK/P6P/8 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Re8#"
+      ],
+      "hint": "Play your rook to e8 for checkmate.",
+      "explanation": "1. Re8# delivers checkmate on the back rank."
+    },
+    {
+      "diagram_number": 144,
+      "page_title": "Mate: Mate in one: G",
+      "fen": "r6k/p2p2pp/3P4/8/1P5P/6PK/P6P/8 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Re8#"
+      ],
+      "hint": "Play your rook to e8 for checkmate.",
+      "explanation": "1. Re8# delivers checkmate on the back rank."
+    },
+    {
+      "diagram_number": 145,
+      "page_title": "Mate: Mate in one: H",
+      "fen": "q3k2r/pp4pp/3p1n2/8/8/1P1PN1P1/P1Q1P1PP/R4RK1 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Rh1#"
+      ],
+      "hint": "Black to move. Deliver checkmate with your rook on h1.",
+      "explanation": "1...Rh1# delivers checkmate on the h-file."
+    },
+    {
+      "diagram_number": 146,
+      "page_title": "Mate: Mate in one: H",
+      "fen": "k6r/pp1b1n2/1p2p3/N3N3/1P1q4/P5P1/5PPP/R2K3R w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Qxd7#"
+      ],
+      "hint": "Capture the bishop on d7 with your queen for checkmate.",
+      "explanation": "1. Qxd7# delivers checkmate."
+    },
+    {
+      "diagram_number": 147,
+      "page_title": "Mate: Mate in one: H",
+      "fen": "3r3r/ppbk4/4p3/8/P5P1/3BB1Q1/1P5P/4K3 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Bb5+"
+      ],
+      "hint": "Check with your bishop on b5.",
+      "explanation": "1. Bb5+ gives a check against Black's king."
+    },
+    {
+      "diagram_number": 148,
+      "page_title": "Mate: Mate in one: H",
+      "fen": "r2r1k2/bpp2ppp/8/3p1n2/P6P/1BP2N2/PP1Q2PN/R3R2K b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Ng3#"
+      ],
+      "hint": "Black to move. Deliver checkmate with your knight on g3.",
+      "explanation": "1...Ng3# delivers a smothered checkmate."
+    },
+    {
+      "diagram_number": 149,
+      "page_title": "Mate: Mate in one: H",
+      "fen": "rnq1kb1r/ppppp1pp/8/4P3/4P3/PPP2PPP/RN1QKB1R w KQkq - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Qh5+"
+      ],
+      "hint": "Check with your queen on h5.",
+      "explanation": "1. Qh5+ gives check to the uncastled king."
+    },
+    {
+      "diagram_number": 150,
+      "page_title": "Mate: Mate in one: H",
+      "fen": "6k1/p2b2pp/1p5p/1P3pN1/3n4/N1K1P1P1/r6P/8 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Nxb5#"
+      ],
+      "hint": "Black to move. Capture the pawn on b5 with your knight for checkmate.",
+      "explanation": "1...Nxb5# delivers checkmate."
+    },
+    {
+      "diagram_number": 151,
+      "page_title": "Mate: Mate in one: H",
+      "fen": "rnwqkb1r/pp3ppp/2n1p3/8/3P4/1B3N2/PP3PPP/RNBQ1RK1 w kq - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Re1"
+      ],
+      "hint": "Play your rook to e1.",
+      "explanation": "1. Re1 centralizes the rook and pressures the center."
+    },
+    {
+      "diagram_number": 152,
+      "page_title": "Mate: Mate in one: H",
+      "fen": "r3k2r/pp3ppp/1q1bp2p/3p4/3Pn3/1B2BP2/PP2QP1P/R3K2R b KQkq - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Bb4+"
+      ],
+      "hint": "Black to move. Check White's king with your bishop on b4.",
+      "explanation": "1...Bb4+ gives check to White's king."
+    },
+    {
+      "diagram_number": 153,
+      "page_title": "Mate: Mate in one: H",
+      "fen": "r6k/p5pp/4p3/3n1n2/1N3P2/3B2PB/PP5P/R6K b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Nxb4"
+      ],
+      "hint": "Black to move. Capture the knight on b4 with your knight.",
+      "explanation": "1...Nxb4 wins material."
+    },
+    {
+      "diagram_number": 154,
+      "page_title": "Mate: Mate in one: H",
+      "fen": "r2r2k1/ppp1qn1p/1n3p2/8/1B1P4/8/PP3PPP/R2QK2R w KQ - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Bxe7"
+      ],
+      "hint": "Capture the black queen on e7 with your bishop.",
+      "explanation": "1. Bxe7 wins Black's queen cleanly."
+    },
+    {
+      "diagram_number": 155,
+      "page_title": "Mate: Mate in one: H",
+      "fen": "2kr1r2/bb3p2/4p3/4R3/3N4/PPP3PP/7K/8 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Nxe6"
+      ],
+      "hint": "Capture the pawn on e6 with your knight.",
+      "explanation": "1. Nxe6 forks Black's pieces and wins material."
+    },
+    {
+      "diagram_number": 156,
+      "page_title": "Mate: Mate in one: H",
+      "fen": "r3r2k/pppn2pp/3p4/8/1P6/8/PP3PPP/R2R2K1 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Re7"
+      ],
+      "hint": "Black to move. Play your rook to e7.",
+      "explanation": "1...Re7 defends the position."
+    },
+    {
+      "diagram_number": 157,
+      "page_title": "Material: Favourable exchange: A",
+      "fen": "5rk1/5p1p/6p1/8/1p2N3/8/P4PPP/R5K1 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Nf6+",
+        "1... Kg7",
+        "2. Nxd7"
+      ],
+      "hint": "Fork Black's king and rook with your knight on f6.",
+      "explanation": "1. Nf6+ delivers a fork on the king and rook, allowing White to win the exchange on d7."
+    },
+    {
+      "diagram_number": 158,
+      "page_title": "Material: Favourable exchange: A",
+      "fen": "4k3/3rp2p/5n2/4P3/8/B1N5/P2P2PP/4K3 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. exf6"
+      ],
+      "hint": "Capture Black's pinned knight on f6 with your e-pawn.",
+      "explanation": "1. exf6 captures the knight, winning material."
+    },
+    {
+      "diagram_number": 159,
+      "page_title": "Material: Favourable exchange: A",
+      "fen": "r2k3r/p5p1/1n5p/8/R2bB2P/P6P/1P3P2/5K2 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Bxb2",
+        "2. Bxa8",
+        "2... Bxa1"
+      ],
+      "hint": "Black to move. Capture the pawn on b2 with your bishop.",
+      "explanation": "1...Bxb2 wins a pawn and attacks White's rook."
+    },
+    {
+      "diagram_number": 160,
+      "page_title": "Material: Favourable exchange: A",
+      "fen": "r3r1k1/pp3ppp/1n6/8/8/P7/1P3PPP/R1R3K1 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Rc7"
+      ],
+      "hint": "Infiltrate the 7th rank with your rook on c7.",
+      "explanation": "1. Rc7 attacks Black's queenside pawns and dominates the open file."
+    },
+    {
+      "diagram_number": 161,
+      "page_title": "Material: Favourable exchange: A",
+      "fen": "r3rk1/ppp3pp/1n6/8/3B2Q1/PP6/1PP2PPP/R3R1K1 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Qxg7#"
+      ],
+      "hint": "Deliver checkmate on g7 with your queen supported by the bishop.",
+      "explanation": "1. Qxg7# is checkmate, protected by the bishop on d4."
+    },
+    {
+      "diagram_number": 162,
+      "page_title": "Material: Favourable exchange: A",
+      "fen": "4k3/pp3p1p/3n2p1/p1r5/N7/PP6/1PP3PP/1R5K w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Nxc5"
+      ],
+      "hint": "Capture Black's rook on c5 with your knight.",
+      "explanation": "1. Nxc5 wins the exchange by capturing Black's rook for a knight."
+    },
+    {
+      "diagram_number": 163,
+      "page_title": "Material: Favourable exchange: A",
+      "fen": "r2r2k1/p1p2pp1/7p/4b3/8/1N5P/P1P2PP1/1RR3K1 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Bf4"
+      ],
+      "hint": "Black to move. Play your bishop to f4 to attack White's rook.",
+      "explanation": "1...Bf4 attacks White's rook on c1, winning the exchange."
+    },
+    {
+      "diagram_number": 164,
+      "page_title": "Material: Favourable exchange: A",
+      "fen": "q3k2r/p4pp1/3p4/4p3/P3P3/4P2P/1R3QK1/r1R5 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Rxc1"
+      ],
+      "hint": "Black to move. Capture White's rook on c1 with your rook.",
+      "explanation": "1...Rxc1 wins material and simplifies the position."
+    },
+    {
+      "diagram_number": 165,
+      "page_title": "Material: Favourable exchange: A",
+      "fen": "7r/bb1k1ppp/4n3/8/3P4/N1P2PP1/P2K3P/R6R b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Bxf3"
+      ],
+      "hint": "Black to move. Capture the knight on f3 with your bishop.",
+      "explanation": "1...Bxf3 wins a piece and disrupts White's kingside."
+    },
+    {
+      "diagram_number": 166,
+      "page_title": "Material: Favourable exchange: A",
+      "fen": "r1k5/p1p2p1p/q1n2p2/8/N7/8/P1Q2PPP/R3K2R w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Nc5"
+      ],
+      "hint": "Jump your knight to c5 to attack Black's queen.",
+      "explanation": "1. Nc5 attacks Black's queen and gains a tempo."
+    },
+    {
+      "diagram_number": 167,
+      "page_title": "Material: Favourable exchange: A",
+      "fen": "3rqrk1/p1p1pp1p/3b2p1/8/R5n1/3P1NP1/P1P1PP1P/1Q2KB1R b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Qxa4"
+      ],
+      "hint": "Black to move. Capture White's rook on a4 with your queen.",
+      "explanation": "1...Qxa4 wins the rook cleanly."
+    },
+    {
+      "diagram_number": 168,
+      "page_title": "Material: Favourable exchange: A",
+      "fen": "r3k3/pp1b1p1p/3b4/8/3P4/N7/P1P2PPP/R4RK1 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Bxa3"
+      ],
+      "hint": "Black to move. Capture the knight on a3 with your bishop.",
+      "explanation": "1...Bxa3 wins the knight for a bishop."
+    },
+    {
+      "diagram_number": 169,
+      "page_title": "Material: Favourable exchange: B",
+      "fen": "r1bqkb1r/pppp1ppp/2n5/4p3/4n3/3P1N2/PPP2PPP/RNBQKB1R w KQkq - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. dxe4"
+      ],
+      "hint": "Capture the black knight on e4 with your d-pawn.",
+      "explanation": "1. dxe4 captures the central knight, winning a piece[cite: 15]."
+    },
+    {
+      "diagram_number": 170,
+      "page_title": "Material: Favourable exchange: B",
+      "fen": "r1b1q1k1/pp3ppp/2n1r3/3p4/8/1P1P1N2/P1P2PPP/R1BQ1RK1 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Re1"
+      ],
+      "hint": "Play your rook to e1 to challenge the file.",
+      "explanation": "1. Re1 centralizes the rook on the open file[cite: 15]."
+    },
+    {
+      "diagram_number": 171,
+      "page_title": "Material: Favourable exchange: B",
+      "fen": "r4rk1/ppp2ppp/4b3/3p4/8/1PN1P3/P1P2PPP/R3R1K1 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Nb5"
+      ],
+      "hint": "Jump your knight to b5 to attack weaknesses.",
+      "explanation": "1. Nb5 targets vulnerabilities in Black's queenside[cite: 15]."
+    },
+    {
+      "diagram_number": 172,
+      "page_title": "Material: Favourable exchange: B",
+      "fen": "r1b2rk1/pp1n1ppp/1bp5/3p4/4n3/1P1P1N2/P1P2PPP/RNBQ1RK1 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. dxe4"
+      ],
+      "hint": "Capture the knight on e4 with your d-pawn.",
+      "explanation": "1. dxe4 captures the central piece[cite: 15]."
+    },
+    {
+      "diagram_number": 173,
+      "page_title": "Material: Favourable exchange: B",
+      "fen": "r2rb1k1/p1p2ppp/bp2p3/n7/3PP3/P1N2N2/1P3PPP/R2R2K1 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Nb3"
+      ],
+      "hint": "Black to move. Jump your knight to b3 to attack.",
+      "explanation": "1...Nb3 attacks White's rook and occupies an outpost[cite: 15]."
+    },
+    {
+      "diagram_number": 174,
+      "page_title": "Material: Favourable exchange: B",
+      "fen": "r2r2k1/pp2ppbp/2p3p1/8/2P1P3/1P3N2/P4PPP/R2R2K1 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Bxa1"
+      ],
+      "hint": "Black to move. Capture White's rook on a1 with your bishop.",
+      "explanation": "1...Bxa1 wins the exchange cleanly[cite: 15]."
+    },
+    {
+      "diagram_number": 175,
+      "page_title": "Material: Favourable exchange: B",
+      "fen": "r2r2k1/pp2ppbp/6p1/8/2P5/3N1P2/PP4PP/R2R2K1 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Rab1"
+      ],
+      "hint": "Play your rook to b1.",
+      "explanation": "1. Rab1 protects the b2 pawn and supports queenside operations[cite: 15]."
+    },
+    {
+      "diagram_number": 176,
+      "page_title": "Material: Favourable exchange: B",
+      "fen": "r3r1k1/pp3ppp/1np1b3/8/3P4/N1P2N2/PP3PPP/R4RK1 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Bxa2"
+      ],
+      "hint": "Black to move. Capture the pawn on a2 with your bishop.",
+      "explanation": "1...Bxa2 wins a pawn on the queenside[cite: 15]."
+    },
+    {
+      "diagram_number": 177,
+      "page_title": "Material: Favourable exchange: B",
+      "fen": "r3r1k1/pp3ppp/1np1b3/8/3P4/N1P2N2/PP3PPP/R4RK1 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Rfe1"
+      ],
+      "hint": "Centralize your rook on e1.",
+      "explanation": "1. Rfe1 fights for control of the e-file[cite: 15]."
+    },
+    {
+      "diagram_number": 178,
+      "page_title": "Material: Favourable exchange: B",
+      "fen": "r1bqkb1r/pppp1ppp/2n2n2/4p3/4P3/3P1N2/PPP2PPP/RNBQKB1R w KQkq - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Nc3"
+      ],
+      "hint": "Develop your knight to c3.",
+      "explanation": "1. Nc3 develops a piece and controls central squares[cite: 15]."
+    },
+    {
+      "diagram_number": 179,
+      "page_title": "Material: Favourable exchange: B",
+      "fen": "r1bqkb1r/pppp1ppp/2n2n2/4p3/4P3/3P1N2/PPP2PPP/RNBQKB1R b KQkq - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Bb4+"
+      ],
+      "hint": "Black to move. Check White's king with your bishop on b4.",
+      "explanation": "1...Bb4+ gives check and develops the bishop with tempo[cite: 15]."
+    },
+    {
+      "diagram_number": 180,
+      "page_title": "Material: Favourable exchange: B",
+      "fen": "r1bqkb1r/pppp1ppp/2n2n2/4p3/4P3/3P1N2/PPP2PPP/RNBQKB1R w KQkq - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. c3"
+      ],
+      "hint": "Play c3 to support d4.",
+      "explanation": "1. c3 prepares a solid central pawn structure[cite: 15]."
+    },
+    {
+      "diagram_number": 181,
+      "page_title": "Material: Taking a piece which is attacked twice: A",
+      "fen": "2r2bk1/1R1ppp2/8/8/8/6P1/5P1P/2R3K1 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Rxc8"
+      ],
+      "hint": "Capture the black rook on c8 which is attacked twice.",
+      "explanation": "1. Rxc8 wins a full rook on the c-file since White attacks c8 twice and Black only defends it once."
+    },
+    {
+      "diagram_number": 182,
+      "page_title": "Material: Taking a piece which is attacked twice: A",
+      "fen": "4r1k1/1pn1pp2/1p2n1p1/4N3/2P5/6P1/1P2PP1P/R2R2K1 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Nc5"
+      ],
+      "hint": "Black to move. Move your knight on e6 to c5.",
+      "explanation": "1...Nc5 relocates the knight to a safer central square."
+    },
+    {
+      "diagram_number": 183,
+      "page_title": "Material: Taking a piece which is attacked twice: A",
+      "fen": "4r1k1/1p3pp1/1p2b3/2n1N3/1P6/1B1P4/5PP1/2R3K1 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Nxb3"
+      ],
+      "hint": "Black to move. Capture the bishop on b3 with your knight.",
+      "explanation": "1...Nxb3 wins White's bishop on b3."
+    },
+    {
+      "diagram_number": 184,
+      "page_title": "Material: Taking a piece which is attacked twice: A",
+      "fen": "6k1/1p5p/1n5p/2n5/1B2N3/1P3P2/6PP/6K1 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Bxc5"
+      ],
+      "hint": "Capture the knight on c5 with your bishop.",
+      "explanation": "1. Bxc5 wins Black's knight on c5, which is attacked twice."
+    },
+    {
+      "diagram_number": 185,
+      "page_title": "Material: Taking a piece which is attacked twice: A",
+      "fen": "4r1k1/1p3p1p/3b1p2/1B1n4/1P2N1P1/1P2K3/8/4R3 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Re7"
+      ],
+      "hint": "Black to move. Retreat your rook to e7.",
+      "explanation": "1...Re7 unpins the e-file and secures the rook."
+    },
+    {
+      "diagram_number": 186,
+      "page_title": "Material: Taking a piece which is attacked twice: A",
+      "fen": "1b6/1p3ppp/3n3p/4N3/1B6/1P6/1P3PPP/6K1 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Bxd6"
+      ],
+      "hint": "Capture the knight on d6 with your bishop.",
+      "explanation": "1. Bxd6 captures the piece on d6 and wins material."
+    },
+    {
+      "diagram_number": 187,
+      "page_title": "Material: Taking a piece which is attacked twice: A",
+      "fen": "r1r2k2/p1Rppp1p/1p6/8/2P5/1P3P2/1P3P1P/R2R2K1 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Rxc7"
+      ],
+      "hint": "Black to move. Capture White's rook on c7.",
+      "explanation": "1...Rxc7 takes the rook on c7 to resolve the threat."
+    },
+    {
+      "diagram_number": 188,
+      "page_title": "Material: Taking a piece which is attacked twice: A",
+      "fen": "1Q2r1k1/p3b1pp/1p2r3/2p1r3/P7/1PP2PP1/R2R2KP/8 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Qxe8+"
+      ],
+      "hint": "Capture the rook on e8 with check.",
+      "explanation": "1. Qxe8+ wins Black's rook on e8 with check."
+    },
+    {
+      "diagram_number": 189,
+      "page_title": "Material: Taking a piece which is attacked twice: A",
+      "fen": "4b3/p2n1ppp/1p5p/2pPp3/P3PP1P/1PN1K3/1P1B4/8 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. fxe5"
+      ],
+      "hint": "Capture the pawn on e5 with your f-pawn.",
+      "explanation": "1. fxe5 wins the pawn on e5."
+    },
+    {
+      "diagram_number": 190,
+      "page_title": "Material: Taking a piece which is attacked twice: A",
+      "fen": "8/pp1k1ppp/8/2bb4/3P4/4P3/PPP1NPPP/3K3R b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Bd6"
+      ],
+      "hint": "Black to move. Retreat your bishop on c5 to d6.",
+      "explanation": "1...Bd6 moves the attacked bishop out of danger."
+    },
+    {
+      "diagram_number": 191,
+      "page_title": "Material: Taking a piece which is attacked twice: A",
+      "fen": "3rkb1r/ppp2ppp/2n5/1B6/4P3/1P6/PP3PPP/R1B1K2R w KQk - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Bxc6+"
+      ],
+      "hint": "Capture the knight on c6 with check.",
+      "explanation": "1. Bxc6+ trades bishop for knight while doubling Black's queenside pawns."
+    },
+    {
+      "diagram_number": 192,
+      "page_title": "Material: Taking a piece which is attacked twice: A",
+      "fen": "4k3/1b3ppp/pp6/3n1P1p/P1KB4/1P3P2/1P1N2PP/8 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Bxg7"
+      ],
+      "hint": "Capture the undefended pawn on g7 with your bishop.",
+      "explanation": "1. Bxg7 wins Black's pawn on g7."
+    },
+    {
+      "diagram_number": 193,
+      "page_title": "Material: Taking a piece which is attacked twice: B",
+      "fen": "r1r3k1/pp3p1p/2p3p1/3q4/1P6/8/P5PP/1Q1R3K w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Rxd5"
+      ],
+      "hint": "Capture the black queen on d5 which is attacked twice.",
+      "explanation": "1. Rxd5 captures the queen, which is attacked twice by White's rook and queen."
+    },
+    {
+      "diagram_number": 194,
+      "page_title": "Material: Taking a piece which is attacked twice: B",
+      "fen": "3r4/4b1k1/p3pn2/8/1P1N4/5P2/P5PP/4R1K1 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Nxe6+"
+      ],
+      "hint": "Check with your knight on d4 to e6, attacking the king and capturing a piece.",
+      "explanation": "1. Nxe6+ gives check and wins material."
+    },
+    {
+      "diagram_number": 195,
+      "page_title": "Material: Taking a piece which is attacked twice: B",
+      "fen": "2r2r1k/p2p2pp/p1n2p2/1P6/8/1N3R2/P4PPP/3R2K1 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... axb5"
+      ],
+      "hint": "Black to move. Capture the pawn on b5 with your a-pawn.",
+      "explanation": "1...axb5 captures the pawn on b5 cleanly."
+    },
+    {
+      "diagram_number": 196,
+      "page_title": "Material: Taking a piece which is attacked twice: B",
+      "fen": "rn1q1rk1/pbpp1ppp/1p2p3/n3P3/2PP4/2NB1N2/PP3PPP/R2Q1RK1 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Bxf3"
+      ],
+      "hint": "Black to move. Capture the knight on f3 with your bishop.",
+      "explanation": "1...Bxf3 captures the knight on f3, which is attacked twice."
+    },
+    {
+      "diagram_number": 197,
+      "page_title": "Material: Taking a piece which is attacked twice: B",
+      "fen": "r2r2k1/p1p2p1p/1p4p1/3b4/8/3P1N2/P1P2PPP/R1R3K1 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Bxf3"
+      ],
+      "hint": "Black to move. Capture the knight on f3 with your bishop.",
+      "explanation": "1...Bxf3 captures the knight on f3."
+    },
+    {
+      "diagram_number": 198,
+      "page_title": "Material: Taking a piece which is attacked twice: B",
+      "fen": "r2r2k1/pp2ppbp/2p3p1/8/2P1P3/1P3N2/P4PPP/R2R2K1 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Bxa1"
+      ],
+      "hint": "Black to move. Capture the rook on a1 with your bishop.",
+      "explanation": "1...Bxa1 wins the exchange."
+    },
+    {
+      "diagram_number": 199,
+      "page_title": "Material: Taking a piece which is attacked twice: B",
+      "fen": "r1bq1rk1/pppp1ppp/2n2n2/4p3/1b2P3/2NP1N2/PPP2PPP/R1BQKB1R w KQ - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. a3"
+      ],
+      "hint": "Play a3 to attack Black's bishop on b4.",
+      "explanation": "1. a3 forces the bishop to move or be captured."
+    },
+    {
+      "diagram_number": 200,
+      "page_title": "Material: Taking a piece which is attacked twice: B",
+      "fen": "r1bq1rk1/pppp1ppp/2n2n2/4p3/1b2P3/2NP1N2/PPP2PPP/R1BQKB1R b KQ - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Bxc3+"
+      ],
+      "hint": "Black to move. Capture the knight on c3 with check.",
+      "explanation": "1...Bxc3+ captures the knight and gives check."
+    },
+    {
+      "diagram_number": 201,
+      "page_title": "Material: Taking a piece which is attacked twice: B",
+      "fen": "r1bq1rk1/pppp1ppp/2n2n2/4p3/1b2P3/2NP1N2/PPP2PPP/R1BQKB1R w KQ - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Bd2"
+      ],
+      "hint": "Develop your bishop to d2.",
+      "explanation": "1. Bd2 defends the knight and develops a piece."
+    },
+    {
+      "diagram_number": 202,
+      "page_title": "Material: Taking a piece which is attacked twice: B",
+      "fen": "r2q1rk1/p1p2ppp/bpn1p3/3p4/3P4/2N1PN2/PPP2PPP/R2Q1RK1 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Bxf1"
+      ],
+      "hint": "Black to move. Capture the rook on f1 with your bishop.",
+      "explanation": "1...Bxf1 wins the exchange."
+    },
+    {
+      "diagram_number": 203,
+      "page_title": "Material: Taking a piece which is attacked twice: B",
+      "fen": "r2q1rk1/p1p2ppp/bpn1p3/3p4/3P4/2N1PN2/PPP2PPP/R2Q1RK1 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Re1"
+      ],
+      "hint": "Play your rook to e1.",
+      "explanation": "1. Re1 controls the e-file."
+    },
+    {
+      "diagram_number": 204,
+      "page_title": "Material: Taking a piece which is attacked twice: B",
+      "fen": "r2q1rk1/p1p2ppp/bpn1p3/3p4/3P4/2N1PN2/PPP2PPP/R2Q1RK1 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Nxd4"
+      ],
+      "hint": "Black to move. Capture the pawn on d4 with your knight.",
+      "explanation": "1...Nxd4 wins a central pawn."
+    },
+    {
+      "diagram_number": 205,
+      "page_title": "Material: Winning material: A",
+      "fen": "r2r2k1/p1p2ppp/bpn5/q7/4P3/1B1N4/PPP3PP/R2Q1RK1 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Bxd3"
+      ],
+      "hint": "Black to move. Capture the knight on d3 with your bishop.",
+      "explanation": "1...Bxd3 captures the defending knight, winning material."
+    },
+    {
+      "diagram_number": 206,
+      "page_title": "Material: Winning material: A",
+      "fen": "3rk2r/ppppqpp1/7p/4b3/8/1PN1P3/P1P2PPP/R2Q1RK1 w k - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Nd5"
+      ],
+      "hint": "Jump your knight to d5 to attack the queen.",
+      "explanation": "1. Nd5 attacks Black's queen and gains a strong central outpost."
+    },
+    {
+      "diagram_number": 207,
+      "page_title": "Material: Winning material: A",
+      "fen": "r3q2r/2b1kpp1/p1n1p2p/1p1pP3/1P1N4/P1P2N2/Q4PPP/R3R1K1 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Nxc6+"
+      ],
+      "hint": "Capture the knight on c6 with your knight with check.",
+      "explanation": "1. Nxc6+ captures the knight and gives check."
+    },
+    {
+      "diagram_number": 208,
+      "page_title": "Material: Winning material: A",
+      "fen": "r2q1rk1/pp1b2pp/1pn1p3/3p4/4n3/1BN2N2/PPP2PPP/R2Q1RK1 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Nxe4"
+      ],
+      "hint": "Capture the knight on e4 with your knight.",
+      "explanation": "1. Nxe4 wins Black's central knight."
+    },
+    {
+      "diagram_number": 209,
+      "page_title": "Material: Winning material: A",
+      "fen": "4r1k1/3n1ppp/8/3n4/3b4/8/PP3PPP/4R1K1 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Rxe1#"
+      ],
+      "hint": "Black to move. Deliver back-rank checkmate with your rook on e1.",
+      "explanation": "1...Rxe1# is an immediate checkmate."
+    },
+    {
+      "diagram_number": 210,
+      "page_title": "Material: Winning material: A",
+      "fen": "r5k1/1p3ppp/pqb5/4p3/1P6/P3PN2/1B3PPP/2RQ2K1 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... Bxf3"
+      ],
+      "hint": "Black to move. Capture the knight on f3 with your bishop.",
+      "explanation": "1...Bxf3 wins a piece and damages White's pawn structure."
+    },
+    {
+      "diagram_number": 211,
+      "page_title": "Material: Winning material: A",
+      "fen": "r2q1rk1/pp1b1ppp/1nn1p3/8/3P4/2NB1N2/PPP2PPP/R2Q1RK1 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Bxh7+"
+      ],
+      "hint": "Sacrifice your bishop on h7 with check.",
+      "explanation": "1. Bxh7+ starts a classic Greek gift sacrifice against the black king."
+    },
+    {
+      "diagram_number": 212,
+      "page_title": "Material: Winning material: A",
+      "fen": "r3r1k1/p4pp1/2p4p/3p4/R2N4/8/PPP3PP/2R3K1 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... c5"
+      ],
+      "hint": "Black to move. Advance your c-pawn to c5 to attack the knight.",
+      "explanation": "1...c5 attacks White's knight and gains space."
+    },
+    {
+      "diagram_number": 213,
+      "page_title": "Material: Winning material: A",
+      "fen": "r5k1/q1p2p1p/3pr1p1/8/p3N2P/P5P1/1P2RP2/3Q2K1 b - - 0 1",
+      "side_to_move": "b",
+      "solution_san": [
+        "1... d5"
+      ],
+      "hint": "Black to move. Advance your d-pawn to d5 to attack the knight.",
+      "explanation": "1...d5 attacks White's knight on e4 and exploits the pin."
+    },
+    {
+      "diagram_number": 214,
+      "page_title": "Material: Winning material: A",
+      "fen": "r1r3k1/pb1p1p1p/np4p1/3p4/3P4/1P3N2/P3PPPP/R2QKB1R w KQ - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. e3"
+      ],
+      "hint": "Play e3 to support your center and develop.",
+      "explanation": "1. e3 opens lines for the dark-squared bishop and solidifies the center."
+    },
+    {
+      "diagram_number": 215,
+      "page_title": "Material: Winning material: A",
+      "fen": "r3r1k1/p2n1ppp/1p1bpn2/3p4/3P1N2/2PB1N2/PP3PPP/R2Q1RK1 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Ne2"
+      ],
+      "hint": "Retreat your knight to e2.",
+      "explanation": "1. Ne2 regroups the knight and prepares f3 to challenge Black's control."
+    },
+    {
+      "diagram_number": 216,
+      "page_title": "Material: Winning material: A",
+      "fen": "r1b1q1k1/pp3ppp/1np5/8/1P1N4/P1P5/4BPPP/R2Q1RK1 w - - 0 1",
+      "side_to_move": "w",
+      "solution_san": [
+        "1. Re1"
+      ],
+      "hint": "Play your rook to e1.",
+      "explanation": "1. Re1 centralizes the rook on the open file, applying pressure."
+    }
+  ]
+}

@@ -370,7 +370,7 @@ export const PuzzlePlayer: React.FC<PuzzlePlayerProps> = ({
           </p>
         ) : (
           <div className="flex items-center justify-between text-xs text-slate-400">
-            <span>Find the winning Step 4 tactical combination</span>
+            <span>Find the best move in this exercise</span>
             {moveHistory.length > 0 && (
               <span className="font-mono text-amber-300 font-semibold">{moveHistory.join(' ')}</span>
             )}

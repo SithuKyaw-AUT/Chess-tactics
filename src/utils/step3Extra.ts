@@ -42,7 +42,10 @@ export function parseStep3Extra(input: unknown): Step3ExtraParseResult {
   }
 
   const file = input as Step3ExtraFile;
-  const step = file.series
+  const series = file.series.endsWith('Workbook')
+    ? file.series.slice(0, -'Workbook'.length)
+    : file.series;
+  const step = series
     .replace(/([a-z])([A-Z])/g, '$1 $2')
     .replace(/(\d)([A-Z])/g, '$1 $2')
     .replace(/([a-zA-Z])(\d)/g, '$1 $2')
