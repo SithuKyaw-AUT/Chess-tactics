@@ -17,6 +17,7 @@ export interface Puzzle {
 export interface PuzzleSolution {
   puzzleId: string;
   moves: string[]; // List of SAN moves, e.g. ["e6", "fxe6", "Rxd7"]
+  variations?: { label: string; moves: string[] }[];
   hints: string[];
   explanation: string;
   updatedAt: string;

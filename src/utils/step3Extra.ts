@@ -9,6 +9,7 @@ interface Step3ExtraDiagram {
   solution_san?: string[];
   hint?: string;
   explanation?: string;
+  variations?: { label?: string; san?: string[] }[];
 }
 
 interface Step3ExtraFile {
@@ -89,24 +90,38 @@ export function parseStep3Extra(input: unknown): Step3ExtraParseResult {
     };
     puzzles.push(puzzle);
 
-    if (!Array.isArray(diagram.solution_san) || diagram.solution_san.length === 0) return;
-
-    const solutionChess = new Chess(fen);
-    const moves: string[] = [];
-    try {
-      for (const rawMove of diagram.solution_san) {
-        const move = cleanMoveNumber(rawMove);
-        const result = solutionChess.move(move);
-        moves.push(result.san);
+    const parseMoves = (san: unknown, label: string): string[] | null => {
+      if (!Array.isArray(san) || san.length === 0) return null;
+      const solutionChess = new Chess(fen);
+      const moves: string[] = [];
+      try {
+        for (const rawMove of san) {
+          if (typeof rawMove !== 'string') throw new Error('move must be SAN text');
+          const result = solutionChess.move(cleanMoveNumber(rawMove));
+          moves.push(result.san);
+        }
+      } catch (error) {
+        errors.push(`Diagram ${diagramNumber}: ${label} was not imported (${(error as Error).message || 'invalid SAN'}).`);
+        return null;
       }
-    } catch (error) {
-      errors.push(`Diagram ${diagramNumber}: solution was not imported (${(error as Error).message || 'invalid SAN'}).`);
-      return;
-    }
+      return moves;
+    };
+
+    const moves = parseMoves(diagram.solution_san, 'solution');
+    const variations = Array.isArray(diagram.variations)
+      ? diagram.variations.flatMap((variation, variationIndex) => {
+          const variationMoves = parseMoves(variation?.san, `variation ${variationIndex + 1}`);
+          return variationMoves
+            ? [{ label: variation.label?.trim() || `Variation ${variationIndex + 1}`, moves: variationMoves }]
+            : [];
+        })
+      : [];
+    if (!moves && variations.length === 0) return;
 
     solutions[id] = {
       puzzleId: id,
-      moves,
+      moves: moves || variations[0].moves,
+      ...(variations.length > 0 ? { variations } : {}),
       hints: diagram.hint?.trim() ? [diagram.hint.trim()] : [],
       explanation: diagram.explanation?.trim() || `${title} solution.`,
       updatedAt: new Date().toISOString(),

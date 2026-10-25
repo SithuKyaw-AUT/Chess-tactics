@@ -64,11 +64,17 @@ export const PuzzlePlayer: React.FC<PuzzlePlayerProps> = ({
   const [statusMessage, setStatusMessage] = useState<string>('');
   const [hintTier, setHintTier] = useState<number>(0);
   const [moveHistory, setMoveHistory] = useState<string[]>([]);
+  const [selectedVariationIndex, setSelectedVariationIndex] = useState<number>(0);
+  const [completedVariationIndices, setCompletedVariationIndices] = useState<Set<number>>(new Set());
   const [flipped, setFlipped] = useState<boolean>(puzzle.sideToMove === 'b');
   const [soundOn, setSoundOn] = useState<boolean>(isSoundEnabled());
   const [isShaking, setIsShaking] = useState<boolean>(false);
 
   const opponentTimeoutRef = useRef<NodeJS.Timeout | null>(null);
+  const variations = solution?.variations || [];
+  const hasVariations = variations.length > 0;
+  const activeMoves = hasVariations ? variations[selectedVariationIndex].moves : solution?.moves || [];
+  const allVariationsPracticed = hasVariations && completedVariationIndices.size === variations.length;
 
   // Reset when puzzle changes
   useEffect(() => {
@@ -85,8 +91,27 @@ export const PuzzlePlayer: React.FC<PuzzlePlayerProps> = ({
     setStatusMessage('');
     setHintTier(0);
     setMoveHistory([]);
+    setSelectedVariationIndex(0);
+    setCompletedVariationIndices(new Set());
     setFlipped(puzzle.sideToMove === 'b');
   }, [puzzle.id, puzzle.fen, solution]);
+
+  const selectVariation = (index: number) => {
+    if (opponentTimeoutRef.current) {
+      clearTimeout(opponentTimeoutRef.current);
+    }
+    const resetChess = new Chess(puzzle.fen);
+    setChess(resetChess);
+    setCurrentFen(puzzle.fen);
+    setLastMove(null);
+    setHintSquare(null);
+    setStepIndex(0);
+    setStatus('playing');
+    setStatusMessage('');
+    setHintTier(0);
+    setMoveHistory([]);
+    setSelectedVariationIndex(index);
+  };
 
   const toggleSound = () => {
     const next = !soundOn;
@@ -108,6 +133,35 @@ export const PuzzlePlayer: React.FC<PuzzlePlayerProps> = ({
     setStatusMessage('');
     setHintTier(0);
     setMoveHistory([]);
+    setStepIndex(0);
+    setStatus('playing');
+  };
+
+  const finishLine = () => {
+    setStatus('solved');
+    if (hasVariations) {
+      const alreadyCompleted = completedVariationIndices.has(selectedVariationIndex);
+      const totalCompleted = completedVariationIndices.size + (alreadyCompleted ? 0 : 1);
+      const remaining = variations.length - totalCompleted;
+      setCompletedVariationIndices((completed) => new Set(completed).add(selectedVariationIndex));
+      if (remaining === 0) {
+        setStatusMessage('Excellent! You practiced every variation.');
+        markPuzzleSolved(puzzle.id);
+      } else {
+        setStatusMessage(
+          `${variations[selectedVariationIndex].label} complete. Practice ${remaining} more variation${remaining === 1 ? '' : 's'} above.`
+        );
+      }
+    } else {
+      setStatusMessage('Excellent! Puzzle solved correctly.');
+      markPuzzleSolved(puzzle.id);
+    }
+    playSolvedSound();
+    confetti({
+      particleCount: 80,
+      spread: 60,
+      origin: { y: 0.7 }
+    });
   };
 
   // Handle a move made on the board
@@ -127,8 +181,8 @@ export const PuzzlePlayer: React.FC<PuzzlePlayerProps> = ({
       const san = moveResult.san;
 
       // Check against solution if available
-      if (solution && solution.moves.length > 0) {
-        const expectedMove = solution.moves[stepIndex];
+      if (activeMoves.length > 0) {
+        const expectedMove = activeMoves[stepIndex];
 
         // Match SAN notation (or strip checks/captures if loose match needed)
         const isMatch =
@@ -158,21 +212,13 @@ export const PuzzlePlayer: React.FC<PuzzlePlayerProps> = ({
           const nextStep = stepIndex + 1;
 
           // Check if puzzle is fully solved
-          if (nextStep >= solution.moves.length) {
-            setStatus('solved');
-            setStatusMessage('Excellent! Puzzle solved correctly.');
-            playSolvedSound();
-            confetti({
-              particleCount: 80,
-              spread: 60,
-              origin: { y: 0.7 }
-            });
-            markPuzzleSolved(puzzle.id);
+          if (nextStep >= activeMoves.length) {
+            finishLine();
             return;
           }
 
           // Opponent has a canned response move
-          const opponentMove = solution.moves[nextStep];
+          const opponentMove = activeMoves[nextStep];
           setStepIndex(nextStep + 1);
           setStatus('waiting_opponent');
           setStatusMessage('Opponent responding...');
@@ -196,16 +242,8 @@ export const PuzzlePlayer: React.FC<PuzzlePlayerProps> = ({
                 }
 
                 // Check if opponent move ended puzzle or awaiting next player move
-                if (nextStep + 1 >= solution.moves.length) {
-                  setStatus('solved');
-                  setStatusMessage('Brilliant tactical solution!');
-                  playSolvedSound();
-                  confetti({
-                    particleCount: 80,
-                    spread: 60,
-                    origin: { y: 0.7 }
-                  });
-                  markPuzzleSolved(puzzle.id);
+                if (nextStep + 1 >= activeMoves.length) {
+                  finishLine();
                 } else {
                   setStatus('playing');
                   setStatusMessage('Your turn: find the next move!');
@@ -241,7 +279,7 @@ export const PuzzlePlayer: React.FC<PuzzlePlayerProps> = ({
 
   // Provide progressive hints
   const handleRequestHint = () => {
-    if (!solution || solution.moves.length === 0) {
+    if (activeMoves.length === 0) {
       setStatusMessage('No solution is available for this puzzle yet.');
       return;
     }
@@ -249,10 +287,10 @@ export const PuzzlePlayer: React.FC<PuzzlePlayerProps> = ({
     const nextTier = Math.min(hintTier + 1, 3);
     setHintTier(nextTier);
 
-    const currentExpectedMove = solution.moves[stepIndex] || solution.moves[0];
+    const currentExpectedMove = activeMoves[stepIndex] || activeMoves[0];
 
     if (nextTier === 1) {
-      setStatusMessage(`💡 Hint: ${solution.hints?.[0] || puzzle.categoryDescription}`);
+      setStatusMessage(`💡 Hint: ${solution?.hints?.[0] || puzzle.categoryDescription}`);
     } else if (nextTier === 2) {
       // Find source square of expected move
       try {
@@ -283,6 +321,38 @@ export const PuzzlePlayer: React.FC<PuzzlePlayerProps> = ({
       <div className="w-full mb-1.5 rounded-lg border border-amber-500/20 bg-amber-500/5 px-3 py-1.5 text-[11px] font-semibold leading-snug text-amber-200/90">
         {categoryLine}
       </div>
+
+      {hasVariations && (
+        <div className="w-full mb-2.5 rounded-xl border border-sky-500/25 bg-sky-500/5 p-3">
+          <p className="mb-2 text-xs font-medium text-sky-200">
+            Practice every variation ({completedVariationIndices.size}/{variations.length} complete)
+          </p>
+          <div className="flex flex-wrap gap-2">
+            {variations.map((variation, index) => {
+              const isSelected = selectedVariationIndex === index;
+              const isComplete = completedVariationIndices.has(index);
+              return (
+                <button
+                  key={`${variation.label}-${index}`}
+                  type="button"
+                  onClick={() => selectVariation(index)}
+                  aria-pressed={isSelected}
+                  className={`rounded-lg border px-3 py-1.5 text-xs font-medium transition-colors ${
+                    isSelected
+                      ? 'border-sky-400 bg-sky-400/20 text-sky-100'
+                      : 'border-slate-700 bg-slate-900 text-slate-300 hover:border-sky-500/60'
+                  }`}
+                >
+                  {variation.label}{isComplete ? ' ✓' : ''}
+                </button>
+              );
+            })}
+          </div>
+          {allVariationsPracticed && (
+            <p className="mt-2 text-[11px] text-emerald-300">All variations practiced. You can replay any line.</p>
+          )}
+        </div>
+      )}
 
       {/* Turn Indicator and puzzle controls */}
       <div className="w-full flex items-center justify-between bg-slate-900/70 border border-slate-800/80 rounded-xl px-3.5 py-2 mb-2.5">
@@ -331,11 +401,11 @@ export const PuzzlePlayer: React.FC<PuzzlePlayerProps> = ({
 
           {/* Status indicator */}
           <div className="flex items-center gap-1 text-xs">
-            {status === 'solved' || initialSolved ? (
+            {allVariationsPracticed || (!hasVariations && (status === 'solved' || initialSolved)) ? (
               <span className="flex items-center gap-1 text-emerald-400 font-medium">
                 <CheckCircle2 className="w-3.5 h-3.5" /> Solved
               </span>
-            ) : solution && solution.moves.length > 0 ? (
+            ) : activeMoves.length > 0 ? (
               <span className="text-slate-400 font-medium">Practice</span>
             ) : (
               <span className="text-amber-400/90 font-medium text-[11px]">Pending</span>

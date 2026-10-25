@@ -19,7 +19,13 @@ export const loadSolutions = (): Record<string, PuzzleSolution> => {
       return { ...INITIAL_SOLUTIONS };
     }
     const saved = JSON.parse(raw);
-    return { ...INITIAL_SOLUTIONS, ...saved };
+    const merged = { ...INITIAL_SOLUTIONS, ...saved };
+    Object.entries(INITIAL_SOLUTIONS).forEach(([id, initial]) => {
+      if (initial.variations && initial.variations.length > 0) {
+        merged[id] = { ...merged[id], variations: initial.variations };
+      }
+    });
+    return merged;
   } catch (e) {
     console.error('Failed to load solutions from storage:', e);
     return { ...INITIAL_SOLUTIONS };
