@@ -321,7 +321,7 @@ export const PuzzlePlayer: React.FC<PuzzlePlayerProps> = ({
       <div className="w-full mb-1.5 flex items-center justify-between gap-2 rounded-lg border border-teal-500/20 bg-teal-500/5 px-3 py-1.5 text-[11px] font-semibold leading-snug text-teal-200/90">
         <span className="min-w-0 truncate">{categoryLine}</span>
         {hasVariations && (
-          <div className="flex shrink-0 items-center gap-1">
+          <div className="flex min-w-0 max-w-full flex-wrap items-center justify-end gap-1">
             {variations.map((variation, index) => {
               const isSelected = selectedVariationIndex === index;
               const isComplete = completedVariationIndices.has(index);
