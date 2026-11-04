@@ -712,37 +712,7 @@
       "page_title": "Opposition",
       "fen": "8/5ppk/8/3p2KP/3P2P1/8/8/8 w - - 0 1",
       "side_to_move": "white",
-      "solution_san": [
-        "1. Kf4",
-        "1... Kh6",
-        "2. Kf5",
-        "2... f6",
-        "3. Ke6",
-        "3... Kg5",
-        "4. Kf7",
-        "4... Kh6",
-        "5. Ke7",
-        "5... Kg5",
-        "6. Kf8",
-        "6... Kh6",
-        "7. Kf7",
-        "7... Kh7",
-        "8. Ke6",
-        "8... Kh6",
-        "9. Kxd5",
-        "9... Kg5",
-        "10. Ke6",
-        "10... Kxg4",
-        "11. d5",
-        "11... f5",
-        "12. d6",
-        "12... f4",
-        "13. d7",
-        "13... f3",
-        "14. d8=Q",
-        "14... f2",
-        "15. Qd3"
-      ],
+      "solution_san": [],
       "hint": "",
       "explanation": "",
       "variations": [
@@ -767,6 +737,10 @@
             "8... Kxh5",
             "9. Kxf6"
           ]
+        },
+        {
+          "label": "1. Kf4, 1... Kh6, 2. Kf5, 2... f6, 3. Ke6, 3... Kg5, 4. Kf7, 4... Kh6, 5. Ke7, 5... Kg5, 6. Kf8, 6... Kh6, 7. Kf7, 7... Kh7, 8. Ke6, 8... Kh6, 9. Kxd5, 9... Kg5, 10. Ke6, 10... Kxg4, 11. d5, 11... f5, 12. d6, 12... f4, 13. d7, 13... f3, 14. d8=Q, 14... f2, 15. Qd3",
+          "san": []
         }
       ]
     },
@@ -775,13 +749,7 @@
       "page_title": "Opposition",
       "fen": "8/8/8/1p6/1P6/3P1k2/3K4/8 w - - 0 1",
       "side_to_move": "white",
-      "solution_san": [
-        "1. Kc2",
-        "1... Ke3",
-        "2. Kc3",
-        "2... Kf4",
-        "3. Kd4"
-      ],
+      "solution_san": [],
       "hint": "",
       "explanation": "",
       "variations": [
@@ -805,6 +773,16 @@
             "8. d4",
             "8... Kc4",
             "9. Ke4"
+          ]
+        },
+        {
+          "label": "",
+          "san": [
+            "1. Kc2",
+            "1... Ke3",
+            "2. Kc3",
+            "2... Kf4",
+            "3. Kd4"
           ]
         }
       ]
@@ -843,17 +821,7 @@
       "page_title": "Opposition",
       "fen": "8/8/3pPk2/3P1p2/5K2/8/8/8 w - - 0 1",
       "side_to_move": "white",
-      "solution_san": [
-        "1. Kf3",
-        "1... Kg6",
-        "2. Kg2",
-        "2... Kg7",
-        "3. Kg3",
-        "3... Kg6",
-        "4. Kh4",
-        "4... Kf6",
-        "5. Kh5"
-      ],
+      "solution_san": [],
       "hint": "",
       "explanation": "",
       "variations": [
@@ -901,6 +869,20 @@
             "13. d7",
             "13... Kc7",
             "14. Ke7"
+          ]
+        },
+        {
+          "label": "",
+          "san": [
+            "1. Kf3",
+            "1... Kg6",
+            "2. Kg2",
+            "2... Kg7",
+            "3. Kg3",
+            "3... Kg6",
+            "4. Kh4",
+            "4... Kf6",
+            "5. Kh5"
           ]
         }
       ]
