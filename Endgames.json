@@ -892,14 +892,216 @@
       "page_title": "Opposition",
       "fen": "5k2/8/5p2/7p/8/4PK2/8/8 w - - 0 1",
       "side_to_move": "white",
-      "solution_san": [],
+      "solution_san": [
+        "1. Kg2",
+        "1... Kf7",
+        "2. Kg3",
+        "2... Kg6",
+        "3. Kf4"
+      ],
       "hint": "",
-      "explanation": ""
+      "explanation": "",
+      "variations": [
+        {
+          "label": "",
+          "san": [
+            "1. Kg2",
+            "1... Kf7",
+            "2. Kg3",
+            "2... Ke6",
+            "3. Kh4",
+            "3... Ke5",
+            "4. Kxh5",
+            "4... Ke4",
+            "5. Kg6",
+            "5... f5",
+            "6. Kf6",
+            "6... Kxe3",
+            "7. Kxf5"
+          ]
+        },
+        {
+          "label": "",
+          "san": [
+            "1. Kg2",
+            "1... Ke7",
+            "2. Kh3",
+            "2... Kf7",
+            "3. Kg3",
+            "3... Kg6",
+            "4. Kf4",
+            "4... Kf7",
+            "5. Kg3",
+            "5... Kg7",
+            "6. Kf4",
+            "6... Kg6",
+            "7. e4",
+            "7... Kh6",
+            "8. Kf5",
+            "8... Kg7",
+            "9. e5"
+          ]
+        }
+      ]
     },
     {
       "diagram_number": 25,
       "page_title": "Opposition",
       "fen": "6k1/p7/3K2p1/1P5p/7P/8/8/8 w - - 0 1",
+      "side_to_move": "white",
+      "solution_san": [
+        "1. Kd5",
+        "1... Kg7",
+        "2. Ke4",
+        "2... Kf6",
+        "3. Kf4",
+        "3... g5+",
+        "4. hxg5+",
+        "4... Kg6",
+        "5. Kg3",
+        "5... Kxg5",
+        "6. Kh3",
+        "6... Kf5",
+        "7. Kh4",
+        "7... Ke5",
+        "8. Kxh5",
+        "8... Kd5",
+        "9. Kg4",
+        "9... Kc5",
+        "10. Kf3",
+        "10... Kxb5",
+        "11. Ke2",
+        "11... Kb4",
+        "12. Kd2",
+        "12... Kb3",
+        "13. Kc1",
+        "13... Ka2",
+        "14. Kc2"
+      ],
+      "hint": "",
+      "explanation": "",
+      "variations": [
+        {
+          "label": "",
+          "san": [
+            "1. Kd5",
+            "1... Kf7",
+            "2. Ke5",
+            "2... Ke7",
+            "3. Kd5",
+            "3... Kf6",
+            "4. Kc6",
+            "4... g5",
+            "5. hxg5+",
+            "5... Kxg5",
+            "6. Kb7",
+            "6... h4",
+            "7. Kxa7",
+            "7... h3",
+            "8. b6",
+            "8... h2",
+            "9. b7",
+            "9... h1=Q",
+            "10. b8=Q"
+          ]
+        },
+        {
+          "label": "",
+          "san": [
+            "1. Kd5",
+            "1... Kg7",
+            "2. Ke4",
+            "2... Kf7",
+            "3. Ke5",
+            "3... Ke7",
+            "4. Kd5"
+          ]
+        }
+      ]
+    },
+    {
+      "diagram_number": 26,
+      "page_title": "Defending: Protecting: A",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "side_to_move": "white",
+      "solution_san": [],
+      "hint": "",
+      "explanation": ""
+    },
+    {
+      "diagram_number": 27,
+      "page_title": "Defending: Protecting: A",
+      "fen": "8/2p4k/8/2pP4/7K/8/8/8 w - - 0 1",
+      "side_to_move": "white",
+      "solution_san": [
+        "1. Kg3",
+        "1... Kh6",
+        "2. Kg4",
+        "2... Kg7",
+        "3. Kf3",
+        "3... Kf7",
+        "4. Ke3",
+        "4... Ke7",
+        "5. Kd3",
+        "5... Kd7",
+        "6. Kc3",
+        "6... Ke7",
+        "7. Kd3",
+        "7... Kd7",
+        "8. Kc3"
+      ],
+      "hint": "",
+      "explanation": ""
+    },
+    {
+      "diagram_number": 28,
+      "page_title": "Defending: Protecting: A",
+      "fen": "8/2pp2pp/8/2PP1P2/1p5k/8/PP4p1/6K1 w - - 0 1",
+      "side_to_move": "white",
+      "solution_san": [
+        "1. f6",
+        "1... gxf6",
+        "2. Kxg2",
+        "2... Kg5",
+        "3. a4",
+        "3... bxa3",
+        "4. bxa3",
+        "4... Kf5",
+        "5. a4",
+        "5... Ke5",
+        "6. d6",
+        "6... cxd6",
+        "7. c6",
+        "7... dxc6",
+        "8. a5",
+        "8... Kd5",
+        "9. a6"
+      ],
+      "hint": "",
+      "explanation": ""
+    },
+    {
+      "diagram_number": 29,
+      "page_title": "Defending: Protecting: A",
+      "fen": "7K/8/k1P5/7p/8/8/8/8 w - - 0 1",
+      "side_to_move": "white",
+      "solution_san": [],
+      "hint": "",
+      "explanation": ""
+    },
+    {
+      "diagram_number": 30,
+      "page_title": "Defending: Protecting: A",
+      "fen": "8/1pPK3b/8/8/8/5k2/8/8 w - - 0 1",
+      "side_to_move": "white",
+      "solution_san": [],
+      "hint": "",
+      "explanation": ""
+    },
+    {
+      "diagram_number": 31,
+      "page_title": "Defending: Protecting: A",
+      "fen": "3K4/7p/3k4/P7/8/8/8/8 w - - 0 1",
       "side_to_move": "white",
       "solution_san": [],
       "hint": "",
