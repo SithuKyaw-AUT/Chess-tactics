@@ -1085,16 +1085,56 @@
       "page_title": "Defending: Protecting: A",
       "fen": "7K/8/k1P5/7p/8/8/8/8 w - - 0 1",
       "side_to_move": "white",
-      "solution_san": [],
+      "solution_san": [
+        "1. Kg7",
+        "1... h4",
+        "2. Kf6",
+        "2... h3",
+        "3. Ke7",
+        "3... Kb6",
+        "4. Kd7",
+        "4... h2",
+        "5. c7",
+        "5... h1=Q",
+        "6. c8=Q"
+      ],
       "hint": "",
-      "explanation": ""
+      "explanation": "",
+      "variations": [
+        {
+          "label": "",
+          "san": [
+            "1. Kg7",
+            "1... h4",
+            "2. Kf6",
+            "2... Kb6",
+            "3. Ke5",
+            "3... h3",
+            "4. Kd6",
+            "4... h2",
+            "5. c7",
+            "5... h1=Q",
+            "6. c8=Q"
+          ]
+        }
+      ]
     },
     {
       "diagram_number": 30,
       "page_title": "Defending: Protecting: A",
       "fen": "8/1pPK3b/8/8/8/5k2/8/8 w - - 0 1",
       "side_to_move": "white",
-      "solution_san": [],
+      "solution_san": [
+        "1. Kc8",
+        "1... b5",
+        "2. Kd7",
+        "2... b4",
+        "3. Kd6",
+        "3... Bf5",
+        "4. Ke5",
+        "4... Bc8",
+        "5. Kd4"
+      ],
       "hint": "",
       "explanation": ""
     },
@@ -1103,7 +1143,23 @@
       "page_title": "Defending: Protecting: A",
       "fen": "3K4/7p/3k4/P7/8/8/8/8 w - - 0 1",
       "side_to_move": "white",
-      "solution_san": [],
+      "solution_san": [
+        "1. Kc8",
+        "1... Kc6",
+        "2. Kb8",
+        "2... Kb5",
+        "3. Kb7",
+        "3... Kxa5",
+        "4. Kc6",
+        "4... h5",
+        "5. Kd5",
+        "5... h4",
+        "6. Ke4",
+        "6... h3",
+        "7. Kf3",
+        "7... h2",
+        "8. Kg2"
+      ],
       "hint": "",
       "explanation": ""
     }
