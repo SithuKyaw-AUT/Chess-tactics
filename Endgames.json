@@ -1021,16 +1021,7 @@
     },
     {
       "diagram_number": 26,
-      "page_title": "Defending: Protecting: A",
-      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
-      "side_to_move": "white",
-      "solution_san": [],
-      "hint": "",
-      "explanation": ""
-    },
-    {
-      "diagram_number": 27,
-      "page_title": "Defending: Protecting: A",
+      "page_title": "Opposition",
       "fen": "8/2p4k/8/2pP4/7K/8/8/8 w - - 0 1",
       "side_to_move": "white",
       "solution_san": [
@@ -1054,8 +1045,8 @@
       "explanation": ""
     },
     {
-      "diagram_number": 28,
-      "page_title": "Defending: Protecting: A",
+      "diagram_number": 27,
+      "page_title": "square",
       "fen": "8/2pp2pp/8/2PP1P2/1p5k/8/PP4p1/6K1 w - - 0 1",
       "side_to_move": "white",
       "solution_san": [
@@ -1081,8 +1072,8 @@
       "explanation": ""
     },
     {
-      "diagram_number": 29,
-      "page_title": "Defending: Protecting: A",
+      "diagram_number": 28,
+      "page_title": "square",
       "fen": "7K/8/k1P5/7p/8/8/8/8 w - - 0 1",
       "side_to_move": "white",
       "solution_san": [
@@ -1120,8 +1111,8 @@
       ]
     },
     {
-      "diagram_number": 30,
-      "page_title": "Defending: Protecting: A",
+      "diagram_number": 29,
+      "page_title": "square",
       "fen": "8/1pPK3b/8/8/8/5k2/8/8 w - - 0 1",
       "side_to_move": "white",
       "solution_san": [
@@ -1139,8 +1130,8 @@
       "explanation": ""
     },
     {
-      "diagram_number": 31,
-      "page_title": "Defending: Protecting: A",
+      "diagram_number": 30,
+      "page_title": "square",
       "fen": "3K4/7p/3k4/P7/8/8/8/8 w - - 0 1",
       "side_to_move": "white",
       "solution_san": [
@@ -1160,6 +1151,174 @@
         "7... h2",
         "8. Kg2"
       ],
+      "hint": "",
+      "explanation": ""
+    },
+    {
+      "diagram_number": 31,
+      "page_title": "square",
+      "fen": "8/8/8/8/p2K4/3Q4/kp3P2/8 w - - 0 1",
+      "side_to_move": "white",
+      "solution_san": [],
+      "hint": "",
+      "explanation": "",
+      "variations": [
+        {
+          "label": "",
+          "san": [
+            "1. Qc2",
+            "1... a3",
+            "2. f4",
+            "2... Ka1",
+            "3. Qb3",
+            "3... a2",
+            "4. Qc3",
+            "4... Kb1",
+            "5. Qe1+",
+            "5... Kc2",
+            "6. Qe2+",
+            "6... Kb3",
+            "7. Qc4+",
+            "7... Ka3",
+            "8. Qc3+",
+            "8... Ka4",
+            "9. Qxb2"
+          ]
+        },
+        {
+          "label": "",
+          "san": [
+            "1. Qc2",
+            "1... a3",
+            "2. Kc4",
+            "2... Ka1",
+            "3. Qc3",
+            "3... Kb1",
+            "4. Qxa3"
+          ]
+        }
+      ]
+    },
+    {
+      "diagram_number": 32,
+      "page_title": "square",
+      "fen": "8/5KBB/p4b2/1pp1kb2/8/1P6/1P5P/8 b - - 0 1",
+      "side_to_move": "black",
+      "solution_san": [
+        "1... Be6+",
+        "2. Kg6",
+        "2... Bxg7",
+        "3. Kxg7",
+        "3... Bxb3",
+        "4. h4",
+        "4... Bd1",
+        "5. Bg6",
+        "5... a5",
+        "6. h5",
+        "6... Bxh5",
+        "7. Bxh5",
+        "7... Kd4",
+        "8. Kf6",
+        "8... c4",
+        "9. Ke6",
+        "9... b4",
+        "10. Bd1",
+        "10... b3",
+        "11. Kd6"
+      ],
+      "hint": "",
+      "explanation": "",
+      "variations": [
+        {
+          "label": "",
+          "san": [
+            "1... Be6+",
+            "2. Kg6",
+            "2... Bxg7",
+            "3. Kxg7",
+            "3... Bxb3",
+            "4. h4",
+            "4... Bd1",
+            "5. Bg6",
+            "5... a5",
+            "6. h5",
+            "6... Bxh5",
+            "7. Bxh5",
+            "7... Kd4",
+            "8. Kf6",
+            "8... c4",
+            "9. Ke6",
+            "9... b4",
+            "10. Bd1",
+            "10... b3",
+            "11. Kd6",
+            "11... Kd3",
+            "12. Kc5",
+            "12... a4",
+            "13. Kb4",
+            "13... c3",
+            "14. bxc3",
+            "14... b2"
+          ]
+        },
+        {
+          "label": "",
+          "san": [
+            "1... Be6+",
+            "2. Kg6",
+            "2... Bxg7",
+            "3. Kxg7",
+            "3... Bxb3",
+            "4. h4",
+            "4... Bd1",
+            "5. Bg6",
+            "5... a5",
+            "6. h5",
+            "6... Bxh5",
+            "7. Bxh5",
+            "7... Kd4",
+            "8. Kf6",
+            "8... c4",
+            "9. Ke6",
+            "9... b4",
+            "10. Bd1",
+            "10... b3",
+            "11. Kd6",
+            "11... a4",
+            "12. Kc6",
+            "12... c3",
+            "13. bxc3+",
+            "13... Kxc3",
+            "14. Kb5",
+            "14... b2"
+          ]
+        }
+      ]
+    },
+    {
+      "diagram_number": 33,
+      "page_title": "square",
+      "fen": "8/2p4K/8/7k/8/8/6PP/8 w - - 0 1",
+      "side_to_move": "white",
+      "solution_san": [],
+      "hint": "",
+      "explanation": ""
+    },
+    {
+      "diagram_number": 34,
+      "page_title": "square",
+      "fen": "8/2p5/8/8/5P1k/p7/7P/2K5 w - - 0 1",
+      "side_to_move": "white",
+      "solution_san": [],
+      "hint": "",
+      "explanation": ""
+    },
+    {
+      "diagram_number": 35,
+      "page_title": "square",
+      "fen": "1n6/7K/1P3k2/2pP1P2/7P/8/8/8 w - - 0 1",
+      "side_to_move": "white",
+      "solution_san": [],
       "hint": "",
       "explanation": ""
     }
