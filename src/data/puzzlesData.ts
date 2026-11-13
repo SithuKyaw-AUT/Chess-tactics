@@ -5,12 +5,14 @@
 import { Puzzle, PuzzleSolution } from "../types/puzzle";
 import step3ExtraJson from "../../step3extra_1_18.json";
 import step1WorkbookJson from "../../Step1Workbook.json";
+import step5WorkbookJson from "../../Step_5_Workbook.json";
 import endgamesJson from "../../Endgames.json";
 import openingForBlackJson from "../../Opening_for_Black.json";
 import { parseStep3Extra } from "../utils/step3Extra";
 
 const STEP3_EXTRA_IMPORT = parseStep3Extra(step3ExtraJson);
 const STEP1_WORKBOOK_IMPORT = parseStep3Extra(step1WorkbookJson);
+const STEP5_WORKBOOK_IMPORT = parseStep3Extra(step5WorkbookJson);
 const ENDGAMES_IMPORT = parseStep3Extra(endgamesJson);
 const OPENING_FOR_BLACK_IMPORT = parseStep3Extra(openingForBlackJson);
 
@@ -18,6 +20,13 @@ if (STEP1_WORKBOOK_IMPORT.errors.length > 0) {
   console.error(
     `Step 1 workbook imported with ${STEP1_WORKBOOK_IMPORT.errors.length} data issues:`,
     STEP1_WORKBOOK_IMPORT.errors
+  );
+}
+
+if (STEP5_WORKBOOK_IMPORT.errors.length > 0) {
+  console.error(
+    `Step 5 workbook imported with ${STEP5_WORKBOOK_IMPORT.errors.length} data issues:`,
+    STEP5_WORKBOOK_IMPORT.errors
   );
 }
 
@@ -4658,6 +4667,7 @@ export const PUZZLES_DATA: Puzzle[] = [
   },
   ...STEP3_EXTRA_IMPORT.puzzles,
   ...STEP1_WORKBOOK_IMPORT.puzzles,
+  ...STEP5_WORKBOOK_IMPORT.puzzles,
   ...ENDGAMES_IMPORT.puzzles,
   ...OPENING_FOR_BLACK_IMPORT.puzzles
 ];
@@ -4665,6 +4675,7 @@ export const PUZZLES_DATA: Puzzle[] = [
 export const INITIAL_SOLUTIONS: Record<string, PuzzleSolution> = {
   ...STEP3_EXTRA_IMPORT.solutions,
   ...STEP1_WORKBOOK_IMPORT.solutions,
+  ...STEP5_WORKBOOK_IMPORT.solutions,
   ...ENDGAMES_IMPORT.solutions,
   ...OPENING_FOR_BLACK_IMPORT.solutions,
   "p3_d1": {

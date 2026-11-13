@@ -1,0 +1,113 @@
+{
+  "series": "Step 5 Workbook",
+  "diagrams": [
+    {
+      "diagram_number": 1,
+      "page_title": "Test A: Step 4 (Mix)",
+      "fen": "2r2rk1/p4ppp/qp2p3/2n1N3/1Q2b3/4PB2/PP3PPP/K2R3R b - - 0 1",
+      "side_to_move": "black",
+      "solution_san": [],
+      "hint": "",
+      "explanation": ""
+    },
+    {
+      "diagram_number": 2,
+      "page_title": "Test A: Step 4 (Mix)",
+      "fen": "r1b1k2r/ppqn1pp1/4p3/3pPn1P/3P2Q1/P2B4/2PB1P2/R3K1NR b - - 0 1",
+      "side_to_move": "black",
+      "solution_san": [],
+      "hint": "",
+      "explanation": ""
+    },
+    {
+      "diagram_number": 3,
+      "page_title": "Test A: Step 4 (Mix)",
+      "fen": "r2qk2r/1ppnbpp1/3p2bp/p1nP4/2PQ1BPP/2N2P2/PP3N2/2KR1B1R b - - 0 1",
+      "side_to_move": "black",
+      "solution_san": [],
+      "hint": "",
+      "explanation": ""
+    },
+    {
+      "diagram_number": 4,
+      "page_title": "Test A: Step 4 (Mix)",
+      "fen": "3r2k1/3P1p2/p6Q/3P2N1/6P1/1p1b4/1Pn2K1P/4r3 w - - 0 1",
+      "side_to_move": "white",
+      "solution_san": [],
+      "hint": "",
+      "explanation": ""
+    },
+    {
+      "diagram_number": 5,
+      "page_title": "Test A: Step 4 (Mix)",
+      "fen": "r2q2k1/p1b3pp/n4r2/3p1p2/3P1p2/BQP2N1P/P5P1/R4RK1 w - - 0 1",
+      "side_to_move": "white",
+      "solution_san": [],
+      "hint": "",
+      "explanation": ""
+    },
+    {
+      "diagram_number": 6,
+      "page_title": "Test A: Step 4 (Mix)",
+      "fen": "6k1/2p3pp/Q1bpp3/1N1n1pq1/1pBP3b/4P3/1P1B1PPP/5RK1 b - - 0 1",
+      "side_to_move": "black",
+      "solution_san": [],
+      "hint": "",
+      "explanation": ""
+    },
+    {
+      "diagram_number": 7,
+      "page_title": "Test A: Step 4 (Mix)",
+      "fen": "2n5/2pq2k1/p3p1p1/1b1pP1N1/3P1N1P/1PQ5/8/4K3 w - - 0 1",
+      "side_to_move": "white",
+      "solution_san": [],
+      "hint": "",
+      "explanation": ""
+    },
+    {
+      "diagram_number": 8,
+      "page_title": "Test A: Step 4 (Mix)",
+      "fen": "2b5/p4p2/1p1q2k1/3p1pN1/1Pr5/3Q1PP1/P4PK1/7R w - - 0 1",
+      "side_to_move": "white",
+      "solution_san": [],
+      "hint": "",
+      "explanation": ""
+    },
+    {
+      "diagram_number": 9,
+      "page_title": "Test A: Step 4 (Mix)",
+      "fen": "5k2/6bQ/pp2r3/3Nqp2/2P5/4P3/P5P1/2R4K w - - 0 1",
+      "side_to_move": "white",
+      "solution_san": [],
+      "hint": "",
+      "explanation": ""
+    },
+    {
+      "diagram_number": 10,
+      "page_title": "Test A: Step 4 (Mix)",
+      "fen": "4rrk1/1p3pp1/p1pR3p/4P3/nP3P1B/3Q3P/q1P3PK/4R3 w - - 0 1",
+      "side_to_move": "white",
+      "solution_san": [],
+      "hint": "",
+      "explanation": ""
+    },
+    {
+      "diagram_number": 11,
+      "page_title": "Test A: Step 4 (Mix)",
+      "fen": "3rr1k1/1p3ppp/p1p2pn1/6q1/1QPP4/1P5P/1P2NPP1/3RR1K1 b - - 0 1",
+      "side_to_move": "black",
+      "solution_san": [],
+      "hint": "",
+      "explanation": ""
+    },
+    {
+      "diagram_number": 12,
+      "page_title": "Test A: Step 4 (Mix)",
+      "fen": "8/2p3k1/2b3P1/p1RN4/4r3/r7/PR4K1/8 b - - 0 1",
+      "side_to_move": "black",
+      "solution_san": [],
+      "hint": "",
+      "explanation": ""
+    }
+  ]
+}
