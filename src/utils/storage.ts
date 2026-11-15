@@ -35,7 +35,7 @@ export const loadSolutions = (): Record<string, PuzzleSolution> => {
 /**
  * Save or update a single puzzle solution
  */
-export const savePuzzleSolution = (solution: PuzzleSolution): void => {
+export const savePuzzleSolution = (solution: PuzzleSolution): boolean => {
   try {
     const current = loadSolutions();
     current[solution.puzzleId] = {
@@ -43,8 +43,10 @@ export const savePuzzleSolution = (solution: PuzzleSolution): void => {
       updatedAt: new Date().toISOString()
     };
     localStorage.setItem(SOLUTIONS_KEY, JSON.stringify(current));
+    return true;
   } catch (e) {
     console.error('Failed to save puzzle solution:', e);
+    return false;
   }
 };
 

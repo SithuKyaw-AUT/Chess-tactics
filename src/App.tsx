@@ -15,7 +15,8 @@ import {
   toggleBookmark,
   loadStepFilter,
   saveStepFilter,
-  loadCustomPuzzles
+  loadCustomPuzzles,
+  savePuzzleSolution
 } from './utils/storage';
 import { TopBar } from './components/Navigation/TopBar';
 import { BottomTabBar } from './components/Navigation/BottomTabBar';
@@ -31,7 +32,7 @@ export default function App() {
     return [...PUZZLES_DATA, ...customPuzzles];
   }, [customPuzzles]);
 
-  const [solutions] = useState<Record<string, PuzzleSolution>>(() => loadSolutions());
+  const [solutions, setSolutions] = useState<Record<string, PuzzleSolution>>(() => loadSolutions());
   const [progress, setProgress] = useState(() => loadUserProgress());
   const [activeTab, setActiveTab] = useState<AppTab>('puzzles');
   const [activePuzzleId, setActivePuzzleId] = useState<string | null>(null);
@@ -159,6 +160,15 @@ export default function App() {
     refreshProgress();
   };
 
+  const handleSaveSolution = useCallback((solution: PuzzleSolution): boolean => {
+    if (!savePuzzleSolution(solution)) return false;
+    setSolutions((current) => ({
+      ...current,
+      [solution.puzzleId]: solution
+    }));
+    return true;
+  }, []);
+
   const isCurrentBookmarked = progress.bookmarkedIds.includes(currentPuzzle.id);
   const isCurrentSolved = progress.solvedIds.includes(currentPuzzle.id);
 
@@ -177,6 +187,7 @@ export default function App() {
             onNextPuzzle={handleNextPuzzle}
             onPrevPuzzle={handlePrevPuzzle}
             onRandomPuzzle={handleRandomPuzzle}
+            onSaveSolution={handleSaveSolution}
           />
         );
 

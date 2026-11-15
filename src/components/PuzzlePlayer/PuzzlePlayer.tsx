@@ -13,7 +13,8 @@ import {
   VolumeX,
   Shuffle,
   Sparkles,
-  HelpCircle
+  HelpCircle,
+  Save
 } from 'lucide-react';
 import { ChessBoard, MoveEvent } from '../ChessBoard/ChessBoard';
 import { Puzzle, PuzzleSolution, BoardTheme } from '../../types/puzzle';
@@ -39,6 +40,7 @@ interface PuzzlePlayerProps {
   onNextPuzzle: () => void;
   onPrevPuzzle: () => void;
   onRandomPuzzle: () => void;
+  onSaveSolution: (solution: PuzzleSolution) => boolean;
 }
 
 export const PuzzlePlayer: React.FC<PuzzlePlayerProps> = ({
@@ -50,7 +52,8 @@ export const PuzzlePlayer: React.FC<PuzzlePlayerProps> = ({
   onBookmarkToggle,
   onNextPuzzle,
   onPrevPuzzle,
-  onRandomPuzzle
+  onRandomPuzzle,
+  onSaveSolution
 }) => {
   // Game state
   const [chess, setChess] = useState<Chess>(() => new Chess(puzzle.fen));
@@ -74,6 +77,7 @@ export const PuzzlePlayer: React.FC<PuzzlePlayerProps> = ({
   const variations = solution?.variations || [];
   const hasVariations = variations.length > 0;
   const activeMoves = hasVariations ? variations[selectedVariationIndex].moves : solution?.moves || [];
+  const hasSolution = activeMoves.length > 0;
   const allVariationsPracticed = hasVariations && completedVariationIndices.size === variations.length;
 
   // Reset when puzzle changes
@@ -117,6 +121,21 @@ export const PuzzlePlayer: React.FC<PuzzlePlayerProps> = ({
     const next = !soundOn;
     setSoundOn(next);
     setSoundEnabled(next);
+  };
+
+  const handleSaveSolution = () => {
+    if (moveHistory.length === 0) return;
+    const saved = onSaveSolution({
+      puzzleId: puzzle.id,
+      moves: moveHistory,
+      hints: [puzzle.categoryDescription],
+      explanation: `${puzzle.categoryEnglish} solution.`,
+      updatedAt: new Date().toISOString(),
+      verified: false
+    });
+    if (!saved) {
+      setStatusMessage('Could not save the solution. Check browser storage and try again.');
+    }
   };
 
   const resetPuzzle = () => {
@@ -438,7 +457,9 @@ export const PuzzlePlayer: React.FC<PuzzlePlayerProps> = ({
           </p>
         ) : (
           <div className="flex items-center justify-between text-xs text-slate-400">
-            <span>Find the best move in this exercise</span>
+            <span>
+              {hasSolution ? 'Find the best move in this exercise' : 'Play the solution on the board to save it'}
+            </span>
             {moveHistory.length > 0 && (
               <span className="font-mono text-teal-300 font-semibold">{moveHistory.join(' ')}</span>
             )}
@@ -453,6 +474,17 @@ export const PuzzlePlayer: React.FC<PuzzlePlayerProps> = ({
           </div>
         )}
       </div>
+
+      {!hasSolution && moveHistory.length > 0 && (
+        <button
+          type="button"
+          onClick={handleSaveSolution}
+          className="w-full mt-3 flex items-center justify-center gap-2 rounded-xl border border-teal-500/40 bg-teal-500/15 px-4 py-3 text-sm font-semibold text-teal-200 transition-colors hover:bg-teal-500/25"
+        >
+          <Save className="h-4 w-4" />
+          Save played line as solution
+        </button>
+      )}
 
       {/* Main Touch Action Bar (Thumb ergonomic zone) */}
       <div className="w-full grid grid-cols-5 gap-2 mt-3">
