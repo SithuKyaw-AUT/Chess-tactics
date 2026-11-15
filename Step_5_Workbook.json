@@ -108,6 +108,204 @@
       "solution_san": [],
       "hint": "",
       "explanation": ""
+    },
+    {
+      "diagram_number": 13,
+      "page_title": "Test B: Step 4 (Mix)",
+      "fen": "2nr2k1/ppr1nppp/q2Np3/2P5/P2P1PP1/2B5/2R1Q2P/2R3K1 w - - 0 1",
+      "side_to_move": "white",
+      "solution_san": [],
+      "hint": "",
+      "explanation": ""
+    },
+    {
+      "diagram_number": 14,
+      "page_title": "Test B: Step 4 (Mix)",
+      "fen": "3rr2k/4R3/7K/8/8/8/8/3R4 w - - 0 1",
+      "side_to_move": "white",
+      "solution_san": [],
+      "hint": "",
+      "explanation": ""
+    },
+    {
+      "diagram_number": 15,
+      "page_title": "Test B: Step 4 (Mix)",
+      "fen": "6k1/1p4np/1p2pR1p/1P2P3/1q1PB3/5QP1/5K2/r7 w - - 0 1",
+      "side_to_move": "white",
+      "solution_san": [],
+      "hint": "",
+      "explanation": ""
+    },
+    {
+      "diagram_number": 16,
+      "page_title": "Test B: Step 4 (Mix)",
+      "fen": "5rk1/4np2/p1q3pR/1pp1b1P1/4P3/3Q4/PPP5/1K5R w - - 0 1",
+      "side_to_move": "white",
+      "solution_san": [],
+      "hint": "",
+      "explanation": ""
+    },
+    {
+      "diagram_number": 17,
+      "page_title": "Test B: Step 4 (Mix)",
+      "fen": "1r3r1k/pp2R2p/3p2pq/1R6/2PPN1n1/3P2Pb/P4P2/3Q2K1 b - - 0 1",
+      "side_to_move": "black",
+      "solution_san": [],
+      "hint": "",
+      "explanation": ""
+    },
+    {
+      "diagram_number": 18,
+      "page_title": "Test B: Step 4 (Mix)",
+      "fen": "2brr1k1/R1n2ppp/2pb1p2/1p1q4/1P1PN3/2P2PP1/3B2BP/Q4RK1 w - - 0 1",
+      "side_to_move": "white",
+      "solution_san": [],
+      "hint": "",
+      "explanation": ""
+    },
+    {
+      "diagram_number": 19,
+      "page_title": "Test B: Step 4 (Mix)",
+      "fen": "5r1k/1p2q1b1/2b3p1/p1Np4/3p2PP/PP1P1N1n/4PP2/2RQRK2 b - - 0 1",
+      "side_to_move": "black",
+      "solution_san": [],
+      "hint": "",
+      "explanation": ""
+    },
+    {
+      "diagram_number": 20,
+      "page_title": "Test B: Step 4 (Mix)",
+      "fen": "2bk4/1p5r/3Bp1pp/1B1pPp2/3q4/Q6P/2P2PP1/5K2 w - - 0 1",
+      "side_to_move": "white",
+      "solution_san": [],
+      "hint": "",
+      "explanation": ""
+    },
+    {
+      "diagram_number": 21,
+      "page_title": "Test B: Step 4 (Mix)",
+      "fen": "3Q4/pq3pkp/bp2p3/4P3/3P4/5R2/P1n4P/7K w - - 0 1",
+      "side_to_move": "white",
+      "solution_san": [],
+      "hint": "",
+      "explanation": ""
+    },
+    {
+      "diagram_number": 22,
+      "page_title": "Test B: Step 4 (Mix)",
+      "fen": "6k1/1Q1q1rb1/5npp/p7/8/1B5P/P5P1/4R2K w - - 0 1",
+      "side_to_move": "white",
+      "solution_san": [],
+      "hint": "",
+      "explanation": ""
+    },
+    {
+      "diagram_number": 23,
+      "page_title": "Getting the guard: A",
+      "fen": "8/P4k2/7p/3b1KpP/8/1pBr3P/1P6/2R5 b - - 0 1",
+      "side_to_move": "black",
+      "solution_san": [],
+      "hint": "",
+      "explanation": ""
+    },
+    {
+      "diagram_number": 24,
+      "page_title": "Getting the guard: A",
+      "fen": "r3r3/1p6/pb2b1Rp/5k1P/1R6/1P3K2/P5P1/8 w - - 0 1",
+      "side_to_move": "white",
+      "solution_san": [],
+      "hint": "",
+      "explanation": ""
+    },
+    {
+      "diagram_number": 25,
+      "page_title": "Getting the guard: A",
+      "fen": "8/2r1rp2/4pN2/1p1bPk1p/2p2P2/P1P3R1/1P1K3P/R7 w - - 0 1",
+      "side_to_move": "white",
+      "solution_san": [],
+      "hint": "",
+      "explanation": ""
+    },
+    {
+      "diagram_number": 26,
+      "page_title": "Getting the guard: A",
+      "fen": "8/6N1/8/7p/4np1P/7K/5k2/8 b - - 0 1",
+      "side_to_move": "black",
+      "solution_san": [],
+      "hint": "",
+      "explanation": ""
+    },
+    {
+      "diagram_number": 27,
+      "page_title": "Getting the guard: A",
+      "fen": "5B2/6rp/4p2k/7P/2p3P1/3b2K1/P7/8 w - - 0 1",
+      "side_to_move": "white",
+      "solution_san": [],
+      "hint": "",
+      "explanation": ""
+    },
+    {
+      "diagram_number": 28,
+      "page_title": "Getting the guard: A",
+      "fen": "8/2p5/1p6/p1nPp1Pn/4Pp2/P1N2P2/1P3K1k/4B3 b - - 0 1",
+      "side_to_move": "black",
+      "solution_san": [],
+      "hint": "",
+      "explanation": ""
+    },
+    {
+      "diagram_number": 29,
+      "page_title": "Getting the guard: A",
+      "fen": "8/Rp3pkp/P1p3p1/4K3/2r5/r5P1/3P1P1P/7R b - - 0 1",
+      "side_to_move": "black",
+      "solution_san": [],
+      "hint": "",
+      "explanation": ""
+    },
+    {
+      "diagram_number": 30,
+      "page_title": "Getting the guard: A",
+      "fen": "3r2k1/p6p/1p2p3/1P3nPR/3PKP2/P5r1/1BP5/4R3 b - - 0 1",
+      "side_to_move": "black",
+      "solution_san": [],
+      "hint": "",
+      "explanation": ""
+    },
+    {
+      "diagram_number": 31,
+      "page_title": "Getting the guard: A",
+      "fen": "8/3r3k/7r/1R4K1/6P1/B7/PP3n1P/R7 b - - 0 1",
+      "side_to_move": "black",
+      "solution_san": [],
+      "hint": "",
+      "explanation": ""
+    },
+    {
+      "diagram_number": 32,
+      "page_title": "Getting the guard: A",
+      "fen": "7r/8/r5k1/1n2Kp1p/5PpP/6P1/8/B3R1R1 b - - 0 1",
+      "side_to_move": "black",
+      "solution_san": [],
+      "hint": "",
+      "explanation": ""
+    },
+    {
+      "diagram_number": 33,
+      "page_title": "Defending: Protecting: A",
+      "fen": "1r6/5p2/2k1p3/p5N1/P1K1Pn1B/8/1Pb2P2/7R b - - 0 1",
+      "side_to_move": "black",
+      "solution_san": [],
+      "hint": "",
+      "explanation": ""
+    },
+    {
+      "diagram_number": 34,
+      "page_title": "Getting the guard: A",
+      "fen": "1r6/2pk4/1r2pp1p/RpKb2pP/2pP4/5P2/1R2B1P1/4B3 b - - 0 1",
+      "side_to_move": "black",
+      "solution_san": [],
+      "hint": "",
+      "explanation": ""
     }
   ]
 }
