@@ -4,7 +4,7 @@
  */
 import React, { useState, useMemo, useCallback } from 'react';
 import { PUZZLES_DATA } from './data/puzzlesData';
-import { Puzzle, PuzzleSolution, AppTab, BoardTheme, DeviceView } from './types/puzzle';
+import { Puzzle, PuzzleSolution, AppTab, BoardTheme, DeviceView, SaveSolutionResult } from './types/puzzle';
 import {
   loadSolutions,
   loadUserProgress,
@@ -16,7 +16,8 @@ import {
   loadStepFilter,
   saveStepFilter,
   loadCustomPuzzles,
-  savePuzzleSolution
+  savePuzzleSolution,
+  persistSolutionToJsonFile
 } from './utils/storage';
 import { TopBar } from './components/Navigation/TopBar';
 import { BottomTabBar } from './components/Navigation/BottomTabBar';
@@ -160,13 +161,20 @@ export default function App() {
     refreshProgress();
   };
 
-  const handleSaveSolution = useCallback((solution: PuzzleSolution): boolean => {
-    if (!savePuzzleSolution(solution)) return false;
-    setSolutions((current) => ({
-      ...current,
-      [solution.puzzleId]: solution
-    }));
-    return true;
+  const handleSaveSolution = useCallback(async (solution: PuzzleSolution): Promise<SaveSolutionResult> => {
+    const stamped = { ...solution, updatedAt: new Date().toISOString() };
+
+    // 1) Preferred: write permanently into the JSON file (dev server only)
+    const filed = await persistSolutionToJsonFile(stamped);
+    if (filed.ok) {
+      setSolutions((current) => ({ ...current, [stamped.puzzleId]: stamped }));
+      return { saved: true, file: filed.file };
+    }
+
+    // 2) Fallback: keep it in this browser only
+    if (!savePuzzleSolution(stamped)) return { saved: false };
+    setSolutions((current) => ({ ...current, [stamped.puzzleId]: stamped }));
+    return { saved: true, browserOnly: true };
   }, []);
 
   const isCurrentBookmarked = progress.bookmarkedIds.includes(currentPuzzle.id);

@@ -51,6 +51,33 @@ export const savePuzzleSolution = (solution: PuzzleSolution): boolean => {
 };
 
 /**
+ * Permanently save a solution into the project's JSON files via the dev server
+ * (see vite-plugin-save-solution.ts). Resolves to { ok: false } when no server
+ * is reachable, e.g. in a static/PWA build.
+ */
+export const persistSolutionToJsonFile = async (
+  solution: PuzzleSolution
+): Promise<{ ok: boolean; file?: string; error?: string }> => {
+  try {
+    const res = await fetch('/api/save-solution', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        puzzleId: solution.puzzleId,
+        moves: solution.moves,
+        hints: solution.hints,
+        explanation: solution.explanation
+      })
+    });
+    const data = await res.json().catch(() => null);
+    if (!res.ok || !data?.ok) return { ok: false, error: data?.error || `HTTP ${res.status}` };
+    return { ok: true, file: data.file };
+  } catch (e) {
+    return { ok: false, error: (e as Error).message };
+  }
+};
+
+/**
  * Delete a puzzle solution
  */
 export const deletePuzzleSolution = (puzzleId: string): void => {

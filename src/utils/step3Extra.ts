@@ -1,5 +1,6 @@
 import { Chess } from 'chess.js';
 import { Puzzle, PuzzleSolution } from '../types/puzzle';
+import { getSeriesInfo } from './seriesInfo';
 
 interface Step3ExtraDiagram {
   diagram_number: number;
@@ -43,16 +44,7 @@ export function parseStep3Extra(input: unknown): Step3ExtraParseResult {
   }
 
   const file = input as Step3ExtraFile;
-  const series = file.series.endsWith('Workbook')
-    ? file.series.slice(0, -'Workbook'.length)
-    : file.series;
-  const stepName = series
-    .replace(/([a-z])([A-Z])/g, '$1 $2')
-    .replace(/(\d)([A-Z])/g, '$1 $2')
-    .replace(/([a-zA-Z])(\d)/g, '$1 $2')
-    .trim();
-  const step = file.series.endsWith('Workbook') ? `${stepName} Workbook` : stepName;
-  const stepSlug = stepName.toLowerCase().replace(/[^a-z0-9]+/g, '_').replace(/^_|_$/g, '');
+  const { step, stepSlug } = getSeriesInfo(file.series);
 
   file.diagrams.forEach((diagram, index) => {
     const diagramNumber = Number(diagram?.diagram_number);

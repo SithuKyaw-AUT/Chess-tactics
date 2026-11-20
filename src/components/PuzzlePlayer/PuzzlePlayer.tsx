@@ -17,7 +17,7 @@ import {
   Save
 } from 'lucide-react';
 import { ChessBoard, MoveEvent } from '../ChessBoard/ChessBoard';
-import { Puzzle, PuzzleSolution, BoardTheme } from '../../types/puzzle';
+import { Puzzle, PuzzleSolution, BoardTheme, SaveSolutionResult } from '../../types/puzzle';
 import {
   playMoveSound,
   playCaptureSound,
@@ -40,7 +40,7 @@ interface PuzzlePlayerProps {
   onNextPuzzle: () => void;
   onPrevPuzzle: () => void;
   onRandomPuzzle: () => void;
-  onSaveSolution: (solution: PuzzleSolution) => boolean;
+  onSaveSolution: (solution: PuzzleSolution) => Promise<SaveSolutionResult>;
 }
 
 export const PuzzlePlayer: React.FC<PuzzlePlayerProps> = ({
@@ -123,9 +123,12 @@ export const PuzzlePlayer: React.FC<PuzzlePlayerProps> = ({
     setSoundEnabled(next);
   };
 
-  const handleSaveSolution = () => {
-    if (moveHistory.length === 0) return;
-    const saved = onSaveSolution({
+  const [isSaving, setIsSaving] = useState<boolean>(false);
+
+  const handleSaveSolution = async () => {
+    if (moveHistory.length === 0 || isSaving) return;
+    setIsSaving(true);
+    const result = await onSaveSolution({
       puzzleId: puzzle.id,
       moves: moveHistory,
       hints: [puzzle.categoryDescription],
@@ -133,8 +136,11 @@ export const PuzzlePlayer: React.FC<PuzzlePlayerProps> = ({
       updatedAt: new Date().toISOString(),
       verified: false
     });
-    if (!saved) {
-      setStatusMessage('Could not save the solution. Check browser storage and try again.');
+    setIsSaving(false);
+    if (!result.saved) {
+      setStatusMessage('Could not save the solution. Check the dev server / browser storage and try again.');
+    } else if (result.browserOnly) {
+      setStatusMessage('Saved in this browser only. Run the dev server (npm run dev) to save into the JSON file.');
     }
   };
 
@@ -482,7 +488,7 @@ export const PuzzlePlayer: React.FC<PuzzlePlayerProps> = ({
           className="w-full mt-3 flex items-center justify-center gap-2 rounded-xl border border-teal-500/40 bg-teal-500/15 px-4 py-3 text-sm font-semibold text-teal-200 transition-colors hover:bg-teal-500/25"
         >
           <Save className="h-4 w-4" />
-          Save played line as solution
+          {isSaving ? 'Saving…' : 'Save played line as solution'}
         </button>
       )}
 

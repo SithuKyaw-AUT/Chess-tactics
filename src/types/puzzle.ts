@@ -47,3 +47,11 @@ export interface CategorySummary {
 export type BoardTheme = 'tournament' | 'wood' | 'slate' | 'classic';
 export type AppTab = 'puzzles' | 'categories' | 'favorites';
 export type DeviceView = 'mobile' | 'fluid';
+
+export interface SaveSolutionResult {
+  saved: boolean;
+  /** JSON file the solution was written to (dev server). */
+  file?: string;
+  /** True when the JSON file could not be written and only localStorage was used. */
+  browserOnly?: boolean;
+}

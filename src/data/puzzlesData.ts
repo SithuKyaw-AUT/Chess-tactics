@@ -8,6 +8,7 @@ import step1WorkbookJson from "../../Step1Workbook.json";
 import step5WorkbookJson from "../../Step_5_Workbook.json";
 import endgamesJson from "../../Endgames.json";
 import openingForBlackJson from "../../Opening_for_Black.json";
+import step4SavedJson from "../../Step4_Solutions.json";
 import { parseStep3Extra } from "../utils/step3Extra";
 
 const STEP3_EXTRA_IMPORT = parseStep3Extra(step3ExtraJson);
@@ -4678,6 +4679,7 @@ export const INITIAL_SOLUTIONS: Record<string, PuzzleSolution> = {
   ...STEP5_WORKBOOK_IMPORT.solutions,
   ...ENDGAMES_IMPORT.solutions,
   ...OPENING_FOR_BLACK_IMPORT.solutions,
+  ...(step4SavedJson.solutions as Record<string, PuzzleSolution>),
   "p3_d1": {
     "puzzleId": "p3_d1",
     "moves": [
