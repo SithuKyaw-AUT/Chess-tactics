@@ -1412,18 +1412,182 @@
     },
     {
       "diagram_number": 38,
+      "page_title": "sqare",
+      "fen": "8/p4k2/2p3p1/3q3p/3pQP1P/3P4/1KP5/8 b - - 0 1",
+      "side_to_move": "black",
+      "solution_san": [
+        "1... Qxe4",
+        "2. dxe4",
+        "2... a5"
+      ],
+      "hint": "",
+      "explanation": "",
+      "variations": [
+        {
+          "label": "",
+          "san": [
+            "1... Qxe4",
+            "2. dxe4",
+            "2... a5",
+            "3. Ka2",
+            "3... c5",
+            "4. Kb3",
+            "4... Ke6",
+            "5. Kc4",
+            "5... a4",
+            "6. c3",
+            "6... a3",
+            "7. Kb3",
+            "7... d3"
+          ]
+        },
+        {
+          "label": "",
+          "san": [
+            "1... Qxe4",
+            "2. dxe4",
+            "2... a5",
+            "3. Kb3",
+            "3... c5"
+          ]
+        },
+        {
+          "label": "",
+          "san": [
+            "1... Qxe4",
+            "2. dxe4",
+            "2... a5",
+            "3. c3",
+            "3... d3",
+            "4. c4",
+            "4... a4"
+          ]
+        }
+      ]
+    },
+    {
+      "diagram_number": 39,
       "page_title": "square",
-      "fen": "8/8/8/1P2kp2/P2p2p1/3R4/1r6/4K3 w - - 0 1",
+      "fen": "8/8/8/1P2kp2/P2p2p1/3R2P1/1r6/4K3 w - - 0 1",
       "side_to_move": "white",
-      "solution_san": [],
+      "solution_san": [
+        "1. Ra3",
+        "1... Ke4",
+        "2. a5",
+        "2... d3",
+        "3. a6",
+        "3... Ke3",
+        "4. Rxd3+",
+        "4... Kxd3",
+        "5. a7",
+        "5... Ra2",
+        "6. b6",
+        "6... Ra1+",
+        "7. Kf2",
+        "7... Ra2+",
+        "8. Ke1"
+      ],
+      "hint": "",
+      "explanation": "",
+      "variations": [
+        {
+          "label": "",
+          "san": [
+            "1. Ra3",
+            "1... Ke4",
+            "2. a5",
+            "2... Rxb5",
+            "3. a6",
+            "3... Rb8",
+            "4. a7",
+            "4... Ra8",
+            "5. Kd2",
+            "5... f4",
+            "6. gxf4",
+            "6... Kxf4",
+            "7. Ke2",
+            "7... g3",
+            "8. Ra4",
+            "8... g2",
+            "9. Kf2",
+            "9... Ke4",
+            "10. Kxg2",
+            "10... Ke3",
+            "11. Kf1",
+            "11... d3",
+            "12. Ke1",
+            "12... Rg8",
+            "13. Kf1",
+            "13... d2",
+            "14. Ra3+",
+            "14... Kd4",
+            "15. Ke2",
+            "15... Ra8",
+            "16. Kxd2",
+            "16... Kc5"
+          ]
+        }
+      ]
+    },
+    {
+      "diagram_number": 40,
+      "page_title": "square",
+      "fen": "8/8/8/8/3k3p/1P3PpP/4K3/8 w - - 0 1",
+      "side_to_move": "white",
+      "solution_san": [
+        "1. Kf1",
+        "1... Kd3",
+        "2. Kg2",
+        "2... Kd4",
+        "3. Kg1",
+        "3... Kd3",
+        "4. Kf1",
+        "4... Kd4",
+        "5. Ke2",
+        "5... Kd5",
+        "6. Ke3",
+        "6... Ke5",
+        "7. b4",
+        "7... Kd5",
+        "8. f4",
+        "8... Kd6",
+        "9. b5",
+        "9... Kc5",
+        "10. f5"
+      ],
       "hint": "",
       "explanation": ""
     },
     {
-      "diagram_number": 39,
-      "page_title": "sqare",
-      "fen": "8/p4k2/2p3p1/3q3p/3pQP1P/3P4/1KP5/8 b - - 0 1",
-      "side_to_move": "black",
+      "diagram_number": 41,
+      "page_title": "square",
+      "fen": "6k1/8/5P1P/8/ppp5/8/2K5/8 w - - 0 1",
+      "side_to_move": "white",
+      "solution_san": [
+        "1. Kb1",
+        "1... b3",
+        "2. Kb2"
+      ],
+      "hint": "",
+      "explanation": "",
+      "variations": [
+        {
+          "label": "",
+          "san": [
+            "1. Kb1",
+            "1... c3",
+            "2. Kc2",
+            "2... a3",
+            "3. Kb3"
+          ]
+        }
+      ]
+    },
+    {
+      "diagram_number": 42,
+      "page_title": "square",
+      "fen": "8/5p2/N1k5/2Pp2pp/P7/2P5/8/6K1 w - - 0 1",
+      "side_to_move": "white",
       "solution_san": [],
       "hint": "",
       "explanation": ""
