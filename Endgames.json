@@ -1588,6 +1588,219 @@
       "page_title": "square",
       "fen": "8/5p2/N1k5/2Pp2pp/P7/2P5/8/6K1 w - - 0 1",
       "side_to_move": "white",
+      "solution_san": [
+        "1. Kh2",
+        "1... h4",
+        "2. Kh3",
+        "2... f5",
+        "3. Kh2",
+        "3... g4",
+        "4. Kg2",
+        "4... f4",
+        "5. Kg1"
+      ],
+      "hint": "",
+      "explanation": "",
+      "variations": [
+        {
+          "label": "",
+          "san": [
+            "1. Kh2",
+            "1... f6",
+            "2. Kg3",
+            "2... h4+",
+            "3. Kg4",
+            "3... f5+",
+            "4. Kh3",
+            "4... f4",
+            "5. Kg4"
+          ]
+        },
+        {
+          "label": "",
+          "san": [
+            "1. Kh2",
+            "1... g4",
+            "2. Kg3",
+            "2... f5",
+            "3. Kg2",
+            "3... h4",
+            "4. Kh2",
+            "4... g3+",
+            "5. Kh3",
+            "5... f4",
+            "6. Kg2"
+          ]
+        },
+        {
+          "label": "",
+          "san": []
+        }
+      ]
+    },
+    {
+      "diagram_number": 43,
+      "page_title": "square",
+      "fen": "8/8/8/1K6/8/Q7/p7/1k6 w - - 0 1",
+      "side_to_move": "white",
+      "solution_san": [
+        "1. Qb3+",
+        "1... Ka1",
+        "2. Qd1+",
+        "2... Kb2",
+        "3. Kc4",
+        "3... a1=Q",
+        "4. Qd2+",
+        "4... Kb1",
+        "5. Kb3"
+      ],
+      "hint": "",
+      "explanation": "",
+      "variations": [
+        {
+          "label": "",
+          "san": [
+            "1. Qb3+",
+            "1... Ka1",
+            "2. Qd1+",
+            "2... Kb2",
+            "3. Kb4",
+            "3... a1=Q",
+            "4. Qd2+",
+            "4... Kb1",
+            "5. Kb3"
+          ]
+        }
+      ]
+    },
+    {
+      "diagram_number": 44,
+      "page_title": "square",
+      "fen": "8/8/8/3K4/Q7/8/1kp5/8 w - - 0 1",
+      "side_to_move": "white",
+      "solution_san": [
+        "1. Qb4+",
+        "1... Ka2",
+        "2. Qe1",
+        "2... Kb2",
+        "3. Qe2",
+        "3... Ka1",
+        "4. Qd2",
+        "4... Kb2",
+        "5. Kc4"
+      ],
+      "hint": "",
+      "explanation": "",
+      "variations": [
+        {
+          "label": "",
+          "san": [
+            "1. Qb4+",
+            "1... Ka2",
+            "2. Qe1",
+            "2... Kb2",
+            "3. Qe2",
+            "3... Ka1",
+            "4. Qd2",
+            "4... Kb1",
+            "5. Qd3",
+            "5... Kb2",
+            "6. Qe2",
+            "6... Kb1",
+            "7. Kc4",
+            "7... c1=Q+",
+            "8. Kb3"
+          ]
+        }
+      ]
+    },
+    {
+      "diagram_number": 45,
+      "page_title": "square",
+      "fen": "8/5K2/8/p7/P7/2Q5/kp6/8 w - - 0 1",
+      "side_to_move": "white",
+      "solution_san": [
+        "1. Qc2",
+        "1... Ka1",
+        "2. Ke6",
+        "2... b1=Q",
+        "3. Qxb1+",
+        "3... Kxb1",
+        "4. Kd5",
+        "4... Kc2",
+        "5. Kc4",
+        "5... Kd2",
+        "6. Kb5",
+        "6... Kc3",
+        "7. Kxa5",
+        "7... Kc4",
+        "8. Kb6"
+      ],
+      "hint": "",
+      "explanation": ""
+    },
+    {
+      "diagram_number": 46,
+      "page_title": "square",
+      "fen": "8/3K4/2p5/4p3/2P5/1B3pk1/8/8 w - - 0 1",
+      "side_to_move": "white",
+      "solution_san": [
+        "1. c5",
+        "1... e4",
+        "2. Bd1",
+        "2... e3",
+        "3. Bxf3",
+        "3... Kxf3",
+        "4. Kxc6",
+        "4... e2",
+        "5. Kd7",
+        "5... e1=Q",
+        "6. c6",
+        "6... Qd2+",
+        "7. Kc8",
+        "7... Ke4",
+        "8. c7",
+        "8... Kd5",
+        "9. Kb7",
+        "9... Qb4+",
+        "10. Ka7",
+        "10... Qa5+",
+        "11. Kb7",
+        "11... Qb5+",
+        "12. Ka7",
+        "12... Qd7",
+        "13. Kb8",
+        "13... Qd6",
+        "14. Kb7",
+        "14... Qe7",
+        "15. Ka8"
+      ],
+      "hint": "",
+      "explanation": ""
+    },
+    {
+      "diagram_number": 47,
+      "page_title": "square",
+      "fen": "8/KB6/P7/4k3/8/7p/6p1/8 w - - 0 1",
+      "side_to_move": "white",
+      "solution_san": [],
+      "hint": "",
+      "explanation": ""
+    },
+    {
+      "diagram_number": 48,
+      "page_title": "square",
+      "fen": "8/8/p3K3/Pp6/1P3k1p/5P2/6P1/8 w - - 0 1",
+      "side_to_move": "white",
+      "solution_san": [],
+      "hint": "",
+      "explanation": ""
+    },
+    {
+      "diagram_number": 49,
+      "page_title": "square",
+      "fen": "6K1/8/1p5P/1P6/2P3n1/8/3k4/8 w - - 0 1",
+      "side_to_move": "white",
       "solution_san": [],
       "hint": "",
       "explanation": ""
